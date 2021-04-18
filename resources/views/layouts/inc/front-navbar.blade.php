@@ -1,5 +1,5 @@
 <nav class="py-2 fixed-top bg-light">
-  <div class="container d-flex flex-wrap">
+  <div class="container d-flex">
     <ul class="nav me-auto">
       <li class="nav-item">
         <form class="navbar-form navbar-left" action="/action_page.php">
@@ -22,7 +22,7 @@
         <a class="navbar-brand" href="#"><b class="text-danger">digikala</b></a>
   </div>
   <header class="py-3 border-bottom">
-    <div class="container d-flex flex-wrap">
+    <div class="container d-flex ">
       <a href="#" class="d-flex me-auto text-dark text-decoration-none">
         <form class="col-12 col-lg-auto mb-lg-0">
           <input type="search" class="form-control" placeholder="لطفا شهر و استان خود را انتخاب کنید">
