@@ -23,6 +23,8 @@
         @yield('content')
     </main>
 
+       @include('layouts.inc.middle')
+
        @include('layouts.inc.front-footer')
 
     <!-- End project here-->
