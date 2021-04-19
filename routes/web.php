@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserAuth;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,5 @@ Route::get('/', function () {
     return view('frontend.index');
 });
 
+Route::post("user",[UserAuth::class,'userLogin']);
+Route::view("login", 'login');

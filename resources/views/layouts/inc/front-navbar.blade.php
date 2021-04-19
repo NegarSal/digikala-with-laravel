@@ -7,7 +7,7 @@
             <div class="input-group-btn">
                <a href="#"> <i class='fas fa-cart-plus' style='font-size:15px'></i></a>
             </div>
-            <input type="text" class="form-control" placeholder="ورود به حساب کاربري" name="search">
+            <a href="login"><input type="text" class="form-control" placeholder="ورود به حساب کاربري" name="search"></a>
           </div>
         </form>
       </li>
