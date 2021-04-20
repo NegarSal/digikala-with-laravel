@@ -7,7 +7,7 @@
 <div class="row">
   <section>
     <div class="container">
-      <div class="col-lg-8 col-md-12 no-padding mt-5">
+      <div class="col-lg-10 col-md-12 no-padding mt-5">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
