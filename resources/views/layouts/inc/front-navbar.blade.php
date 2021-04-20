@@ -12,12 +12,11 @@
           </form>
         </li>
       </ul>
-          <div class="input-group">
-            <span class="input-group-text" id="basic-addon1"><i class="fa fa-fw fa-search"></i>
-              <input type="search" class="form-control " placeholder="جستجو در دیجی کالا...">
-            </span>
-          </div>
-
+      <div class="input-group">
+        <span class="input-group-text" id="basic-addon1"><i class="fa fa-fw fa-search"></i>
+          <input type="search" class="form-control " placeholder="جستجو در دیجی کالا...">
+        </span>
+      </div>
           <a class="navbar-brand" href="#"><b class="text-danger">digikala</b></a>
     </div>
     <header class="py-3 border-bottom">
@@ -53,22 +52,20 @@
           </li>
           <li class="nav-item"><a href="#" class="nav-link link-dark px-3">سوپرمارکت <i class="fa fa-shopping-basket"></i> </a></li>
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">  دسته بندی کالاها<i class="fas fa-bars"></i></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">کالای دیجیتال<i class='fas fa-laptop'></i></a></li>
-              <li><a href="#">خودرو ابزار و تجهیزات صنعتی<i class='fas fa-wrench'></i></a></li>
-              <li><a href="#">مد و پوشاک<i class='fas fa-tshirt'></i></a></li>
-              <li><a href="#">اسباب بازی کودک و نوازاد<i class='far fa-smile'></i></a></li>
-              <li><a href="#">کالاهای سوپرمارکتی <i class='fas fa-shopping-cart'></i></a></li>
-              <li><a href="#">زیبایی و سلامت<i class='fas fa-heart'></i></a></li>
-              <li><a href="#">خانه و آشپزخانه<i class='fas fa-couch'></i></a></li>
-              <li><a href="#">کتاب لوازم تحریر و هنر<i class='far fa-edit'></i></a></li>
-              <li><a href="#">ورزش و سفر<i class='fas fa-campground'></i></a></li>
+            <ul class="dropdown-menu" >
+              <li style="float: right"><a href="#">کالای دیجیتال<i class='fas fa-laptop'></i></a></li>
+              <li style="float: right"><a href="#">خودرو ابزار و تجهیزات صنعتی<i class='fas fa-wrench'></i></a></li>
+              <li style="float: right"><a href="#">مد و پوشاک<i class='fas fa-tshirt'></i></a></li>
+              <li style="float: right"><a href="#">اسباب بازی کودک و نوازاد<i class='far fa-smile'></i></a></li>
+              <li style="float: right"><a href="#">کالاهای سوپرمارکتی <i class='fas fa-shopping-cart'></i></a></li>
+              <li style="float: right"><a href="#">زیبایی و سلامت<i class='fas fa-heart'></i></a></li>
+              <li style="float: right"><a href="#">خانه و آشپزخانه<i class='fas fa-couch'></i></a></li>
+              <li style="float: right"><a href="#">کتاب لوازم تحریر و هنر<i class='far fa-edit'></i></a></li>
+              <li style="float: right"><a href="#">ورزش و سفر<i class='fas fa-campground'></i></a></li>
             </ul>
           </li>
         </ul>
-
-  <button type="button" class="btn btn-outline-secondary bg-white" data-toggle="modal" data-target="#myModal">لطفا شهر و استان خود را انتخاب کنید</button>
-
+  <button type="button" class="btn btn-outline-secondary bg-white" data-toggle="modal" data-target="#myModal"><i class="fas fa-map-marker-alt"></i> لطفا شهر و استان خود را انتخاب کنید</button>
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-dialog-scrollable">
