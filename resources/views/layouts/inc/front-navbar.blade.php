@@ -5,20 +5,19 @@
         <form class="navbar-form navbar-left" action="/action_page.php">
           <div class="input-group">
               <div class="input-group-btn">
-                 <a href="#"> <i class='fas fa-cart-plus' style='font-size:15px'></i></a>
+                 <a href="cart"> <i class='fas fa-cart-plus' style='font-size:15px'></i></a>
                </div>
             <a href="login"><input type="text" class="form-control" placeholder="ورود به حساب کاربري" name="search"></a>
           </div>
         </form>
       </li>
     </ul>
-      <form class="col col-lg-8 container-fluid">
         <div class="input-group">
           <span class="input-group-text" id="basic-addon1"><i class="fa fa-fw fa-search"></i>
             <input type="search" class="form-control " placeholder="جستجو در دیجی کالا...">
           </span>
         </div>
-      </form>
+
         <a class="navbar-brand" href="#"><b class="text-danger">digikala</b></a>
   </div>
   <header class="py-3 border-bottom">
@@ -35,7 +34,7 @@
         <li class="nav-item"><a href="#" class="nav-link link-dark px-3">دسته بندی کالاها <i class="fas fa-bars"></i> </a></li>
       </ul>
 
-<button type="button" class="btn btn-outline-secondary bg-white btn-lg" data-toggle="modal" data-target="#myModal">لطفا شهر و استان خود را انتخاب کنید</button>
+<button type="button" class="btn btn-outline-secondary bg-white" data-toggle="modal" data-target="#myModal">لطفا شهر و استان خود را انتخاب کنید</button>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog">
@@ -90,10 +89,10 @@
   </header>
 </nav>
 
-
-
 <style>
  .modal-backdrop {
     z-index: 0 !important;
    }
 </style>
+
+

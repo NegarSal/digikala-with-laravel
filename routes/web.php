@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserAuth;
+use App\Http\Controllers\UserCart;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,6 @@ Route::get('/', function () {
 
 Route::post("user",[UserAuth::class,'userLogin']);
 Route::view("login", 'login');
+
+
+Route::view("cart", 'cart');
