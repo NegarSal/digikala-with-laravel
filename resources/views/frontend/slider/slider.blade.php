@@ -1,8 +1,8 @@
 <!--Part 1-->
-<div class="container-fluid advertisement-three-container">
+<div class="container-fluid advertisement-three-container ">
    <div class="col-lg-4 col-md-12">
     <a class="row top-container mt-5"><img src="{{ asset('img/1.jpg') }}"  height="250" class="rounded"></a>
-    <a class="row bottom-container mt-2"><img src="{{ asset('img/2.jpg') }}"  height="250" class="rounded"></a>
+    <a class="row bottom-container mt-2 "><img src="{{ asset('img/2.jpg') }}"  height="250" class="rounded"></a>
    </div>
 <div class="row">
   <section>
