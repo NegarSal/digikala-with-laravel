@@ -86,33 +86,8 @@
 </header>
 
 
-
 <style>
-*{
-    direction: rtl;
-    font-family: sans-serif;
-    padding: 0;
-    margin: 0;
-}
-body{
-    background-color: #f5f5f5;
-}
-a{
-    text-decoration: none;
-}
-li{
-    list-style: none;
-}
-header{
-    background-color: white;
-}
-header .header{
-    max-width: 1676px;
-    min-width: 1009px;
-    margin: 0 auto;
-    padding: 12px 14px;
-}
-header .header .headerRight .logo{
+ header .header .headerRight .logo{
     background-size: contain;
     background: url("img/logo.svg") no-repeat center;
     display: block;
@@ -120,86 +95,4 @@ header .header .headerRight .logo{
     height: 30px;
     margin-left: 10px;
 }
-header .header .headerRight{
-    display: flex;
-    align-items: center;
-    width: 50%;
-    position:relative;
-}
-header .headerRight .searchBox{
-    background-color:#f0f0f1;
-    color: #a1a3a8;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-    padding: 14px 45px 14px 14px;
-    width: 70%;
-}
-header .header .headerLeft {
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
-    display: flex;
-    margin-top: -50px;
-    margin-left:5px;
-}
-header .header .headerLeft a:nth-child(1){
-    border: 1px solid #e0e0e2 ;
-    border-radius: 8px ;
-    padding: 10px 12px;
-    margin-left: 15px;
-    color: #616161;
-    font-size:12px ;
-}
-header .header .headerLeft a:nth-child(2){
-   padding-right: 20px;
-   border-right: 1px solid;
-   color: #616161;
-}
-header .header .headerLeft a i{
-    font-size: 20px;
-}
-header .headerRight .fa-search{
-    position: absolute;
-    right: 145px;
-    color: #a1a3a8;
-    font-size: 18px;
-}
-.flex{
-    display: flex;
-    align-items: center;
-}
-.container{
-    padding: 0;
-    max-width: 1676px;
-    min-width: 1009px;
-    margin: 0;
-}
-.container > ul{
-    justify-content: space-between;
-    line-height: 30px;
-}
-.container ul li ul li a{
-    padding: 10px;
-    display: block;
-    padding: 10px;
-    display: block;
-    color:#616161;
-    font-size:12px ;
-    margin-right: 12px;
-}
-.container ul li ul li:nth-child(1){
-    color: #616161;
-    font-size:12px ;
-    display: flex;
-    align-items: center;
-    border-left: 1px solid #f0f0f1;
-    padding-left: 10px;
-}
-.container ul .location{
-    color:#616161;
-    font-size:12px ;
-    margin-left:-180px;
-}
-
 </style>
