@@ -53,26 +53,26 @@
    <!--پیشنهاد شگفت انگیز-->
 
    <!--Part 3-->
-      <section>
-        <div class="container">
-            <div class="row my-4">
+   <section>
+    <div class="container">
+        <div class="row my-4">
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <a href="#"><img src="./img/3.3.jpg" alt="branch1" class="img-thumbnail"></a>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <a href="#"><img src="./img/3.3.jpg" alt="branch1" class="img-thumbnail"></a>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                  <a href="#"><img src="./img/3.4.jpg" alt="branch1" class="img-thumbnail"></a>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                  <a href="#"><img src="./img/3.1.jpg" alt="branch1" class="img-thumbnail"></a>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                  <a href="#"><img src="./img/3.2.jpg" alt="branch1" class="img-thumbnail"></a>
-                </div>
+            <div class="col-lg-3 col-sm-6">
+              <a href="#"><img src="./img/3.4.jpg" alt="branch1" class="img-thumbnail"></a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <a href="#"><img src="./img/3.1.jpg" alt="branch1" class="img-thumbnail"></a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <a href="#"><img src="./img/3.2.jpg" alt="branch1" class="img-thumbnail"></a>
             </div>
         </div>
-      </section>
+    </div>
+  </section>
   <!--End Part3-->
 
   <!-- شگفت انگیز سوپرمارکتی-->
