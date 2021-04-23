@@ -16,11 +16,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <style>
-        body{
-            font-family:sans-serif;
-            font-size: 12px;
-            font-weight: bold;
-        }
+    
     </style>
 
   </head>
