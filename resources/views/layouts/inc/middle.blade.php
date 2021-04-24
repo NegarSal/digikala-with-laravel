@@ -326,50 +326,62 @@
 </main>
 <!--END Part 5-->
 
-  <!--Part7/Icon-->
-  <section>
-    <div class="container">
-        <!--title-->
-        <div class="row my-5">
-            <div class="col text-center">
-                <h1 class="text-secondary">بیش از ۲،۰۰۰،۰۰۰ کالا در دسته‌بندی‌های مختلف</h1>
-            </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-lg-2 col-md-3 mb-5">
-            <i class='fas fa-heart fa-3x mb-3 text-primary'></i>
-            <h5 class="text-secondary">زیبایی و سلامت</h5>
-            <a class="text-primary" href="#">کالا +۷۹۰۰۰</a>
-          </div>
-          <div class="col-lg-2 col-md-3 mb-5">
-              <i class='fas fa-shopping-cart fa-3x mb-3 text-primary'></i>
-              <h5 class="text-secondary">کالاهای سوپرمارکتی</h5>
-              <a class="text-primary" href="#">کالا+۴۵۰۰۰</a>
-          </div>
-          <div class="col-lg-2 col-md-3 mb-5">
-            <i class='far fa-smile fa-3x mb-3 text-primary'></i>
-            <h5 class="text-secondary">اسباب بازی،کودک و نوزاد </h5>
-            <a class="text-primary" href="#">کالا+۵۴۰۰۰</a>
-        </div>
-          <div class="col-lg-2 col-md-3 mb-5">
-            <i class='fas fa-tshirt fa-3x mb-3 text-primary'></i>
-            <h5 class="text-secondary">مد و پوشاک </h5>
-            <a class="text-primary" href="#">کالا+۴۸۸۰۰۰</a>
-        </div>
-          <div class="col-lg-2 col-md-3 mb-5">
-            <i class='fas fa-wrench fa-3x text-primary'></i>
-            <h5 class="text-secondary">خودرو،ابزار و تجهیزات صنعتی</h5>
-            <a class="text-primary" href="#">+کالا۲۰۰۰۰۰ </a>
-        </div>
-          <div class="col-lg-2 col-md-3 mb-5">
-            <i class='fas fa-laptop fa-3x mb-6 text-primary'></i>
-            <h5 class="text-secondary">کالای دیجیتال</h5>
-            <a class="text-primary" href="#">+۵۲۹۰۰۰کالا</a>
-        </div>
+<!--Part7/Icon-->
+<main>
+    <article class="box container">
+      <div class="boxContainer">
+        <div class="headerBox">بیش از ۲،۰۰۰،۰۰۰ کالا در دسته‌بندی‌های مختلف</div>
+        <div class="boxCard flex">
+            <a class="item" href="#">
+                <i class="fas fa-laptop"></i>
+                <div class="title">کالای دیجیتال</div>
+                <div class="tedad">+۵۲۷۰۰۰کالا</div>
+            </a>
+            <a class="item" href="">
+                <i  class="fas fa-wrench"></i>
+                <div class="title">خودرو،ابزار و تجهیزات صنعتی</div>
+                <div class="tedad">+۱۱۶۰۰۰کالا</div>
+            </a>
+            <a class="item" href="">
+                <i class="fa fa-tshirt"></i>
+                <div class="title">مد و پوشاک</div>
+                <div class="tedad">+۵۱۸۰۰۰کالا</div>
+            </a>
+            <a class="item" href="">
+                <i  class="far fa-smile"></i>
+                <div class="title">اسباب بازی،کودک و نوزاد</div>
+                <div class="tedad">+۵۵۰۰۰کالا</div>
+            </a>
+            <a class="item" href="">
+                <i class="fa fa-shopping-basket"></i>
+                <div class="title">کالاهای سوپرمارکتی</div>
+                <div class="tedad">+۴۷۰۰۰کالا</div>
+            </a>
+            <a class="item" href="">
+                <i class="far fa-heart"></i>
+                <div class="title">زیبایی و سلامت</div>
+                <div class="tedad">+۸۲۰۰۰کالا</div>
+            </a>
+            <a class="item" href="">
+                <i class="fas fa-couch"></i>
+                <div class="title">خانه و آشپزخانه</div>
+                <div class="tedad">+۳۶۴۰۰۰کالا</div>
+            </a>
+            <a class="item" href="">
+                <i class="fas fa-pencil-ruler"></i>
+                <div class="title">کتاب,لوازم تحریر و هنر</div>
+                <div class="tedad">+۲۱۳۰۰۰کالا</div>
+            </a>
+            <a class="item" href="">
+                <i class="fas fa-campground"></i>
+                <div class="title">ورزش و سفر</div>
+                <div class="tedad">+۳۰۰۰۰کالا</div>
+            </a>
         </div>
     </div>
-  </section>
-  <!-- END Part7/Icon-->
+    </article>
+</main>
+<!-- END Part7/Icon-->
 
   <!--Part 9-->
   <section>
