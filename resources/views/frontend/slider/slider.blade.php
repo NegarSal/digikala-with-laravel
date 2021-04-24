@@ -3,7 +3,7 @@
         <div class="flex">
           <section class="slider">
             <!-- Swiper -->
-         <div class="swiper-container">
+         <div class="swiper-container s0">
            <div class="swiper-wrapper">
               <div class="swiper-slide"><a href="#"><img src="{{ asset('img/1.1.jpg') }}"></a></div>
               <div class="swiper-slide"><a href="#"><img src="{{ asset('img/1.2.jpg') }}"></a></div>

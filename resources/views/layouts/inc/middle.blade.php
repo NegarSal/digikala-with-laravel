@@ -1,16 +1,147 @@
 <!--specialoffer-->
 <main>
     <article class="specialoffer">
-        <section class="slider container">
+        <section class="slider container flex">
             <div class="right">
                 <a class="banner" href=""></a>
                 <div class="showALL">مشاهده همه <i class='fas fa-angle-left'></i></div>
             </div>
-            <div></div>
+            <!-- Swiper -->
+            <div class="swiper-container s1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a class="card"  href="">
+                    <div class="image">
+                        <img src="{{ asset('img/2.1.jpg') }}" alt="">
+                    </div>
+                    <div class="title">
+                        محصول شماره ۱
+                    </div>
+                    <div class="price">
+                        <div class="oldPrice">
+                          <del>۲۳۰۰۰</del>
+                          <span class="percent">۲۰٪</span>
+                        </div>
+                        <div class="newPrice">
+                            <span>۲۸۰۰۰</span>
+                            <span>تومان</span>
+                        </div>
+                    </div>
+                    <div class="timer"></div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a class="card" href="">
+                    <div class="image">
+                        <img src="{{ asset('img/2.2.jpg') }}" alt="">
+                    </div>
+                    <div class="title">
+                        محصول شماره ۱
+                    </div>
+                    <div class="price">
+                        <div class="oldPrice">
+                          <del>۲۳۰۰۰</del>
+                          <span class="percent">۲۰٪</span>
+                        </div>
+                        <div class="newPrice">
+                            <span>۲۸۰۰۰</span>
+                            <span>تومان</span>
+                        </div>
+                    </div>
+                    <div class="timer"></div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                 <a class="card" href="">
+                    <div class="image">
+                        <img src="{{ asset('img/2.3.jpg') }}" alt="">
+                    </div>
+                    <div class="title">
+                        محصول شماره ۱
+                    </div>
+                    <div class="price">
+                        <div class="oldPrice">
+                          <del>۲۳۰۰۰</del>
+                          <span class="percent">۲۰٪</span>
+                        </div>
+                        <div class="newPrice">
+                            <span>۲۸۰۰۰</span>
+                            <span>تومان</span>
+                        </div>
+                    </div>
+                    <div class="timer"></div>
+                 </a>
+                </div>
+                <div class="swiper-slide">
+                 <a class="card" href="">
+                    <div class="image">
+                        <img src="{{ asset('img/2.4.jpg') }}" alt="">
+                    </div>
+                    <div class="title">
+                        محصول شماره ۱
+                    </div>
+                    <div class="price">
+                        <div class="oldPrice">
+                          <del>۲۳۰۰۰</del>
+                          <span class="percent">۲۰٪</span>
+                        </div>
+                        <div class="newPrice">
+                            <span>۲۸۰۰۰</span>
+                            <span>تومان</span>
+                        </div>
+                    </div>
+                    <div class="timer"></div>
+                 </a>
+                </div>
+                <div class="swiper-slide">
+                 <a class="card" href="">
+                    <div class="image">
+                        <img src="{{ asset('img/2.5.jpg') }}" alt="">
+                    </div>
+                    <div class="title">
+                        محصول شماره ۱
+                    </div>
+                    <div class="price">
+                        <div class="oldPrice">
+                          <del>۲۳۰۰۰</del>
+                          <span class="percent">۲۰٪</span>
+                        </div>
+                        <div class="newPrice">
+                            <span>۲۸۰۰۰</span>
+                            <span>تومان</span>
+                        </div>
+                    </div>
+                    <div class="timer"></div>
+                 </a>
+                </div>
+                <div class="swiper-slide">
+                 <a class="card" href="">
+                    <div class="image">
+                        <img src="{{ asset('img/2.6.jpg') }}" alt="">
+                    </div>
+                    <div class="title">
+                        محصول شماره ۱
+                    </div>
+                    <div class="price">
+                        <div class="oldPrice">
+                          <del>۲۳۰۰۰</del>
+                          <span class="percent">۲۰٪</span>
+                        </div>
+                        <div class="newPrice">
+                            <span>۲۸۰۰۰</span>
+                            <span>تومان</span>
+                        </div>
+                    </div>
+                    <div class="timer"></div>
+                 </a>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            </div>
         </section>
     </article>
 </main>
-
 <!--specialoffer-->
 
    <!--Part 3-->

@@ -36,7 +36,7 @@
 
     <script src="js/swiper-bundle.min.js"></script>
     <script>
-    var swiper = new Swiper('.swiper-container', {
+    var swiper0 = new Swiper('.s0', {
       slidesPerView: 1,
       spaceBetween: 30,
       loop: true,
@@ -54,6 +54,29 @@
       },
     });
     </script>
+     <script>
+        var swiper1 = new Swiper('.s1', {
+          slidesPerView: 4,
+          spaceBetween: 20,
+          direction: getDirection(),
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          on: {
+            resize: function () {
+              swiper.changeDirection(getDirection());
+            }
+          }
+        });
+
+        function getDirection() {
+          var windowWidth = window.innerWidth;
+          var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+          return direction;
+        }
+      </script>
 
   </body>
 </html>
