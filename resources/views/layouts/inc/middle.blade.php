@@ -1,5 +1,5 @@
-<!--specialoffer-->
 <main>
+<!--specialoffer-->
     <article class="specialoffer">
         <section class="slider container flex">
             <div class="right">
@@ -147,11 +147,9 @@
             </div>
         </section>
     </article>
-</main>
 <!--specialoffer-->
 
 <!--Part 3-->
-<main>
     <article class="banner1">
         <div class="container flex">
             <a href="#"><img src="{{ asset('img/3.1.jpg') }}"></a>
@@ -160,11 +158,9 @@
             <a href="#"><img src="{{ asset('img/3.4.jpg') }}"></a>
         </div>
     </article>
-</main>
 <!--End Part3-->
 
 <!--fresh-offers-->
-<main>
     <article class="specialoffer marketSlide">
         <section class="slider container flex">
             <div class="right">
@@ -312,24 +308,21 @@
             </div>
         </section>
     </article>
-</main>
 <!--fresh-offers-->
 
 <!--Part 5-->
-<main>
     <article class="banner1">
         <div class="container flex">
             <a class="atag" href="#"><img src="{{ asset('img/5.1.jpg') }}"></a>
             <a class="atag" href="#"><img src="{{ asset('img/5.2.jpg') }}"></a>
         </div>
     </article>
-</main>
+
 <!--END Part 5-->
 
 <!--Part7/Icon-->
-<main>
-    <article class="box container">
-      <div class="boxContainer">
+<article class="box container">
+    <div class="boxContainer">
         <div class="headerBox">بیش از ۲،۰۰۰،۰۰۰ کالا در دسته‌بندی‌های مختلف</div>
         <div class="boxCard flex">
             <a class="item" href="#">
@@ -379,32 +372,145 @@
             </a>
         </div>
     </div>
-    </article>
-</main>
-<!-- END Part7/Icon-->
-
-  <!--Part 9-->
-  <section>
-    <div class="container">
-        <div class="row my-3">
+    <section>
+<!--Part 9-->
+<div class="swiper-container s1 swiper1">
+    <div class="headline">
+        <span>گوشی موبایل</span>
+    </div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a class="card"  href="">
+            <div class="image">
+                <img src="{{ asset('img/4.1.jpg') }}">
+            </div>
+            <div class="title">
+                محصول شماره ۱
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+          </a>
         </div>
-        <div class="row">
-            <div class="col-lg-3 col-sm-6">
-                <a href="#"><img src="./img/7-1.jpg" alt="branch1" class="img-thumbnail"></a>
+        <div class="swiper-slide">
+          <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/4.2.jpg') }}" alt="">
             </div>
-            <div class="col-lg-3 col-sm-6">
-              <a href="#"><img src="./img/7-2.jpg" alt="branch1" class="img-thumbnail"></a>
+            <div class="title">
+                محصول شماره ۲
             </div>
-            <div class="col-lg-3 col-sm-6">
-              <a href="#"><img src="./img/7-3.jpg" alt="branch1" class="img-thumbnail"></a>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-              <a href="#"><img src="./img/7-4.jpg" alt="branch1" class="img-thumbnail"></a>
+          </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/4.3.jpg') }}" alt="">
             </div>
+            <div class="title">
+                محصول شماره ۳
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/4.4.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۴
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/4.5.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۵
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/4.6.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۶
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
         </div>
     </div>
-  </section>
-  <!--END Part 9-->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    </div>
+<!--END Part 9-->
+    </section>
+</article>
+<!-- END Part7/Icon-->
+
+
+</main>
+
 
 
 
@@ -428,5 +534,4 @@
     color: #000;
     font-size: medium;
    }
-
-  </style>
+</style>
