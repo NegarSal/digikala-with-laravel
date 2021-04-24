@@ -269,6 +269,9 @@ main .specialoffer{
 main .marketSlide{
     background-color: #6bb927;
 }
+.banner1 .container .atag{
+    width: 49%;
+}
 @media (max-width: 760px) {
     .swiper-button-next {
       right: 20px;

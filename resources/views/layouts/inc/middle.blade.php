@@ -315,20 +315,16 @@
 </main>
 <!--fresh-offers-->
 
-  <!--Part 5-->
-  <div class="row align-items-md-stretch my-4">
-    <div class="col-md-6">
-      <div class=" p-4 rounded-3">
-        <a href="#"><img src="./img/5-2.jpg" class="rounded"></a>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class=" p-4 rounded-3">
-        <a href="#"><img src="./img/5-1.jpg" class="rounded"></a>
-      </div>
-    </div>
-  </div>
-  <!--END Part 5-->
+<!--Part 5-->
+<main>
+    <article class="banner1">
+        <div class="container flex">
+            <a class="atag" href="#"><img src="{{ asset('img/5.1.jpg') }}"></a>
+            <a class="atag" href="#"><img src="{{ asset('img/5.2.jpg') }}"></a>
+        </div>
+    </article>
+</main>
+<!--END Part 5-->
 
   <!--Part7/Icon-->
   <section>
