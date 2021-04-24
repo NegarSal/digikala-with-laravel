@@ -233,6 +233,26 @@ main .specialoffer{
     font-size: 14px;
     color: #515151;
 }
+.swiper-wrapper .swiper-slide .card .timer{
+    font-size: 14px;
+    line-height: 1.571;
+    color: #737373;
+    margin-top: 40px;
+    text-align: left;
+    display: flex;
+    direction:ltr;
+    margin-left: 15px;
+}
+.swiper-wrapper .swiper-slide .card>i{
+    display: block;
+    margin-top: 40px;
+    margin-right:5px;
+    font-size: 14px;
+    line-height: 1.571;
+    color: #737373;
+    text-align: left;
+    margin-bottom: -60px;
+}
 @media (max-width: 760px) {
     .swiper-button-next {
       right: 20px;

@@ -33,9 +33,11 @@
 
     <!-- End project here-->
 
-
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
-    <script>
+
+<script>
     var swiper0 = new Swiper('.s0', {
       slidesPerView: 1,
       spaceBetween: 30,
@@ -53,8 +55,8 @@
         prevEl: '.swiper-button-prev',
       },
     });
-    </script>
-     <script>
+</script>
+<script>
         var swiper1 = new Swiper('.s1', {
           slidesPerView: 4,
           spaceBetween: 20,
@@ -76,7 +78,15 @@
 
           return direction;
         }
-      </script>
+</script>
+<script>
+    $('[data-countdown]').each(function() {
+  var $this = $(this), finalDate = $(this).data('countdown');
+  $this.countdown(finalDate, function(event) {
+    $this.html(event.strftime('%H:%M:%S'));
+  });
+});
+</script>
 
   </body>
 </html>
