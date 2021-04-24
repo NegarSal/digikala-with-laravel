@@ -133,6 +133,8 @@ header .headerRight .fa-search{
 .swiper-button-next ,.swiper-button-prev{
     color: #777 !important;
 }
+
+/*slider-part2(banner)*/
 main article{
     margin-top: 15px !important;;
 }
@@ -140,7 +142,7 @@ main article .flex{
     justify-content:space-between;
 }
 main article .flex .slider{
-    width: 78%;
+    width: 79%;
     margin-right: -90px;
 }
 main article .flex .bannerLeft{
@@ -155,4 +157,33 @@ main article .flex .bannerLeft a img{
 }
 main article .flex .bannerLeft a:nth-child(1){
     margin-bottom: 10px;
+}
+
+/*specialoffer*/
+main .specialoffer{
+    width: 100%;
+    background-color: #ef394e;
+}
+.specialoffer .slider{
+    padding: 35px 16px;
+
+}
+.specialoffer .right{
+    width: 13%;
+}
+.specialoffer .right .showALL{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.specialoffer .right .showALL>i{
+    margin-right: 20px;
+    font-size: 20px;
 }
