@@ -253,6 +253,7 @@ main .specialoffer{
     text-align: left;
     margin-bottom: -60px;
 }
+/*banner1*/
 .banner1 .container a{
     display: inline-block;
     width: 24%;
@@ -263,6 +264,10 @@ main .specialoffer{
     border-radius: 16px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
 
+}
+/*fresh-offers*/
+main .marketSlide{
+    background-color: #6bb927;
 }
 @media (max-width: 760px) {
     .swiper-button-next {
