@@ -150,28 +150,18 @@
 </main>
 <!--specialoffer-->
 
-   <!--Part 3-->
-   <section>
-    <div class="container">
-        <div class="row my-4">
+<!--Part 3-->
+<main>
+    <article class="banner1">
+        <div class="container flex">
+            <a href="#"><img src="{{ asset('img/3.1.jpg') }}"></a>
+            <a href="#"><img src="{{ asset('img/3.2.jpg') }}"></a>
+            <a href="#"><img src="{{ asset('img/3.3.jpg') }}"></a>
+            <a href="#"><img src="{{ asset('img/3.4.jpg') }}"></a>
         </div>
-        <div class="row">
-            <div class="col-lg-3 col-sm-6">
-                <a href="#"><img src="./img/3.3.jpg" alt="branch1" class="img-thumbnail"></a>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <a href="#"><img src="./img/3.4.jpg" alt="branch1" class="img-thumbnail"></a>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <a href="#"><img src="./img/3.1.jpg" alt="branch1" class="img-thumbnail"></a>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <a href="#"><img src="./img/3.2.jpg" alt="branch1" class="img-thumbnail"></a>
-            </div>
-        </div>
-    </div>
-  </section>
-  <!--End Part3-->
+    </article>
+</main>
+<!--End Part3-->
 
   <!-- شگفت انگیز سوپرمارکتی-->
   <section class="bg-success">

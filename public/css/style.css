@@ -253,6 +253,17 @@ main .specialoffer{
     text-align: left;
     margin-bottom: -60px;
 }
+.banner1 .container a{
+    display: inline-block;
+    width: 24%;
+    margin: 0;
+    padding: 0;
+}
+.banner1 .container img{
+    border-radius: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+
+}
 @media (max-width: 760px) {
     .swiper-button-next {
       right: 20px;
