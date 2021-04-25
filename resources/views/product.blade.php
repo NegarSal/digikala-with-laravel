@@ -30,17 +30,40 @@
            </style>
 
       </head>
+<body>
+<!--navbar-->
+@include('layouts.inc.front-navbar')
 
-<body class="bg-light">
+<!--middlepart-->
+<main>
+    <div class="container" id="product">
+        <div class="navBar flex">
+            <nav>
+                <ul class="flex">
+                    <li><a href="">دیجی کالا</a></li>
+                    <li><a href="">کالای دیجیتال</a></li>
+                    <li><a href="">موبایل</a></li>
+                    <li><a href="">گوشی موبایل</a></li>
+                </ul>
+            </nav>
+            <div class="feedback">
+                <a href="">بازخورد درباره این کالا</a>
+            </div>
+        </div>
+    </div>
+</main>
 
-  @include('layouts.inc.front-navbar')
+
+
+
+
+
+
 
 <!--footer-->
-   @include('layouts.inc.front-footer')
+@include('layouts.inc.front-footer')
 
-
-
-  </body>
+</body>
 </html>
 
 

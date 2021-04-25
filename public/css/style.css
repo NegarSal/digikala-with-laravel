@@ -364,6 +364,29 @@ main .box  .boxCard .item .tedad{
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
     border-radius: 20px;
 }
+
+/* styles-about-product page*/
+
+#product .navBar{
+    justify-content: space-between;
+    line-height: 50px;
+}
+#product .navBar nav ul li:hover{
+    font-weight: 700;
+}
+#product .navBar nav ul li a , #product .feedback a{
+    margin-left: 5px;
+    color: #6a6a6a;
+    font-size: 12px;
+    text-decoration: none;
+}
+#product .navBar nav ul li a:after{
+    content: '/';
+    padding-right: 5px;
+}
+
+
+
 @media (max-width: 760px) {
     .swiper-button-next {
       right: 20px;
