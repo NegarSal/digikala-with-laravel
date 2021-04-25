@@ -541,7 +541,7 @@
         <div class="swiper-slide">
           <a class="card" href="">
             <div class="image">
-                <img src="{{ asset('img/sh-2.jpg') }}" alt="">
+                <img src="{{ asset('img/sh-3.jpg') }}" alt="">
             </div>
             <div class="title">
                 محصول شماره ۲
@@ -561,7 +561,7 @@
         <div class="swiper-slide">
          <a class="card" href="">
             <div class="image">
-                <img src="{{ asset('img/sh-3.jpg') }}" alt="">
+                <img src="{{ asset('img/sh-2.jpg') }}" alt="">
             </div>
             <div class="title">
                 محصول شماره ۳
@@ -786,6 +786,12 @@
     </div>
 </section>
 
+<div class="banner2">
+    <a href="#">
+        <img src="{{ asset('img/b-banner.jpg') }}" alt="">
+    </a>
+</div>
+
 </article>
 <!-- END Part7/Icon-->
 
@@ -800,7 +806,7 @@
     background: url("img/sp-o.png");
     height: 250px;
     display: block;
-    background-position: center;
+    background-position:center;
     background-size: cover;
 }
 .specialoffer .slider .marketBanner{
