@@ -47,6 +47,24 @@
                 <a href="">بازخورد درباره این کالا</a>
             </div>
         </div>
+        <article>
+            <section class="gallery">
+                <div class="image">
+                    <img src="img/image1280/p1.jpg" alt="">
+                </div>
+                <div class="imgGallery">
+                    <ul class="flex">
+                        <li><img src="{{ asset('img/thumbnail/p.1.jpg') }}" alt=""></li>
+                        <li><img src="{{ asset('img/thumbnail/p.2.jpg') }}" alt=""></li>
+                        <li><img src="{{ asset('img/thumbnail/p.3.jpg') }}" alt=""></li>
+                        <li><img src="{{ asset('img/thumbnail/p.4.jpg') }}" alt=""></li>
+                        <li><img src="{{ asset('img/thumbnail/p.5.jpg') }}" alt=""></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="description"></section>
+            <section class="details"></section>
+        </article>
     </div>
 </main>
 

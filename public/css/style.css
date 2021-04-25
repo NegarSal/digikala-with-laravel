@@ -166,10 +166,10 @@ main article .flex{
     justify-content:space-between;
 }
 main article .flex .slider{
-    width: 65%;
+    width: 66%;
 }
 main article .flex .bannerLeft{
-    width: 33%;
+    width: 31%;
 }
 main article .flex .bannerLeft a{
     display: block;
@@ -380,8 +380,27 @@ main .box  .boxCard .item .tedad{
     content: '/';
     padding-right: 5px;
 }
-
-
+#product article{
+    background-color: #fff;
+}
+#product article .gallery .image{
+    padding: 35px;
+}
+#product article section{
+    width: 33%;
+}
+#product article .gallery .imgGallery ul li{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 18%;
+    overflow: hidden;
+    padding: 5px;
+    opacity: .5;
+    cursor: pointer;
+}
+#product article .gallery .imgGallery ul li:hover{
+    opacity: 1;
+}
 
 @media (max-width: 760px) {
     .swiper-button-next {
