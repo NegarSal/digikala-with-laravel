@@ -24,3 +24,5 @@ Route::view("login", 'login');
 
 
 Route::view("cart", 'cart');
+
+Route::view("product", 'product');

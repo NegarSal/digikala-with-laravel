@@ -10,7 +10,7 @@
             <div class="swiper-container s1">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <a class="card"  href="">
+                  <a class="card"  href="product">
                     <div class="image">
                         <img src="{{ asset('img/2.1.jpg') }}">
                     </div>

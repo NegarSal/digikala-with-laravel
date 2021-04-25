@@ -7,8 +7,9 @@
 }
 body{
     background-color: #f5f5f5 !important;
-    position: relative;
     height: 100%;
+   /* padding-top: 120px;
+    position: relative;*/
 }
 a{
     text-decoration: none;
@@ -17,17 +18,30 @@ a{
 li{
     list-style: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 img{
     max-width: 100%;
 }
 header{
     background-color: white;
+   /* position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;*/
 }
 header .header{
     max-width: 1676px;
     min-width: 1009px;
     margin: 0 auto;
     padding: 12px 14px;
+   /* display: flex;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    z-index: 100;*/
 }
 
 header .header .headerRight{
@@ -75,6 +89,19 @@ header .headerRight .fa-search{
     color: #a1a3a8;
     font-size: 18px;
 }
+/*
+header nav{
+    position: absolute;
+    background-color: white;
+    left: 0;
+    right: 0;
+    transition: .5s;
+    box-shadow: 0 7px 8px o rgba(0,0,0,.04);
+}
+header nav .hidden{
+    transform: translateY(-100%);
+    z-index: -1;
+}*/
 .flex{
     display: flex;
     align-items: center;
