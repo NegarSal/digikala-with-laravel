@@ -317,6 +317,7 @@ main .box  .boxCard .item .tedad{
     background-color: white;
     margin: 16px 0;
     padding: 9px 33px 10px 23px !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
 }
 .swiper1 a:hover{
     box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
@@ -333,6 +334,9 @@ main .box  .boxCard .item .tedad{
 .swiper1 .headline span{
     border-bottom: 1px solid #ef5661;
     padding: 15px 0;
+}
+.box .banner1 .container{
+    padding: 0;
 }
 
 @media (max-width: 760px) {

@@ -376,13 +376,13 @@
 <!--Part 9-->
 <div class="swiper-container s1 swiper1">
     <div class="headline">
-        <span>گوشی موبایل</span>
+        <span>کرم مرطوب کننده و نرم کننده</span>
     </div>
     <div class="swiper-wrapper">
         <div class="swiper-slide">
           <a class="card"  href="">
             <div class="image">
-                <img src="{{ asset('img/4.1.jpg') }}">
+                <img src="{{ asset('img/k-1.1.jpg') }}">
             </div>
             <div class="title">
                 محصول شماره ۱
@@ -402,7 +402,7 @@
         <div class="swiper-slide">
           <a class="card" href="">
             <div class="image">
-                <img src="{{ asset('img/4.2.jpg') }}" alt="">
+                <img src="{{ asset('img/k-1.2.jpg') }}" alt="">
             </div>
             <div class="title">
                 محصول شماره ۲
@@ -422,7 +422,7 @@
         <div class="swiper-slide">
          <a class="card" href="">
             <div class="image">
-                <img src="{{ asset('img/4.3.jpg') }}" alt="">
+                <img src="{{ asset('img/k-1.3.jpg') }}" alt="">
             </div>
             <div class="title">
                 محصول شماره ۳
@@ -442,7 +442,7 @@
         <div class="swiper-slide">
          <a class="card" href="">
             <div class="image">
-                <img src="{{ asset('img/4.4.jpg') }}" alt="">
+                <img src="{{ asset('img/k-1.4.jpg') }}" alt="">
             </div>
             <div class="title">
                 محصول شماره ۴
@@ -462,7 +462,7 @@
         <div class="swiper-slide">
          <a class="card" href="">
             <div class="image">
-                <img src="{{ asset('img/4.5.jpg') }}" alt="">
+                <img src="{{ asset('img/k-1.5.jpg') }}" alt="">
             </div>
             <div class="title">
                 محصول شماره ۵
@@ -482,7 +482,281 @@
         <div class="swiper-slide">
          <a class="card" href="">
             <div class="image">
-                <img src="{{ asset('img/4.6.jpg') }}" alt="">
+                <img src="{{ asset('img/k-1.6.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۶
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    </div>
+<!--END Part 9-->
+<section class="banner1">
+    <div class="container flex">
+        <a href="#"><img src="{{ asset('img/7.1.jpg') }}"></a>
+        <a href="#"><img src="{{ asset('img/7.2.jpg') }}"></a>
+        <a href="#"><img src="{{ asset('img/7.3.jpg') }}"></a>
+        <a href="#"><img src="{{ asset('img/7.4.jpg') }}"></a>
+    </div>
+</section>
+<!--Part 10-->
+<div class="swiper-container s1 swiper1">
+    <div class="headline">
+        <span>شوینده لباس</span>
+    </div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a class="card"  href="">
+            <div class="image">
+                <img src="{{ asset('img/sh-1.jpg') }}">
+            </div>
+            <div class="title">
+                محصول شماره ۱
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/sh-2.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۲
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/sh-3.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۳
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/sh-4.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۴
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/sh-5.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۵
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/sh-6.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۶
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    </div>
+
+    </section>
+    <!--END Part 10-->
+
+    <section>
+        <!--Part 9-->
+<div class="swiper-container s1 swiper1">
+    <div class="headline">
+        <span>قهوه ساز و دمنوش</span>
+    </div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a class="card"  href="">
+            <div class="image">
+                <img src="{{ asset('img/gh.1.jpg') }}">
+            </div>
+            <div class="title">
+                محصول شماره ۱
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/gh.2.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۲
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/gh.3.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۳
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/gh.4.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۴
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/gh.5.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۵
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/gh.6.jpg') }}" alt="">
             </div>
             <div class="title">
                 محصول شماره ۶
@@ -505,6 +779,13 @@
     </div>
 <!--END Part 9-->
     </section>
+<section class="banner1">
+    <div class="container flex">
+        <a class="atag" href="#"><img src="{{ asset('img/5.3.jpg') }}"></a>
+        <a class="atag" href="#"><img src="{{ asset('img/5.4.jpg') }}"></a>
+    </div>
+</section>
+
 </article>
 <!-- END Part7/Icon-->
 
