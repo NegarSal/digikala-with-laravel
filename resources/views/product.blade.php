@@ -49,6 +49,15 @@
         </div>
         <article>
             <section class="gallery">
+                <div class="galleryOption">
+                    <ul>
+                        <li><i class='far fa-heart'></i></li>
+                        <li><i class='fas fa-share-alt'></i></li>
+                        <li><i class='far fa-bell'></i></li>
+                        <li><i class='fa fa-line-chart'></i></li>
+                        <li><i class='far fa-copy'></i></li>
+                    </ul>
+                </div>
                 <div class="image">
                     <img src="img/image1280/p1.jpg" alt="">
                 </div>

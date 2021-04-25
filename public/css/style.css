@@ -383,6 +383,19 @@ main .box  .boxCard .item .tedad{
 #product article{
     background-color: #fff;
 }
+#product article .gallery .galleryOption{
+    position: relative;
+}
+#product article .gallery .galleryOption ul {
+    position: absolute;
+    line-height: 50px;
+}
+#product article .gallery .galleryOption ul li{
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: #9b9b9b;
+}
 #product article .gallery .image{
     padding: 35px;
 }

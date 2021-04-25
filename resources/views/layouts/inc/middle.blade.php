@@ -12,7 +12,7 @@
                 <div class="swiper-slide">
                   <a class="card"  href="product">
                     <div class="image">
-                        <img src="{{ asset('img/2.1.jpg') }}">
+                        <img src="{{ asset('img/image1280/p1.jpg') }}">
                     </div>
                     <div class="title">
                         محصول شماره ۱
