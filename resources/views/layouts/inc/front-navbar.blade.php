@@ -30,56 +30,9 @@
                         <li><a href="">فروشنده شوید</a></li>
                     </ul>
                 </li>
-                <li class="location">
-                   <button type="button" class="btn btn-outline-secondary bg-white btn-sm" data-toggle="modal" data-target="#myModal"> لطفا شهر و استان خود را انتخاب کنید <i class="fas fa-map-marker-alt"></i></button>
-                      <!-- Modal -->
-                      <div class="modal fade" id="myModal" role="dialog">
-                      <div class="modal-dialog modal-dialog-scrollable">
-
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">انتخاب استان</h4>
-                          </div>
-                          <div class="modal-body" dir="rtl">
-                            <p class="text-primary"><i class="fa fa-crosshairs"></i> مکان یابی خودکار</p><hr>
-                            <p >آذربایجان شرقی</p><hr>
-                            <p>آذربایجان غربی</p><hr>
-                            <p>اردبیل</p><hr>
-                            <p>اصفهان </p><hr>
-                            <p>البرز</p><hr>
-                            <p>ایلام</p><hr>
-                            <p>بوشهر</p><hr>
-                            <p>تهران</p><hr>
-                            <p>خراسان رضوی</p><hr>
-                            <p>خراسان جنوبی</p><hr>
-                            <p>خراسان شمالی</p><hr>
-                            <p>خوزستان</p><hr>
-                            <p>زنجان</p><hr>
-                            <p> سمنان</p><hr>
-                            <p>سیستان و بلوچستان</p><hr>
-                            <p>فارس</p><hr>
-                            <p>قزوین</p><hr>
-                            <p>قم</p><hr>
-                            <p>لرستان</p><hr>
-                            <p>مازندران</p><hr>
-                            <p>مرکزی </p><hr>
-                            <p>هرمزگان  </p><hr>
-                            <p> همدان</p><hr>
-                            <p>چهار محال و بختیاری</p><hr>
-                            <p>کردستان</p><hr>
-                            <p> کرمان</p><hr>
-                            <p>کرمانشاه </p><hr>
-                            <p>کهگیلویه و بویراحمد</p><hr>
-                            <p>گلستان</p><hr>
-                            <p> گیلان</p><hr>
-                            <p>یزد </p>
-                          </div>
-                        </div>
-                      </div>
-
-                </li>
+               <li class="location">
+             لطفا شهر و استان خود را انتخاب کنید <i class="fas fa-map-marker-alt"></i>
+               </li>
             </ul>
         </div>
     </nav>
