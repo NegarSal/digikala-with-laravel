@@ -388,13 +388,43 @@ main .box  .boxCard .item .tedad{
 }
 #product article .gallery .galleryOption ul {
     position: absolute;
-    line-height: 50px;
+    line-height: 15px;
 }
 #product article .gallery .galleryOption ul li{
     text-align: center;
     font-size: 20px;
     cursor: pointer;
     color: #9b9b9b;
+    justify-content: flex-start;
+}
+#product article .gallery .galleryOption ul li i{
+    width: 10px;
+}
+/*add tooltip*/
+#product article .gallery .galleryOption ul li .tooltip{
+    font-size: 10px;
+    padding: 9px 15px;
+    background-color: #6f6f6f;
+    color: #fff;
+    margin: 10px 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+#product article .gallery .galleryOption ul li:hover .tooltip{
+    opacity: 1;
+    visibility: visible;
+}
+#product article .gallery .galleryOption ul li .tooltip:before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 12px 10px;
+    border-color: transparent transparent transparent #6f6f6f;
+    position: absolute;
+    right: 20px;
+    transform: translateY(-14%);
 }
 #product article .gallery .image{
     padding: 35px;

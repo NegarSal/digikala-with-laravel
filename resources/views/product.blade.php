@@ -51,11 +51,26 @@
             <section class="gallery">
                 <div class="galleryOption">
                     <ul>
-                        <li><i class='far fa-heart'></i></li>
-                        <li><i class='fas fa-share-alt'></i></li>
-                        <li><i class='far fa-bell'></i></li>
-                        <li><i class='fa fa-line-chart'></i></li>
-                        <li><i class='far fa-copy'></i></li>
+                        <li class="flex">
+                            <i class='far fa-heart'></i>
+                            <div class="tooltip">افزودن به علاقه مندی</div>
+                        </li>
+                        <li class="flex">
+                            <i class='fas fa-share-alt'></i>
+                            <div class="tooltip">اشتراک گذاری</div>
+                        </li>
+                        <li class="flex">
+                            <i class='far fa-bell'></i>
+                            <div class="tooltip">اطلاع رسانی شگفت انگیز</div>
+                        </li>
+                        <li class="flex">
+                            <i class='fa fa-line-chart'></i>
+                            <div class="tooltip">نمودار قیمت</div>
+                        </li>
+                        <li class="flex">
+                            <i class='far fa-copy'></i>
+                            <div class="tooltip">مقایسه</div>
+                        </li>
                     </ul>
                 </div>
                 <div class="image">
