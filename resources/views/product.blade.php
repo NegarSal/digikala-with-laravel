@@ -44,10 +44,10 @@
                 </ul>
             </nav>
             <div class="feedback">
-                <a href="">بازخورد درباره این کالا</a>
+                <a href="">کالای خود را در دیجی کالا بفروشید</a>
             </div>
         </div>
-        <article>
+        <article class="flex">
             <section class="gallery">
                 <div class="galleryOption">
                     <ul>
@@ -64,7 +64,7 @@
                             <div class="tooltip">اطلاع رسانی شگفت انگیز</div>
                         </li>
                         <li class="flex">
-                            <i class='fa fa-line-chart'></i>
+                            <i class='fas fa-chart-line'></i>
                             <div class="tooltip">نمودار قیمت</div>
                         </li>
                         <li class="flex">
@@ -86,7 +86,22 @@
                     </ul>
                 </div>
             </section>
-            <section class="description"></section>
+            <section class="description">
+                <div class="proTitle">
+                    <h1>گوشی موبایل شیائومی مدل POCO M3 M2010J19CG دو سیم‌ کارت ظرفیت 128 گیگابایت</h1>
+                </div>
+                <div class="proText">
+                    <span class="proTitle2">Xiaomi POCO X3 M2007J20CG Dual SIM 128GB Mobile Phone</span>
+                    <div class="star flex">
+                        <div class="item"><i class="fas fa-star"></i>۴.۳(۴۱۳)</div>
+                        <div class="comments">۵۱۶ دیدگاه کاربران</div>
+                        <div class="qa">۱۵۷ پرسش و پاسخ</div>
+                    </div>
+                    <div class="text"><i class="far fa-lightbulb"></i>پیشنهاد شده توسط بیش از ۲۳۰ نفر از خریداران</div>
+                </div>
+                <div class="proColor"></div>
+                <div class="proFeatures"></div>
+            </section>
             <section class="details"></section>
         </article>
     </div>
