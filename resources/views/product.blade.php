@@ -98,10 +98,10 @@
                         <div class="qa">۱۵۷ پرسش و پاسخ</div>
                     </div>
                     <div class="text"><i class="far fa-lightbulb"></i>پیشنهاد شده توسط بیش از ۲۳۰ نفر از خریداران</div>
-                    <div class="item2">رنگ:
+                    <div class="proColor">رنگ:
                        <i class="fa fa-circle"  style="color: #ffeb3b"></i><i class="fa fa-circle"  style="color: #2196f3"></i><i class="fa fa-circle"></i>
                     </div>
-                    <div class="text2">ویژگی های کالا
+                    <div class="proFeatures">ویژگی های کالا
                         <ul class="more">
                             <li>حافظه داخلی:128 گیگابایت</li>
                             <li>شبکه های ارتباطی: 4G، 3G، 2G</li>
@@ -125,10 +125,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="proColor"></div>
-                <div class="proFeatures"></div>
             </section>
-            <section class="details"></section>
+            <section class="details">
+                <div class="probox">
+                    <div class="seller flex">
+                        <div class="seller1">فروشنده</div>
+                        <div class="seller2">۴ فروشنده دیگر</div>
+                    </div>
+                    <div class="garanti"><i class="fas fa-archive"></i> کالا پلاس <button>برگزیده</button>
+                        <div>عملکرد: ۵از۵ | ۸۸.۶٪ رضایت از کالا</div>
+                    </div>
+                    <div class="garanti"><i class="	fas fa-shield-alt"></i> گارانتی۱۸ماهه وی دو سل</div>
+                    <div class="info"><i class="far fa-save"></i> موجود در انبار دیجی کالا<i class="fas fa-angle-left"></i>
+                       <div class="truck"><i class="fas fa-truck"></i> ارسال دیجی کالا</div>
+                    </div>
+                    <div class="price"></div>
+                </div>
+            </section>
         </article>
     </div>
 </main>
