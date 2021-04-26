@@ -463,7 +463,6 @@ main .box  .boxCard .item .tedad{
     color: #c0c2c5;
     background-color: #fff;
     font-size: 12px;
-    line-height: 1.833;
 }
 #product article .description .proText .star{
     justify-content: inherit;
@@ -493,6 +492,51 @@ main .box  .boxCard .item .tedad{
     color: #fb3449;
     font-size: 19px;
 }
+#product article .description .proText .item2 i{
+    position: relative;
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;
+}
+#product article .description .proText .text2 .more{
+    color: #686868;
+    font-size: 12px;
+}
+#product article .description .proText .text2 .more #myBtn{
+    color: #1ca2bd;
+    border: none;
+}
+#more {
+    display: none;
+    color: #686868;
+    font-size: 12px;
+}
+#product article .description .proText .text2 .information{
+    color: #686868;
+    font-size: 12px;
+    margin-top: 25px;
+}
+#product article .description .proText .text2 .information i{
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 760px) {
     .swiper-button-next {
       right: 20px;

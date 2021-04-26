@@ -98,6 +98,32 @@
                         <div class="qa">۱۵۷ پرسش و پاسخ</div>
                     </div>
                     <div class="text"><i class="far fa-lightbulb"></i>پیشنهاد شده توسط بیش از ۲۳۰ نفر از خریداران</div>
+                    <div class="item2">رنگ:
+                       <i class="fa fa-circle"  style="color: #ffeb3b"></i><i class="fa fa-circle"  style="color: #2196f3"></i><i class="fa fa-circle"></i>
+                    </div>
+                    <div class="text2">ویژگی های کالا
+                        <ul class="more">
+                            <li>حافظه داخلی:128 گیگابایت</li>
+                            <li>شبکه های ارتباطی: 4G، 3G، 2G</li>
+                            <li>دوربین‌های پشت گوشی: 3 ماژول دوربین</li>
+                            <li>سیستم عامل:Android</li>
+                            <li>توضیحات سیم کارت: سایز نانو (8.8 × 12.3 میلی‌متر)</li>
+                            <span id="dots" style="color: #2196f3">+</span>
+                            <span id="more">
+                            <li>مقدار RAM:4 گیگابایت</li>
+                            <li>رزولوشن عکس:48 مگاپیکسل</li>
+                            <li>نسخه سیستم عامل: Android 10</li>
+                            <li>فناوری صفحه‌نمایش:IPS</li>
+                            <li>تعداد سیم کارت:دو</li>
+                            </span>
+                        <button onclick="myFunction()" id="myBtn">موارد بیشتر</button>
+                        </ul>
+                        <div class="information flex"><i class="fas fa-info-circle"></i>
+                            هشدار سامانه همتا: حتما در زمان تحویل دستگاه،
+                             به کمک کد فعال‌سازی چاپ شده روی جعبه یا کارت گارانتی، دستگاه را از طریق #7777*،
+                             برای سیم‌کارت خود فعال‌سازی کنید. آموزش تصویری در آدرس اینترنتی hmti.ir/05
+                        </div>
+                    </div>
                 </div>
                 <div class="proColor"></div>
                 <div class="proFeatures"></div>
@@ -117,6 +143,26 @@
 <!--footer-->
 @include('layouts.inc.front-footer')
 
+
+
+
+<script>
+    function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "موارد بیشتر";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "بستن";
+    moreText.style.display = "inline";
+  }
+}
+</script>
 </body>
 </html>
 
