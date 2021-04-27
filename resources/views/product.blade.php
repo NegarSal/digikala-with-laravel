@@ -123,6 +123,10 @@
                              به کمک کد فعال‌سازی چاپ شده روی جعبه یا کارت گارانتی، دستگاه را از طریق #7777*،
                              برای سیم‌کارت خود فعال‌سازی کنید. آموزش تصویری در آدرس اینترنتی hmti.ir/05
                         </div>
+                        <div class="plusbox flex">
+                            <div class="plusbox1"><i class="fas fa-cog"></i>خدمات ویژه کاربران دیجی‌پلاس</div>
+                            <div class="plusbox2">شما هم عضو شوید <i class="fas fa-angle-left" id="angle"></i></div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -146,8 +150,142 @@
                         <a href="" class="basket">افزودن به سبد خرید</a>
                     </div>
                 </div>
+                <div class="bestPrice">آیا قیمت مناسب تری سراغ دارید؟<i class="fas fa-tag"></i></div>
             </section>
         </article>
+<!--first-slider-->
+<div class="swiper-container s1 swiper1">
+    <div class="headline">
+        <span>محصولات مرتبط</span>
+    </div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a class="card"  href="">
+            <div class="image">
+                <img src="{{ asset('img/m.1.jpg') }}">
+            </div>
+            <div class="title">
+                محصول شماره ۱
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/m.3.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۲
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/m.6.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۳
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/m.4.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۴
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/m.5.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۵
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/m.3.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۶
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    </div>
+
+    </section>
+
     </div>
 </main>
 
@@ -161,9 +299,33 @@
 <!--footer-->
 @include('layouts.inc.front-footer')
 
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
 
+<script>
+    var swiper1 = new Swiper('.s1', {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      direction: getDirection(),
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on: {
+        resize: function () {
+          swiper.changeDirection(getDirection());
+        }
+      }
+    });
 
+    function getDirection() {
+      var windowWidth = window.innerWidth;
+      var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
 
+      return direction;
+    }
+</script>
+<!--button more-->
 <script>
     function myFunction() {
   var dots = document.getElementById("dots");
