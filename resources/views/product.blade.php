@@ -285,8 +285,68 @@
     </div>
 
     </section>
+<!--tabs-->
+<section class="tab">
+    <ul class="flex" id="tabs">
+        <li class="active"><a href="">نقد و بررسی</a></li>
+        <li><a href="">بررسی تخصصی</a></li>
+        <li><a href="">مشخصات</a></li>
+        <li><a href="">دیدگاه کاربران</a></li>
+        <li><a href="">پرسش و پاسخ</a></li>
+    </ul>
+    <div id="tabChildes">
+        <div class="tab1 hidden">
+            <div class="tba1Container">
+                <h2>نقد و بررسی اجمالی
+                    <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
+                </h2>
+            </div>
+        </div>
+        <div class="tab2 hidden">tab2</div>
+        <div class="tab3 hidden">tab3</div>
+        <div class="tab4 hidden">tab4</div>
+        <div class="tab5 hidden">tab5</div>
+    </div>
+</section>
+
 
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </main>
 
 
@@ -343,6 +403,22 @@
   }
 }
 </script>
+<script>
+    $('#product #tabs li').click(function(){
+        $('#product #tabs li').removeClass('active');
+        $(this).addClass('active');
+
+        var child = $('#product #tabChildes .hidden');
+
+        child.fadeOut(0);
+        var index =$(this).index();
+        child.eq(index).fadeIn();
+    })
+</script>
+
+
+
+
 </body>
 </html>
 
