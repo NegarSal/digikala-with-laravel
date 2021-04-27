@@ -132,14 +132,19 @@
                         <div class="seller1">فروشنده</div>
                         <div class="seller2">۴ فروشنده دیگر</div>
                     </div>
-                    <div class="garanti"><i class="fas fa-archive"></i> کالا پلاس <button>برگزیده</button>
+                    <div class="garanti"><i class="fas fa-archive"></i> کالا پلاس <button>برگزیده</button><i class="fas fa-angle-left" id="angle"></i>
                         <div>عملکرد: ۵از۵ | ۸۸.۶٪ رضایت از کالا</div>
                     </div>
                     <div class="garanti"><i class="	fas fa-shield-alt"></i> گارانتی۱۸ماهه وی دو سل</div>
-                    <div class="info"><i class="far fa-save"></i> موجود در انبار دیجی کالا<i class="fas fa-angle-left"></i>
+                    <div class="info"><i class="far fa-save"></i> موجود در انبار دیجی کالا<i class="fas fa-angle-left" id="angle"></i>
                        <div class="truck"><i class="fas fa-truck"></i> ارسال دیجی کالا</div>
                     </div>
-                    <div class="price"></div>
+                    <div class="price">
+                        <div>قیمت فروشنده<i class="far fa-question-circle"></i></div>
+                        <div class="proprice">۴,۸۴۰,۰۰۰ <span>تومان</span></div>
+                        <div class="eye"><i class="far fa-eye"></i>۲۰+ نفر در حال بازدید این کالا می‌باشند.</div>
+                        <a href="" class="basket">افزودن به سبد خرید</a>
+                    </div>
                 </div>
             </section>
         </article>

@@ -566,22 +566,61 @@ main .box  .boxCard .item .tedad{
    line-height: 25px;
    margin-right: 14px;
 }
+#product article .details .probox .garanti #angle{
+    margin-right: 190px;
+    color: #a1a3a8;
+    font-size: 18px;
+}
 #product article .details .probox .info div{
     color: #62666d;
     font-size: 13px;
     line-height: 25px;
 }
-#product article .details .probox .info  i{
-    margin-right: 30px;
+#product article .details .probox .info #angle{
+    margin-right: 160px;
+    color: #a1a3a8;
+    font-size: 18px;
 }
 #product article .details .probox .info .truck i{
     color: #e6123d;
     margin-right: 14px;
 }
-
-
-
-
+#product article .details .probox .price div{
+    color: #b4b4b4;
+    font-size: 14px;
+}
+#product article .details .probox .price .proprice{
+    text-align: left;
+    color: #030a16;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 41px;
+}
+#product article .details .probox .price .proprice span{
+    color: #424750;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21px;
+}
+#product article .details .probox .price .eye{
+    color: #a1a3a8;
+    align-items: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+#product article .details .probox .price .basket{
+font-size: 18px;
+line-height: 1.222;
+border-radius: 8px;
+color: #fff;
+overflow: hidden;
+text-align: center;
+min-height: 48px;
+padding: 12px 18px;
+background-color: #ef394e;
+border: none;
+margin-top: 14px;
+}
 
 
 
