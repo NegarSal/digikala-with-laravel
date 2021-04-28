@@ -544,88 +544,16 @@
 <!--text-->
 <div class="lastText">شناسه کالا :DKP - ۴۱۴۹۰۳۷</div>
 
-
-
-
-
 </div>
 </main>
-
-
-
-
-
-
-
 
 <!--footer-->
 @include('layouts.inc.front-footer')
 
 <script src="js/jquery-3.6.0.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
 <script src="js/swiper-bundle.min.js"></script>
-
-<script>
-    var swiper1 = new Swiper('.s1', {
-      slidesPerView: 4,
-      spaceBetween: 20,
-      direction: getDirection(),
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      on: {
-        resize: function () {
-          swiper.changeDirection(getDirection());
-        }
-      }
-    });
-
-    function getDirection() {
-      var windowWidth = window.innerWidth;
-      var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-
-      return direction;
-    }
-</script>
-<!--button more-->
-<script>
-    function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "موارد بیشتر";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "بستن";
-    moreText.style.display = "inline";
-  }
-}
-</script>
-<!--button more: for tab part-->
-<script>
-
-</script>
-
-<!--product page:tabs-->
-<script>
-    $('#product #tabs li').click(function() {
-        $('#product #tabs li').removeClass('active');
-        $(this).addClass('active');
-
-        var child = $('#product #tabChildes .hidden');
-
-        child.fadeOut(0);
-        var index =$(this).index();
-        child.eq(index).fadeIn();
-    })
-</script>
-
-
-
+<script src="js/script.js"></script>
 
 </body>
 </html>

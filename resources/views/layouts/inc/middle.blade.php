@@ -817,9 +817,4 @@
     background-position: center;
     background-size: cover;
 }
- .up{
-    text-decoration: none;
-    color: #000;
-    font-size: medium;
-   }
 </style>
