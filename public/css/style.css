@@ -908,18 +908,28 @@ margin-top: 14px;
 #product .tab #tabChildes div:nth-child(1){
     display:block;
 }
+/*-----Start Tab1-----*/
 #product .tab #tabChildes .tab1 .tba1Container{
     padding: 40px;
 }
 #product .tab #tabChildes .tab1 .tba1Container h2{
-    color: #6f6f6f;
-    font-size: 16px;
+    color: #515151;
+    font-size: 14px;
     line-height: 45px;
 }
 #product .tab #tabChildes .tab1 .tba1Container h2 span{
     display: block;
     color: #a7a7a7;
     font-size: 14px;
+}
+#product .tab #tabChildes .tab1 .tba1Container h2 span:after{
+    content: "";
+    background-color: #ef394e;
+    margin-top: 8px;
+    height: 2px;
+    width: 70px;
+    border-radius: 1px;
+    display: block;
 }
 #product .tab #tabChildes .tab1 .tba1Container .expertSummary .right{
     color: #686868;
@@ -999,11 +1009,47 @@ background-color: #ef394e;
 border: none;
 margin-top: 14px;
 }
-
-
-
-
-
+/*-----Start Tab2-----*/
+#product .tab #tabChildes .tab2 .tba2Container{
+    padding: 40px;
+}
+#product .tab #tabChildes .tab2 .tba2Container h2{
+    color: #515151;
+    font-size: 16px;
+    line-height: 45px;
+}
+#product .tab #tabChildes .tab2 .tba2Container h2 span{
+    display: block;
+    color: #a7a7a7;
+    font-size: 14px;
+}
+#product .tab #tabChildes .tab2 .tba2Container h2 span:after{
+    content: "";
+    background-color: #ef394e;
+    margin-top: 8px;
+    height: 2px;
+    width: 70px;
+    border-radius: 1px;
+    display: block;
+}
+#product .tab #tabChildes .tab2 .tba2Container .expertSummary2 div{
+    color: #232933;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2.5;
+    margin: 16px 0;
+}
+#product .tab #tabChildes .tab2 .tba2Container .expertSummary2 img{
+    vertical-align: top;
+    max-width: 100%;
+}
+#product .tab #tabChildes .tab2 .tba2Container .expertSummary2 .tab2text{
+    font-size: 14px;
+    line-height: 2.57;
+    color: #232933;
+    display: block;
+    max-width: 72%;
+}
 
 
 

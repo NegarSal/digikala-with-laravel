@@ -277,7 +277,7 @@
 <section class="tab">
     <ul class="flex" id="tabs">
         <li class="active"><a>نقد و بررسی</a></li>
-        <li class="active"><a>بررسی تخصصی</a></li>
+        <li><a>بررسی تخصصی</a></li>
         <li><a>مشخصات</a></li>
         <li><a>دیدگاه کاربران</a></li>
         <li><a>پرسش و پاسخ</a></li>
@@ -324,8 +324,14 @@
                     <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
                 </h2>
                 <section class="expertSummary2">
-                    جنجالی دیگر<img src="{{ asset('img/b1.jpg') }}">
-
+                   <div>جنجالی دیگر</div>
+                   <img src="{{ asset('img/b1.jpg') }}">
+                   <div class="tab2text">
+                    شرکت «شیائومی» (xiaomi)، جزو شرکت‌هایی است
+                    که سال‌هاست برای ارائه گوشی‌هایی با کیفیت بالا تلاش می‌کند. با ارائه گوشی  POCO M3 M2010J19CG،
+                     شاید ایندفعه در این هدف موفق شده باشد. این گوشی دارای ظاهری خاص و بدنه‌ای مقاوم بوده
+                      که در کنار باتری بزرگ خود توانسته است وزن مناسب گوشی را حفظ کند.
+                   </div>
                 </section>
             </div>
         </div>
