@@ -759,11 +759,12 @@ footer .info .copyRight{
     background-color: #f5f5f5;
     border: 1px solid #e4e4e4;
     border-radius: 8px;
-    padding: 12px;
+    padding: 10px;
     margin-left: -20px;
+    margin-top: 82px;
 }
 #product article .details .probox .seller{
-    line-height: 22px;
+    line-height: 12px;
     color: #515151;;
 }
 #product article .details .probox .seller2{
@@ -870,7 +871,7 @@ margin-top: 14px;
 
 }
 #product .tab ul{
-    background-color: #f8f8ff;
+    background-color: #f8f8f8;
     border: 1px solid #dfdfdf;
     position: sticky;
     top: 121px;
@@ -907,25 +908,108 @@ margin-top: 14px;
 #product .tab #tabChildes div:nth-child(1){
     display:block;
 }
-#product .tab #tabChildes .tab1 .tba1Container,#product .tab #tabChildes .tab2 .tba2Container{
+#product .tab #tabChildes .tab1 .tba1Container{
     padding: 40px;
 }
-#product .tab #tabChildes .tab1 .tba1Container h2 ,#product .tab #tabChildes .tab2 .tba2Container h2{
+#product .tab #tabChildes .tab1 .tba1Container h2{
     color: #6f6f6f;
     font-size: 16px;
     line-height: 45px;
 }
-#product .tab #tabChildes .tab1 .tba1Container h2 span,#product .tab #tabChildes .tab2 .tba2Container h2 span{
+#product .tab #tabChildes .tab1 .tba1Container h2 span{
     display: block;
     color: #a7a7a7;
     font-size: 14px;
 }
-#product .tab #tabChildes .tab1 .tba1Container .expertSummary ,#product .tab #tabChildes .tab2 .tba2Container .expertSummary2{
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .right{
     color: #686868;
     font-size: 12px;
     max-width: 70%;
     line-height: 30px;
 }
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox{
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e2;
+    background-color: #fff;
+    display: block;
+    margin-right: 30px;
+    margin-bottom: 120px;
+}
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .card{
+    display: flex;
+    padding: 16px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e2;
+}
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .card .title2{
+display: block;
+}
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .card .title2 .proCard2
+, #product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .card .title2 .color{
+    width: 100%;
+    min-height: 50px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 1.833;
+    display: block;
+}
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .garanti2{
+    width: 100%;
+    min-height: 30px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.833;
+    display: block;
+}
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .garanti2 i{
+    font-size: 18px;
+    margin-left: 8px;
+    color:#515151;
+}
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .price2{
+    color: #b4b4b4;
+    font-size: 14px;
+    display: block;
+}
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .price2 .proprice2{
+    text-align: left;
+    color: #030a16;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 41px;
+}
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .price2 .proprice2 span{
+    color: #424750;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21px;
+}
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .price2 .basket2{
+font-size: 18px;
+line-height: 1.222;
+border-radius: 8px;
+color: #fff;
+overflow: hidden;
+text-align: center;
+min-height: 48px;
+padding: 12px 18px;
+background-color: #ef394e;
+border: none;
+margin-top: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 760px) {
     .swiper-button-next {
       right: 20px;
