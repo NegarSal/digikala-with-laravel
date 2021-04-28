@@ -363,7 +363,9 @@ main .box  .boxCard .item .tedad{
 /*footer*/
 footer{
     background-color: #eceff1;
-    height: 500px;
+}
+footer .contain{
+    padding: 0 41px;
 }
 footer .scrollTop{
     text-align: center;
@@ -386,9 +388,11 @@ footer .scrollTop >i{
     line-height: 31px;
     margin-left: 10px;
 }
+.mx1450px{
+    max-width: 1450px;
+}
 footer .feature{
     justify-content: space-between;
-    max-width: 1450px;
     border-bottom: 1px solid #cfd8dc;
     padding-bottom: 15px;
 }
@@ -428,10 +432,61 @@ footer .middleBar .right nav a:nth-child(1){
 }
 footer .middleBar .left{
     width: 40%;
+    line-height: 50px;
+    padding: 0 90px 0 0;
 }
-
-
-
+footer .middleBar .left div:nth-child(1) , footer .middleBar .left div:nth-child(3)  {
+    color: #4a5f73;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+footer .middleBar .left .form{
+    position: relative;
+    width: 80%;
+    margin-bottom: 10px;
+}
+footer .middleBar .left .form input{
+    outline: none;
+    padding: 10px 12px;
+    border: 1px solid #c8c8c8;
+    border-radius: 8px;
+    width: 100%;
+}
+footer .middleBar .left .form button{
+    padding: 10px 17px;
+    font-family: inherit;
+    background-color: #00bfd6;
+    font-size: 14px;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+footer .left .socialMedia {
+    width: 30%;
+    justify-content: space-between;
+}
+footer .left .socialMedia .fab{
+    font-size: 28px;
+    color: #424750;
+    opacity: .5;
+    cursor: pointer;
+}
+footer .left .socialMedia .fab:hover{
+    opacity: 1;
+}
+footer .contactUs{
+    justify-content: center;
+    padding: 12px 12px;
+}
+footer .downLoadApp img{
+    width: 150px;
+    justify-content: center;
+    padding: 12px 0;
+}
 
 
 
