@@ -1037,7 +1037,10 @@ display: block;
     max-width: 72%;
 }
 /*-----Start Tab3-----*/
-#product .tab #tabChildes .tab3  section .title{
+#product .tab #tabChildes .tab3 .tba3Container{
+    padding: 40px;
+}
+#product .tab #tabChildes .tab3 .tba3Container section .title{
     width: 250px;
     color: #232933;
     font-size: 17px;
@@ -1045,13 +1048,13 @@ display: block;
     display: block;
     margin-bottom: 550px;
 }
-#product .tab #tabChildes .tab3 > section{
+#product .tab #tabChildes .tab3  .tba3Container > section{
     width: 70%;
 }
-#product .tab #tabChildes .tab3 > section >ul >li{
+#product .tab #tabChildes .tab3 .tba3Container > section >ul >li{
     margin: 10px 0;
 }
-#product .tab #tabChildes .tab3 > section >ul >li >div{
+#product .tab #tabChildes .tab3 .tba3Container > section >ul >li >div{
     display: flex;
     min-width: 170px;
     align-items: center;
@@ -1059,21 +1062,58 @@ display: block;
     letter-spacing: -.3px;
     padding: 14px 18px 12px;
 }
-#product .tab #tabChildes .tab3 > section >ul >li .property{
+#product .tab #tabChildes .tab3 .tba3Container > section >ul >li .property{
     min-width: 30%;
     color: #a1a3a8;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.571;
 }
-#product .tab #tabChildes .tab3 > section >ul >li .value{
+#product .tab #tabChildes .tab3 .tba3Container > section >ul >li .value{
     min-width: 70%;
     color: #232933;
     font-size: 14px;
     line-height: 1.571;
 }
+/*-----Start Tab4-----*/
+#product .tab #tabChildes .tab4 .tba4Container{
+    padding: 40px;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----Start Tab5-----*/
+#product .tab #tabChildes .tab5 .tba5Container{
+    padding: 40px;
+}
+/*-----Last text-----*/
+#product .lastText {
+    color: #858585;
+    text-align: center;
+    width: 100%;
+    padding: 24px;
+}
 @media (max-width: 760px) {
     .swiper-button-next {
       right: 20px;

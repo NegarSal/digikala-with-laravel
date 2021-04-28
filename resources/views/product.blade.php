@@ -268,8 +268,8 @@
          </a>
         </div>
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next next"></div>
+    <div class="swiper-button-prev prev"></div>
     </div>
 
     </section>
@@ -336,6 +336,7 @@
             </div>
         </div>
         <div class="tab3 hidden">
+            <div class="tba3Container">
                 <h2 class="h2">مشخصات کالا
                     <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
                 </h2>
@@ -389,11 +390,160 @@
                         </li>
                     </ul>
                 </section>
+            </div>
         </div>
-        <div class="tab4 hidden">tab4</div>
-        <div class="tab5 hidden">tab5</div>
+        <div class="tab4 hidden">
+            <div class="tba4Container">
+                <h2 class="h2">امتیاز و دیدگاه کاربران
+                    <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
+                </h2>
+            </div>
+            <section>
+                <div class="rating"></div>
+            </section>
+        </div>
+        <div class="tab5 hidden">
+            <div class="tba5Container">
+                <h2 class="h2">پرسش و پاسخ
+                    <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
+                </h2>
+            </div>
+        </div>
     </div>
 </section>
+<!--second slider-->
+<div class="swiper-container s1 swiper1">
+    <div class="headline">
+        <span>خریداران این محصول، محصولات زیر را هم خریده‌اند</span>
+    </div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a class="card"  href="">
+            <div class="image">
+                <img src="{{ asset('img/m.1.jpg') }}">
+            </div>
+            <div class="title">
+                محصول شماره ۱
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/m.3.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۲
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/m.6.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۳
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/m.4.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۴
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/m.5.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۵
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+        <div class="swiper-slide">
+         <a class="card" href="">
+            <div class="image">
+                <img src="{{ asset('img/m.3.jpg') }}" alt="">
+            </div>
+            <div class="title">
+                محصول شماره ۶
+            </div>
+            <div class="price">
+                <div class="oldPrice">
+                  <del>۲۳۰۰۰</del>
+                  <span class="percent">۲۰٪</span>
+                </div>
+                <div class="newPrice">
+                    <span>۲۸۰۰۰</span>
+                    <span>تومان</span>
+                </div>
+            </div>
+         </a>
+        </div>
+    </div>
+    <div class="swiper-button-next next"></div>
+    <div class="swiper-button-prev prev"></div>
+    </div>
+<!--text-->
+<div class="lastText">شناسه کالا :DKP - ۴۱۴۹۰۳۷</div>
+
 
 
 
