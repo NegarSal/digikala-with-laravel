@@ -142,8 +142,8 @@
                  </a>
                 </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next next"></div>
+            <div class="swiper-button-prev prev"></div>
             </div>
         </section>
     </article>
@@ -303,8 +303,8 @@
                  </a>
                 </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next next"></div>
+            <div class="swiper-button-prev prev"></div>
             </div>
         </section>
     </article>
@@ -500,10 +500,11 @@
          </a>
         </div>
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next next"></div>
+    <div class="swiper-button-prev prev"></div>
     </div>
 <!--END Part 9-->
+
 <section class="banner1">
     <div class="container flex">
         <a href="#"><img src="{{ asset('img/7.1.jpg') }}"></a>
@@ -639,8 +640,8 @@
          </a>
         </div>
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next next"></div>
+    <div class="swiper-button-prev prev"></div>
     </div>
 
     </section>
@@ -774,8 +775,8 @@
          </a>
         </div>
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next next"></div>
+    <div class="swiper-button-prev prev"></div>
     </div>
 <!--END Part 9-->
     </section>

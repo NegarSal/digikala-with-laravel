@@ -154,9 +154,7 @@ header nav .hidden{
     display: flex;
     justify-content: center;
 }
-.swiper-button-next ,.swiper-button-prev{
-    color: #777 !important;
-}
+
 
 /*slider-part2(banner)*/
 main article{
@@ -166,10 +164,10 @@ main article .flex{
     justify-content:space-between;
 }
 main article .flex .slider{
-    width: 66%;
+    width: 67%;
 }
 main article .flex .bannerLeft{
-    width: 31%;
+    width: 32%;
 }
 main article .flex .bannerLeft a{
     display: block;
@@ -197,7 +195,7 @@ main .specialoffer{
     color: white;
     border: 1px solid white;
     border-radius: 10px;
-    padding: 10px;
+    padding: 9px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -276,6 +274,27 @@ main .specialoffer{
     color: #737373;
     text-align: left;
     margin-bottom: -60px;
+}
+.swiper-button-next.next{
+    width: 49px;
+    height: 98px;
+    color: #000;
+    box-shadow: 1.5px 0 4px 0 rgba(0,0,0,.15);
+    border-radius: 0 8px 8px 0;
+    position: absolute;
+    left: 0 !important;
+    top: 30%;
+}
+.swiper-button-prev.prev{
+    width: 49px;
+    height: 98px;
+    color: #000;
+    box-shadow: 1.5px 0 4px 0 rgba(0,0,0,.15);
+    position: absolute;
+    left: 0 !important;
+    border-radius:  8px 0 0 8px ;
+    right: 0 !important;
+    top: 30%;
 }
 /*banner1*/
 .banner1 .container a{
@@ -356,7 +375,10 @@ main .box  .boxCard .item .tedad{
 .box .banner1 .container{
     padding: 0;
 }
-.banner2 a img{
+.box .banner2 {
+    margin-top: 10px;
+}
+.box .banner2 a img{
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
     border-radius: 20px;
 }
@@ -379,14 +401,9 @@ footer .scrollTop{
     border-bottom: 1px solid #cfd8dc;
 }
 footer .scrollTop >i{
-    border-radius: 50%;
-    padding: 10px;
-    width: 20px;
-    height: 10px;
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 31px;
     margin-left: 10px;
+    margin-top: 6px;
+    font-size: 30px;
 }
 .mx1450px{
     max-width: 1450px;
@@ -412,6 +429,8 @@ footer .feature a .itemTitle{
 footer .middleBar .right{
     width: 60%;
     justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
 }
 footer .middleBar{
     padding: 20px;
@@ -526,6 +545,9 @@ footer .info .description .left a{
     width: 120px;
     border: 1px solid #e5e5ea;
     border-radius: 8px;
+}
+footer .info .description .left a:nth-child(3){
+    margin-left: 0;
 }
 footer .info .description .left img{
     width: 250px;

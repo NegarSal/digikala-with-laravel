@@ -23,7 +23,7 @@
        </section>
        <aside class="bannerLeft">
          <a href="#"><img src="{{ asset('img/1.jpg') }}" alt=""></a>
-         <a href="#"><img src="{{ asset('img/2.jpg') }}" alt=""></a>
+         <a href="#"><img src="{{ asset('img/2.gif') }}" alt=""></a>
        </aside>
         </div>
     </article>
