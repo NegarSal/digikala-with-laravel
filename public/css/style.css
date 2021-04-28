@@ -479,16 +479,71 @@ footer .left .socialMedia .fab:hover{
     opacity: 1;
 }
 footer .contactUs{
+    text-align: center;
+    padding: 12px 0px;
+}
+footer .downLoadApp{
+    width: 100%;
+    padding: 15px 7px;
+    flex-wrap: wrap;
     justify-content: center;
-    padding: 12px 12px;
+    font-size: 14px;
+    line-height: 27px;
 }
 footer .downLoadApp img{
     width: 150px;
-    justify-content: center;
-    padding: 12px 0;
+    justify-content: space-between;
+    margin-left: 7px;
 }
-
-
+footer .info{
+    background-color: #d7dee0;
+}
+footer .info .description{
+    padding: 15px 41px;
+}
+footer .info .description .right{
+    line-height: 28px;
+}
+footer .info .description .right , footer .info .description .left {
+    width: 50%;
+}
+footer .info .description .right h1{
+    font-size: 15px;
+    margin: 10px 0;
+}
+footer .info .description .right p{
+    color: #535353;
+    font-size: 12px;
+}
+footer .info .description .left{
+    justify-content: flex-end;
+}
+footer .info .description .left a{
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0 5px;
+    height: 120px;
+    width: 120px;
+    border: 1px solid #e5e5ea;
+    border-radius: 8px;
+}
+footer .info .description .left img{
+    width: 250px;
+}
+footer .info .digi{
+    margin: 15px 0;
+}
+footer .info .digi ul{
+    justify-content: space-around;
+    padding: 15px 0;
+    border-bottom: 1px solid #b0bec5;
+}
+footer .info .copyRight{
+    font-size: 12px;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 0 0 15px 0;
+}
 
 /* styles-about-product page*/
 

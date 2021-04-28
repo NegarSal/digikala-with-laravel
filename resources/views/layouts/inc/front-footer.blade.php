@@ -2,7 +2,7 @@
 <footer>
     <a href="#" class="scrollTop flex"><i class="fas fa-caret-up"></i>برگشت به بالا</a>
     <div class="contain container">
-    <nav class="feature flex container mx1450px">
+      <nav class="feature flex container mx1450px">
         <a href=""><img src="{{ asset('img/footer/item1.svg') }}" alt="">
             <div class="itemTitle">تحویل اکسپرس</div>
         </a>
@@ -17,8 +17,8 @@
         <a href=""><img src="{{ asset('img/footer/item5.svg') }}" alt="">
             <div class="itemTitle">ضمانت اصل بودن کالا</div>
         </a>
-    </nav>
-    <div class="middleBar mx1450px container flex">
+      </nav>
+      <div class="middleBar mx1450px container flex">
         <div class="right flex">
             <nav>
                 <a href="">راهنمای خرید از دیجی‌کالا</a>
@@ -59,21 +59,48 @@
                 <i class="fab fa-instagram"></i>
             </div>
         </div>
-    </div>
-    <nav class="contactUs">
-        <ul class="flex">
-            <li>هفت روز هفته ، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم</li>
-            <li>شماره تماس :۶۱۹۳۰۰۰۰ - ۰۲۱</li>
-            <li>:آدرس ایمیلinfo@digikala.com</li>
-        </ul>
-    </nav>
-    <div class="downLoadApp flex">
+      </div>
+      <div class="contactUs"> هفت روز هفته ، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم
+        شماره تماس :۶۱۹۳۰۰۰۰ - ۰۲۱
+       info@digikala.com :آدرس ایمیل</div>
+      <div class="downLoadApp flex">
+        <a href=""><img src="{{ asset('img/footer/item8.png') }}" alt=""></a>
         <a href=""><img src="{{ asset('img/footer/item6.svg') }}" alt=""></a>
         <a href=""><img src="{{ asset('img/footer/item7.svg') }}" alt=""></a>
-        <a href=""><img src="{{ asset('img/footer/item8.png') }}" alt=""></a>
         <a href=""><img src="{{ asset('img/footer/item9.png') }}" alt=""></a>
     </div>
-</div>
+    </div>
+    <div class="info">
+        <div class="description flex container">
+            <div class="right">
+                <h1>فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین</h1>
+                <p>دیجی‌کالا به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با پایبندی به سه اصل، پرداخت در محل،
+                 7 روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا موفق شده تا همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود.
+                 به محض ورود به سایت دیجی‌کالا با دنیایی از کالا رو به رو می‌شوید!
+                هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند در اینجا پیدا خواهید کرد.
+                </p>
+            </div>
+            <div class="left flex">
+                <a href=""><img src="{{ asset('img/footer/c1.png') }}" alt=""></a>
+                <a href=""><img src="{{ asset('img/footer/c3.png') }}" alt=""></a>
+                <a href=""><img src="{{ asset('img/footer/c2.png') }}" alt=""></a>
+            </div>
+        </div>
+        <nav class="digi">
+            <ul class="flex container">
+                <li><a href=""><img src="{{ asset('img/footer/item11.svg') }}" alt=""></a></li>
+                <li><a href=""><img src="{{ asset('img/footer/item10.svg') }}" alt=""></a></li>
+                <li><a href=""><img src="{{ asset('img/footer/item15.svg') }}" alt=""></a></li>
+                <li><a href=""><img src="{{ asset('img/footer/item12.svg') }}" alt=""></a></li>
+                <li><a href=""><img src="{{ asset('img/footer/item14.svg') }}" alt=""></a></li>
+                <li><a href=""><img src="{{ asset('img/footer/item13.svg') }}" alt=""></a></li>
+            </ul>
+        </nav>
+        <div class="copyRight">
+            <p>استفاده از مطالب فروشگاه اینترنتی دیجی‌کالا فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است. کلیه حقوق این سایت متعلق به شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) می‌باشد</p>
+        </div>
+    </div>
+
 </footer>
 
 
