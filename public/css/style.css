@@ -870,30 +870,35 @@ margin-top: 14px;
     background-color: #fff;
 
 }
-#product .tab ul{
-    background-color: #f8f8f8;
+#product .tab > ul{
+    background-color: #fff;
     border: 1px solid #dfdfdf;
     position: sticky;
-    top: 121px;
-    z-index: 1;
+    top: 68px;
+    z-index: 2;
 }
-#product .tab ul li{
+#product .tab > ul > li{
     font-size: 17px;
-    border-left:1px solid #dfdfdf;
     position: relative;
+    border-bottom: 1px solid #e0e0e2;
 }
-#product .tab ul li a{
+#product .tab > ul > li > a{
     display: block;
     padding: 14px 20px;
+    color: #4a5f73;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
 }
-#product .tab ul li :after{
+#product .tab > ul > li.active{
+    background-color: #fff;
     color: #ef394e;
 }
-#product .tab ul li.active{
-    background-color: #fff;
 
-}
-#product .tab ul li.active:before{
+#product .tab > ul > li.active:before{
     content: '';
     display: block;
     position: absolute;
@@ -912,17 +917,17 @@ margin-top: 14px;
 #product .tab #tabChildes .tab1 .tba1Container{
     padding: 40px;
 }
-#product .tab #tabChildes .tab1 .tba1Container h2{
+#product .tab #tabChildes .h2{
     color: #515151;
     font-size: 14px;
     line-height: 45px;
 }
-#product .tab #tabChildes .tab1 .tba1Container h2 span{
+#product .tab #tabChildes .h2 span{
     display: block;
     color: #a7a7a7;
     font-size: 14px;
 }
-#product .tab #tabChildes .tab1 .tba1Container h2 span:after{
+#product .tab #tabChildes .h2 span:after{
     content: "";
     background-color: #ef394e;
     margin-top: 8px;
@@ -997,40 +1002,21 @@ display: block;
     line-height: 21px;
 }
 #product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .price2 .basket2{
-font-size: 18px;
-line-height: 1.222;
-border-radius: 8px;
-color: #fff;
-overflow: hidden;
-text-align: center;
-min-height: 48px;
-padding: 12px 18px;
-background-color: #ef394e;
-border: none;
-margin-top: 14px;
+    font-size: 18px;
+    line-height: 1.222;
+    border-radius: 8px;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    min-height: 48px;
+    padding: 12px 18px;
+    background-color: #ef394e;
+    border: none;
+    margin-top: 14px;
 }
 /*-----Start Tab2-----*/
 #product .tab #tabChildes .tab2 .tba2Container{
     padding: 40px;
-}
-#product .tab #tabChildes .tab2 .tba2Container h2{
-    color: #515151;
-    font-size: 16px;
-    line-height: 45px;
-}
-#product .tab #tabChildes .tab2 .tba2Container h2 span{
-    display: block;
-    color: #a7a7a7;
-    font-size: 14px;
-}
-#product .tab #tabChildes .tab2 .tba2Container h2 span:after{
-    content: "";
-    background-color: #ef394e;
-    margin-top: 8px;
-    height: 2px;
-    width: 70px;
-    border-radius: 1px;
-    display: block;
 }
 #product .tab #tabChildes .tab2 .tba2Container .expertSummary2 div{
     color: #232933;
@@ -1050,10 +1036,42 @@ margin-top: 14px;
     display: block;
     max-width: 72%;
 }
-
-
-
-
+/*-----Start Tab3-----*/
+#product .tab #tabChildes .tab3  section .title{
+    width: 250px;
+    color: #232933;
+    font-size: 17px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 550px;
+}
+#product .tab #tabChildes .tab3 > section{
+    width: 70%;
+}
+#product .tab #tabChildes .tab3 > section >ul >li{
+    margin: 10px 0;
+}
+#product .tab #tabChildes .tab3 > section >ul >li >div{
+    display: flex;
+    min-width: 170px;
+    align-items: center;
+    position: relative;
+    letter-spacing: -.3px;
+    padding: 14px 18px 12px;
+}
+#product .tab #tabChildes .tab3 > section >ul >li .property{
+    min-width: 30%;
+    color: #a1a3a8;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.571;
+}
+#product .tab #tabChildes .tab3 > section >ul >li .value{
+    min-width: 70%;
+    color: #232933;
+    font-size: 14px;
+    line-height: 1.571;
+}
 
 
 @media (max-width: 760px) {

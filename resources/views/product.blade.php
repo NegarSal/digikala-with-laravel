@@ -285,7 +285,7 @@
     <div id="tabChildes">
         <div class="tab1 hidden">
             <div class="tba1Container">
-                <h2>نقد و بررسی اجمالی
+                <h2 class="h2">نقد و بررسی اجمالی
                     <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
                 </h2>
                 <section class="expertSummary flex">
@@ -320,7 +320,7 @@
         </div>
         <div class="tab2 hidden">
             <div class="tba2Container">
-                <h2>نقد و بررسی تخصصی
+                <h2 class="h2">نقد و بررسی تخصصی
                     <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
                 </h2>
                 <section class="expertSummary2">
@@ -335,7 +335,61 @@
                 </section>
             </div>
         </div>
-        <div class="tab3 hidden">tab3</div>
+        <div class="tab3 hidden">
+                <h2 class="h2">مشخصات کالا
+                    <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
+                </h2>
+                <section class="flex">
+                    <h3 class="title">مشخصات کلی</h3>
+                    <ul>
+                        <li class="flex">
+                            <div class="property">ابعاد</div>
+                            <div class="value">162.3x77.3x9.6 میلی‌متر</div>
+                        </li>
+                        <li class="flex">
+                            <div class="property">توضیحات سیم کارت</div>
+                            <div class="value">سایز نانو (8.8 × 12.3 میلی‌متر)</div>
+                        </li>
+                        <li class="flex">
+                            <div class="property">وزن</div>
+                            <div class="value">198 گرم</div>
+                        </li>
+                        <li class="flex">
+                            <div class="property">ساختار بدنه</div>
+                            <div class="value">
+                                قاب جلو از شیشه با محافظ گوریلا گلس ۳
+                                قاب پشت از جنس پلاستیک
+                                فریم از جنس پلاستیک
+                            </div>
+                        </li>
+                        <li class="flex">
+                            <div class="property">ویژگی‌های خاص</div>
+                            <div class="value">مجهز به حس‌گر اثرانگشت , مناسب عکاسی , مناسب عکاسی سلفی , مناسب بازی , دارای بدنه مقاوم</div>
+                        </li>
+                        <li class="flex">
+                            <div class="property">تعداد سیم کارت</div>
+                            <div class="value">دو سیم کارت</div>
+                        </li>
+                        <li class="flex">
+                            <div class="property">زمان معرفی</div>
+                            <div class="value">24 نوامبر 2020</div>
+                        </li>
+                        <li class="flex">
+                            <div class="property">شیار مجزا برای کارت حافظه</div>
+                            <div class="value">دارد</div>
+                        </li>
+                        <li class="flex">
+                            <div class="property">مدل</div>
+                            <div class="value">
+                                (جهانی) Xiaomi POCO M3 M2010J19CG - Global</div>
+                        </li>
+                        <li class="flex">
+                            <div class="property">شناسه کالا</div>
+                            <div class="value">2800000492908</div>
+                        </li>
+                    </ul>
+                </section>
+        </div>
         <div class="tab4 hidden">tab4</div>
         <div class="tab5 hidden">tab5</div>
     </div>
