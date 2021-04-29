@@ -23,15 +23,15 @@
                         <div class="subnav">
                             <button class="subnavbtn"><i class="fas fa-bars"></i> دسته بندی کالاها</button>
                             <div class="subnav-content">
-                                <li style="float: right"><a href="#"><i class='fas fa-laptop'></i> کالای دیجیتال</a></li>
-                                <li style="float: right"><a href="#"><i class='fas fa-wrench'></i> خودرو ابزار و تجهیزات صنعتی</a></li>
-                                <li style="float: right"><a href="#"><i class='fas fa-tshirt'></i> مد و پوشاک</a></li>
-                                <li style="float: right"><a href="#"><i class='far fa-smile'></i> اسباب بازی کودک و نوازاد</a></li>
-                                <li style="float: right"><a href="#"><i class='fas fa-shopping-cart'></i> کالاهای سوپرمارکتی</a></li>
-                                <li style="float: right"><a href="#"><i class='fas fa-heart'></i> زیبایی و سلامت</a></li>
-                                <li style="float: right"><a href="#"><i class='fas fa-couch'></i> خانه و آشپزخانه</a></li>
-                                <li style="float: right"><a href="#"><i class='far fa-edit'></i> کتاب لوازم تحریر و هنر</a></li>
-                                <li style="float: right"><a href="#"><i class='fas fa-campground'></i> ورزش و سفر</a></li>
+                                <li><a href="#"><i class='fas fa-laptop'></i> کالای دیجیتال</a></li>
+                                <li><a href="#"><i class='fas fa-wrench'></i> خودرو ابزار و تجهیزات صنعتی</a></li>
+                                <li><a href="#"><i class='fas fa-tshirt'></i> مد و پوشاک</a></li>
+                                <li><a href="#"><i class='far fa-smile'></i> اسباب بازی کودک و نوازاد</a></li>
+                                <li><a href="#"><i class='fas fa-shopping-cart'></i> کالاهای سوپرمارکتی</a></li>
+                                <li><a href="#"><i class='fas fa-heart'></i> زیبایی و سلامت</a></li>
+                                <li><a href="#"><i class='fas fa-couch'></i> خانه و آشپزخانه</a></li>
+                                <li><a href="#"><i class='far fa-edit'></i> کتاب لوازم تحریر و هنر</a></li>
+                                <li><a href="#"><i class='fas fa-campground'></i> ورزش و سفر</a></li>
                             </div>
                           </div>
                         <li><a href=""><i class="fa fa-shopping-basket"></i> سوپرمارکت</a></li>
@@ -62,11 +62,11 @@
                                           <h5 class="card-title"></h5>
                                           <p class="card-text" style="color: #777">سایر لوازم جانبی موتورسیکلت کمتراز۲۰۰هزارتومان</p>
                                           <p class="card-text" style="color: #777">شمش و پلاک طلا کمتر از ۱۵۰هزارتومان</p>
-                                          <p class="card-text">پرفروشترین کالاها <i class="fas fa-fire"></i></p>
-                                          <p class="card-text">باهرخرید هدیه بگیرید <i class="fa fa-gift"></i></p>
-                                          <p class="card-text">تخفیف پایان سال <i class="fa fa-tags"></i></p>
-                                          <p class="card-text">کارت هدیه خرید از دیجی کالا <i class="far fa-credit-card"></i></p>
-                                          <p class="card-text">تازه های فروشنده های جدید <i class="fa fa-shopping-basket"></i></p>
+                                          <p class="card-text"><i class="fas fa-fire"></i> پرفروشترین کالاها</p>
+                                          <p class="card-text"><i class="fa fa-gift"></i> باهرخرید هدیه بگیرید</p>
+                                          <p class="card-text"><i class="fa fa-tags"></i> تخفیف پایان سال</p>
+                                          <p class="card-text"><i class="far fa-credit-card"></i> کارت هدیه خرید از دیجی کالا</p>
+                                          <p class="card-text"><i class="fa fa-shopping-basket"></i> تازه های فروشنده های جدید</p>
                                         </div>
                                       </div>
                                       <div class="left">
