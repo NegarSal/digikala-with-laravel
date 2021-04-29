@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <title>
-            @yield('title') مشخصات , قیمت و خرید گوشی
+            @yield('title') مشخصات , قیمت و خرید گوشی موبایل
         </title>
         <link rel="icon" type="image/jpeg" href="{{ asset('img/logo.jpeg') }}"/>
 
@@ -399,7 +399,42 @@
                 </h2>
             </div>
             <section>
-                <div class="rating"></div>
+                <div class="rating">
+                    <ul>
+                        <li class="flex">
+                            <div class="items">کیفیت ساخت</div>
+                            <div class="value"></div>
+                            <div>۴.۲</div>
+                        </li>
+                        <li class="flex">
+                            <div class="items">ارزش خرید به نسبت قیمت</div>
+                            <div class="value"></div>
+                            <div>۴.۲</div>
+                        </li>
+                        <li class="flex">
+                            <div>نوآوری</div>
+                            <div></div>
+                            <div>۴.۲</div>
+                        </li>
+                        <li class="flex">
+                            <div class="items">امکانات و قابلیت ها</div>
+                            <div class="value"></div>
+                            <div>۴.۱</div>
+                        </li>
+                        <li class="flex">
+                            <div class="items">سهولت استفاده</div>
+                            <div class="value"></div>
+                            <div>۴.۱</div>
+                        </li>
+                        <li class="flex">
+                            <div class="items">طراحی و ظاهر</div>
+                            <div class="value"></div>
+                            <div>۴.۱</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="comment">
+                </div>
             </section>
         </div>
         <div class="tab5 hidden">

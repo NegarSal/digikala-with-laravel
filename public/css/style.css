@@ -138,6 +138,39 @@ header nav .hidden{
     color:#616161;
     font-size:12px ;
 }
+/*subnavs in navBar*/
+.subnav {
+    float: left;
+
+  }
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    cursor: pointer;
+    color:#616161;
+    font-size:12px ;
+  }
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: #fff;
+  }
+  .subnav-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 600px;
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
 
 /*slider-part1*/
 .swiper-container {
@@ -1079,9 +1112,23 @@ display: block;
 #product .tab #tabChildes .tab4 .tba4Container{
     padding: 40px;
 }
-
-
-
+#product .tab #tabChildes .tab4 .tba4Container section .rating > ul{
+    padding: 33px 33px 33px 60px;
+    background-color: #fcfcfc;
+    line-height: 40px;
+    border-radius: 8px;
+}
+#product .tab #tabChildes .tab4 .tba4Container section .rating > ul li .value {
+    height: 4px;
+    background-color: #eaeaea;
+    width: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#product .tab #tabChildes .tab4 .tba4Container section{
+    width: 100%;
+}
 
 
 
