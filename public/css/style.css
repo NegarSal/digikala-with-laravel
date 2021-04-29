@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Shabnam-Bold-FD';
 }
 @font-face {
     font-family: 'Shabnam-Bold-FD';
@@ -32,6 +33,14 @@ html{
 }
 img{
     max-width: 100%;
+}
+header .header .headerRight .logo{
+    background-size: contain;
+    background: url("../img/logo.svg") no-repeat center;
+    display: block;
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
 }
 header{
     background-color: white;
@@ -222,6 +231,20 @@ main article .flex .bannerLeft a:nth-child(1){
 }
 
 /*specialoffer*/
+.specialoffer .slider .banner{
+    background: url("../img/sp-o.png");
+    height: 250px;
+    display: block;
+    background-position:center;
+    background-size: cover;
+}
+.specialoffer .slider .marketBanner{
+    background: url("../img/fr-o.png");
+    height: 250px;
+    display: block;
+    background-position: center;
+    background-size: cover;
+}
 main .specialoffer{
     width: 100%;
     background-color: #ef394e;

@@ -798,23 +798,3 @@
 
 
 </main>
-
-
-
-
-<style>
-.specialoffer .slider .banner{
-    background: url("img/sp-o.png");
-    height: 250px;
-    display: block;
-    background-position:center;
-    background-size: cover;
-}
-.specialoffer .slider .marketBanner{
-    background: url("img/fr-o.png");
-    height: 250px;
-    display: block;
-    background-position: center;
-    background-size: cover;
-}
-</style>

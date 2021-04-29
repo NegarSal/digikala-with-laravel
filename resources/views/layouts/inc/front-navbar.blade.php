@@ -127,15 +127,3 @@
         </div>
     </nav>
 </header>
-
-
-<style>
- header .header .headerRight .logo{
-    background-size: contain;
-    background: url("img/logo.svg") no-repeat center;
-    display: block;
-    width: 120px;
-    height: 30px;
-    margin-left: 10px;
-}
-</style>

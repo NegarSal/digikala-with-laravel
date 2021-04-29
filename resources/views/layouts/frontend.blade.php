@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}">
 
+    <!--fonts-->
     <link rel="stylesheet" href="{{ asset('fonts/Shabnam-Bold-FD.eot') }}">
     <link rel="stylesheet" href="{{ asset('fonts/Shabnam-Bold-FD.ttf') }}">
     <link rel="stylesheet" href="{{ asset('fonts/Shabnam-Bold-FD.woff') }}">
     <link rel="stylesheet" href="{{ asset('fonts/Shabnam-Bold-FD.woff2') }}">
-    
 
+    <!--fontawesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 
