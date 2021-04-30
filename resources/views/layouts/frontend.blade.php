@@ -26,7 +26,7 @@
   <body>
 
     <!-- Start project here-->
-       @include('layouts.inc.front-navbar')
+    <x-header/>
 
         <main>
             @yield('content')
