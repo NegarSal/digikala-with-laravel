@@ -17,7 +17,7 @@
       </head>
 <body>
 <!--navbar-->
-@include('layouts.inc.front-navbar')
+<x-header/>
 
 <!--middlepart-->
 <main>

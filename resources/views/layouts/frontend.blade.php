@@ -26,7 +26,7 @@
   <body>
 
     <!-- Start project here-->
-    <x-header/>
+   
 
         <main>
             @yield('content')

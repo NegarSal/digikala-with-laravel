@@ -1,11 +1,8 @@
 @extends('layouts.frontend')
 
 @section('content')
-     @include('frontend.slider.slider')
-@endsection
-
-
-@section('content')
+    <div>
         <x-header/>
-
+        <x-slider/>
+    </div>
 @endsection
