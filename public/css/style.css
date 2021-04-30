@@ -44,23 +44,23 @@ header .header .headerRight .logo{
 }
 header{
     background-color: white;
-   /* position: fixed;
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
-    z-index: 10;*/
+    z-index: 10;
 }
 header .header{
     max-width: 1676px;
     min-width: 1009px;
     margin: 0 auto;
     padding: 12px 14px;
-   /* display: flex;
+    display: flex;
     align-items: center;
     background-color: white;
     position: relative;
-    z-index: 100;*/
-}
+    z-index: 100;
+} 
 
 header .header .headerRight{
     display: flex;
@@ -82,7 +82,7 @@ header .header .headerLeft {
     align-items: center;
     position: relative;
     display: flex;
-    margin-top: -50px;
+    width: 50%;
 }
 header .header .headerLeft a:nth-child(1){
     border: 1px solid #e0e0e2 ;
@@ -106,7 +106,6 @@ header .headerRight .fa-search{
     color: #a1a3a8;
     font-size: 18px;
 }
-/*
 header nav{
     position: absolute;
     background-color: white;
@@ -115,10 +114,10 @@ header nav{
     transition: .5s;
     box-shadow: 0 7px 8px o rgba(0,0,0,.04);
 }
-header nav .hidden{
+header nav.hidden{
     transform: translateY(-100%);
     z-index: -1;
-}*/
+}
 .flex{
     display: flex;
     align-items: center;

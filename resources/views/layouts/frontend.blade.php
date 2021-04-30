@@ -27,13 +27,12 @@
 
     <!-- Start project here-->
        @include('layouts.inc.front-navbar')
-    <main>
-        @yield('content')
-    </main>
+
+        <main>
+            @yield('content')
+        </main>
 
        @include('layouts.inc.middle')
-
-
 
        @include('layouts.inc.front-footer')
 

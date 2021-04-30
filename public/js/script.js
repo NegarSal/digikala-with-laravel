@@ -1,3 +1,21 @@
+/*script for navbar*/
+$(document).ready(function() {
+    
+    var box=$(window);
+    var nav=$('header nav');
+    var posEnd=0;
+
+    box.scroll(function() {
+        var posStart=box.scrollTop();
+        if(posStart>posEnd){
+            nav.addClass('hidden');
+        }else{
+            nav.removeClass('hidden');
+        }
+        posEnd=posStart;
+    })
+});
+
 /*script for slider s0*/
 var swiper0 = new Swiper('.s0', {
     slidesPerView: 1,
