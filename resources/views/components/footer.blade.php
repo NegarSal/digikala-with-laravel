@@ -1,3 +1,7 @@
+<div>
+    <!-- Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant -->
+</div>
+
 <!--footer-->
 <footer>
     <a href="#" class="scrollTop flex"><i class="fas fa-caret-up"></i>برگشت به بالا</a>

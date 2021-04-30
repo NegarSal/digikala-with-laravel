@@ -26,7 +26,7 @@
   <body>
 
     <!-- Start project here-->
-   
+
 
         <main>
             @yield('content')
@@ -34,7 +34,7 @@
 
        @include('layouts.inc.middle')
 
-       @include('layouts.inc.front-footer')
+      
 
     <!-- End project here-->
 

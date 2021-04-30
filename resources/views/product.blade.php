@@ -583,7 +583,7 @@
 </main>
 
 <!--footer-->
-@include('layouts.inc.front-footer')
+<x-footer/>
 
 <script src="js/jquery-3.6.0.js"></script>
 <script src="js/jquery.countdown.min.js"></script>
