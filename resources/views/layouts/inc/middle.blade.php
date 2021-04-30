@@ -161,7 +161,7 @@
 <!--End Part3-->
 
 <!--fresh-offers-->
-    <article class="specialoffer marketSlide">
+    <article class="specialoffer marketSlider">
         <section class="slider container flex">
             <div class="right">
                 <a class="marketBanner" href=""></a>
