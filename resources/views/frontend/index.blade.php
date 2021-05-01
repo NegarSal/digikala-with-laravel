@@ -41,7 +41,12 @@
 
             <!--Part-moisturizing-->
                 <x-moisturizing/>
-           
+
+           <!--Part-watch-->
+                <x-watch/>
+
+           <!--Part-recent-pro-->
+                <x-recent-pro/>
 
 
         </article>
