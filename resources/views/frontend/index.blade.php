@@ -32,6 +32,25 @@
                <x-banner1-2/>
             <!--Part-laundry detergent--->
                <x-laundry-detergent/>
+
+            <!--Part-coffee -->
+               <x-coffee/>
+               
+            <!--Part- -->
+
+
+
+            <!--Part- -->
+            <!--Part- -->
+            <!--Part- -->
+            <!--Part- -->
+            <!--Part- -->
+            <!--Part- -->
+
+
+
+
+
         </article>
 
 
