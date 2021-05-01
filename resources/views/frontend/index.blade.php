@@ -48,6 +48,8 @@
            <!--Part-recent-pro-->
                 <x-recent-pro/>
 
+           <!--Part-lastPart-->
+                <x-banner2/>
 
         </article>
 
