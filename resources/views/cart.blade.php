@@ -12,59 +12,17 @@
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!--fonts-->
+        <link rel="stylesheet" href="{{ asset('fonts/Shabnam-Bold-FD.eot') }}">
+        <link rel="stylesheet" href="{{ asset('fonts/Shabnam-Bold-FD.ttf') }}">
+        <link rel="stylesheet" href="{{ asset('fonts/Shabnam-Bold-FD.woff') }}">
+        <link rel="stylesheet" href="{{ asset('fonts/Shabnam-Bold-FD.woff2') }}">
+
+        <!--fontawesome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-
-        <style>
-            header .header .headerRight .logo{
-               background-size: contain;
-               background: url("img/logo.svg") no-repeat center;
-               display: block;
-               width: 120px;
-               height: 30px;
-               margin-left: 10px;
-           }
-              /* Style the tab */
-    .tab {
-      overflow: hidden;
-      border: 1px solid #ccc;
-    }
-
-    /* Style the buttons inside the tab */
-    .tab button {
-      background-color: inherit;
-      float: right;
-      outline: none;
-      cursor: pointer;
-      padding: 14px 16px;
-      transition: 0.3s;
-      font-size: 25px;
-      border: 0 ;
-
-      color: #777;
-    }
-
-    /* Create an active/current tablink class */
-    .tab button.active {
-      border-bottom:1px solid red;
-      color: red;
-    }
-
-    /* Style the tab content */
-    .tabcontent {
-      display: none;
-      padding: 6px 12px;
-      border: 1px solid #ccc;
-      border-top: none;
-
-    }
-           </style>
       </head>
-  @include('layouts.inc.front-navbar')
+ <x-header/>
 
 <!--tabs in header-->
 <div class="tab" style="padding-top: 80px" >
@@ -159,23 +117,12 @@
 
 
 <!--footer-->
-@include('layouts.inc.front-footer')
+<x-footer/>
 
-<script>
-function Cart(evt, Name) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(Name).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
 
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
   </body>
   </html>

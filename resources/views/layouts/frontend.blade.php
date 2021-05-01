@@ -32,10 +32,6 @@
             @yield('content')
         </main>
 
-       @include('layouts.inc.middle')
-
-
-
     <!-- End project here-->
 
     <script src="js/jquery-3.6.0.js"></script>

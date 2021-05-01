@@ -1192,6 +1192,46 @@ display: block;
     width: 100%;
     padding: 24px;
 }
+
+/*styles for cart in navbar-header*/
+
+    /* Style the tab */
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+      }
+
+      /* Style the buttons inside the tab */
+      .tab button {
+        background-color: inherit;
+        float: right;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 25px;
+        border: 0 ;
+
+        color: #777;
+      }
+
+      /* Create an active/current tablink class */
+      .tab button.active {
+        border-bottom:1px solid red;
+        color: red;
+      }
+
+      /* Style the tab content */
+      .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+
+      }
+
+
+      
 @media (max-width: 760px) {
     .swiper-button-next {
       right: 20px;

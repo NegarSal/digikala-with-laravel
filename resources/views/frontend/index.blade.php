@@ -55,12 +55,9 @@
             <x-Brand/>
 
         </article>
-
-
     </main>
-
-
-
+    
+<!--footer-->
         <x-footer/>
     </div>
 @endsection
