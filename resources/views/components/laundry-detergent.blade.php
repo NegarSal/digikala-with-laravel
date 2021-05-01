@@ -1,15 +1,15 @@
 
-    <!-- When there is no desire, all things are at peace. - Laozi -->
-<article class="box container">
+    <!-- If you do not have a consistent goal in life, you can not live it in a consistent way. - Marcus Aurelius -->
+
     <div class="swiper-container s1 swiper1">
         <div class="headline">
-            <span>کتاب چاپی</span>
+            <span>شوینده لباس</span>
         </div>
         <div class="swiper-wrapper">
             <div class="swiper-slide">
               <a class="card"  href="">
                 <div class="image">
-                    <img src="{{ asset('img/kch.1.jpg') }}">
+                    <img src="{{ asset('img/sh-1.jpg') }}">
                 </div>
                 <div class="title">
                     محصول شماره ۱
@@ -29,7 +29,7 @@
             <div class="swiper-slide">
               <a class="card" href="">
                 <div class="image">
-                    <img src="{{ asset('img/kch.2.jpg') }}" alt="">
+                    <img src="{{ asset('img/sh-3.jpg') }}" alt="">
                 </div>
                 <div class="title">
                     محصول شماره ۲
@@ -49,7 +49,7 @@
             <div class="swiper-slide">
              <a class="card" href="">
                 <div class="image">
-                    <img src="{{ asset('img/kch.3.jpg') }}" alt="">
+                    <img src="{{ asset('img/sh-2.jpg') }}" alt="">
                 </div>
                 <div class="title">
                     محصول شماره ۳
@@ -69,7 +69,7 @@
             <div class="swiper-slide">
              <a class="card" href="">
                 <div class="image">
-                    <img src="{{ asset('img/kch.4.jpg') }}" alt="">
+                    <img src="{{ asset('img/sh-4.jpg') }}" alt="">
                 </div>
                 <div class="title">
                     محصول شماره ۴
@@ -89,7 +89,7 @@
             <div class="swiper-slide">
              <a class="card" href="">
                 <div class="image">
-                    <img src="{{ asset('img/kch.5.jpg') }}" alt="">
+                    <img src="{{ asset('img/sh-5.jpg') }}" alt="">
                 </div>
                 <div class="title">
                     محصول شماره ۵
@@ -109,7 +109,7 @@
             <div class="swiper-slide">
              <a class="card" href="">
                 <div class="image">
-                    <img src="{{ asset('img/kch.6.jpg') }}" alt="">
+                    <img src="{{ asset('img/sh-6.jpg') }}" alt="">
                 </div>
                 <div class="title">
                     محصول شماره ۶
@@ -130,4 +130,4 @@
         <div class="swiper-button-next next"></div>
         <div class="swiper-button-prev prev"></div>
         </div>
-</article>
+

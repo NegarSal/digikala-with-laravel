@@ -30,7 +30,8 @@
 
             <!--Part-banner1-2--->
                <x-banner1-2/>
-
+            <!--Part-laundry detergent--->
+               <x-laundry-detergent/>
         </article>
 
 
