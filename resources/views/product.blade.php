@@ -145,7 +145,7 @@
             <div class="deltitle">لیست فروشندگان این کالا</div>
             <div class="supplier flex">
                 <div class="suppliergaranti"><i class="fas fa-archive"></i> کالا پلاس <button>برگزیده</button>
-                    <div class="supplierrating">عملکرد: ۵از۵</div>
+                    <div class="supplierrating">عملکرد: ۴ از ۵</div>
                 </div>
                 <div class="suppliertruck"><i class="fas fa-truck"></i> ارسال دیجی کالا</div>
                 <div class="suppliergaranti"><i class="	fas fa-shield-alt"></i> گارانتی۱۸ماهه وی دو سل</div>
@@ -429,41 +429,50 @@
                 </h2>
             </div>
             <section>
-                <div class="rating">
-                    <ul>
-                        <li class="flex">
-                            <div class="items">کیفیت ساخت</div>
-                            <div class="value"></div>
-                            <div>۴.۲</div>
-                        </li>
-                        <li class="flex">
-                            <div class="items">ارزش خرید به نسبت قیمت</div>
-                            <div class="value"></div>
-                            <div>۴.۲</div>
-                        </li>
-                        <li class="flex">
-                            <div>نوآوری</div>
-                            <div></div>
-                            <div>۴.۲</div>
-                        </li>
-                        <li class="flex">
-                            <div class="items">امکانات و قابلیت ها</div>
-                            <div class="value"></div>
-                            <div>۴.۱</div>
-                        </li>
-                        <li class="flex">
-                            <div class="items">سهولت استفاده</div>
-                            <div class="value"></div>
-                            <div>۴.۱</div>
-                        </li>
-                        <li class="flex">
-                            <div class="items">طراحی و ظاهر</div>
-                            <div class="value"></div>
-                            <div>۴.۱</div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="comment">
+                <div class="flex">
+                    <div class="rating">
+                        <ul>
+                            <li>
+                                <div class="items">کیفیت ساخت</div>
+                                <div class="value">
+                                    <div class="rate"></div>
+                                </div>4.2
+                            </li>
+                            <li>
+                                <div class="items">ارزش خرید به نسبت قیمت</div>
+                                <div class="value">
+                                    <div class="rate"></div>
+                                </div>4.1
+                            </li>
+                            <li>
+                                <div class="items">نوآوری</div>
+                                <div class="value">
+                                    <div class="rate"></div>
+                                </div>4.1
+                            </li>
+                            <li>
+                                <div class="items">امکانات و قابلیت ها</div>
+                                <div class="value">
+                                    <div class="rate"></div>
+                                </div>4.1
+                            </li>
+                            <li>
+                                <div class="items">سهولت استفاده</div>
+                                <div class="value">
+                                    <div class="rate"></div>
+                                </div>4.1
+                            </li>
+                            <li>
+                                <div class="items">طراحی و ظاهر</div>
+                                <div class="value">
+                                    <div class="rate"></div>
+                                </div>4.1
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="comment">
+                        <span><i class="far fa-lightbulb"></i>بیش از ۲۹۰ نفر از خریداران این محصول را پیشنهاد داده‌اند</span>
+                    </div>
                 </div>
             </section>
         </div>

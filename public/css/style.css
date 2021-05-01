@@ -825,7 +825,6 @@ footer .info .copyRight{
     border-radius: 8px;
     padding: 10px;
     margin-left: -20px;
-    margin-top: 82px;
 }
 #product article .details .probox .seller{
     line-height: 12px;
@@ -1082,8 +1081,10 @@ padding: 10px;
 }
 #product .tab #tabChildes .h2 span{
     display: block;
-    color: #a7a7a7;
     font-size: 14px;
+    font-weight: 200;
+    line-height: 25px;
+    color: #81858b;
 }
 #product .tab #tabChildes .h2 span:after{
     content: "";
@@ -1095,10 +1096,13 @@ padding: 10px;
     display: block;
 }
 #product .tab #tabChildes .tab1 .tba1Container .expertSummary .right{
-    color: #686868;
-    font-size: 12px;
+    font-size: 14px;
     max-width: 70%;
-    line-height: 30px;
+    line-height: 32px;
+    color: #232933;
+    padding: 16px;
+    margin-bottom: 120px;
+    font-weight: 100;
 }
 #product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox{
     width: 100%;
@@ -1192,13 +1196,13 @@ display: block;
     line-height: 2.57;
     color: #232933;
     display: block;
-    max-width: 72%;
 }
+
 /*-----Start Tab3-----*/
 #product .tab #tabChildes .tab3 .tba3Container{
     padding: 40px;
 }
-#product .tab #tabChildes .tab3 .tba3Container section .title{
+#product .tab #tabChildes .tab3 .tba3Container > section .title{
     width: 250px;
     color: #232933;
     font-size: 17px;
@@ -1237,26 +1241,50 @@ display: block;
 #product .tab #tabChildes .tab4 .tba4Container{
     padding: 40px;
 }
-#product .tab #tabChildes .tab4 .tba4Container section .rating > ul{
+#product .tab #tabChildes .tab4 section{
+    width: 100%;
+}
+#product .tab #tabChildes .tab4 section .items{
+    font-size: 14px;
+    line-height: 1.571;
+    color: #62666d;
+    width: 14%;
+}
+#product .tab #tabChildes .tab4 section .rating > ul{
     padding: 33px 33px 33px 60px;
     background-color: #fcfcfc;
     line-height: 40px;
     border-radius: 8px;
 }
-#product .tab #tabChildes .tab4 .tba4Container section .rating > ul li .value {
+#product .tab #tabChildes .tab4 section .rating > ul li .value {
     height: 4px;
     background-color: #eaeaea;
     width: 200px;
-    width: 100%;
-    display: flex;
+    width: 15%;
+    display:flex;
     align-items: center;
 }
-#product .tab #tabChildes .tab4 .tba4Container section{
-    width: 100%;
+#product .tab #tabChildes .tab4 section .rating > ul li .value{
+    position: relative;
 }
-
-
-
+#product .tab #tabChildes .tab4 section .rating > ul li .value .rate{
+    position: absolute;
+    background-color: #00bfd6;
+    width: 80%;
+    height: 100%;
+}
+#product .tab #tabChildes .tab4 section .comment{
+    font-size: 14px;
+    line-height: 1.71;
+    color: #424750;
+    font-weight: 700;
+    display: block;
+}
+#product .tab #tabChildes .tab4 section .comment i{
+    color: #fb3449;
+    font-size: 19px;
+    margin-left: 4px;
+}
 
 
 
