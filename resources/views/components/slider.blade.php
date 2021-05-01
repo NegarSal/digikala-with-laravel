@@ -1,7 +1,6 @@
 
     <!-- The whole future lies in uncertainty: live immediately. - Seneca -->
 
-
 <main>
     <article class="container">
         <div class="flex">
