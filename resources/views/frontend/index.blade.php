@@ -22,14 +22,18 @@
            <x-banner1-w50/>
         <!--Part 5-->
 
-        <!--Part 5-->
-        <x-book/>
-        <!--Part 5-->
+        <!--Part-book-->
+           <x-book/>
+        <!--Part-book-->
 
         <article class="box container">
             <!--Part7/Icon-->
                <x-blueicon/>
             <!--Part7/Icon-->
+
+            <!--Part-mobile-->
+              <x-mobile/>
+            <!--Part-mobile-->
         </article>
 
 
