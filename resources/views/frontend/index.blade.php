@@ -22,6 +22,10 @@
            <x-banner1-w50/>
         <!--Part 5-->
 
+        <!--Part 5-->
+        <x-book/>
+        <!--Part 5-->
+
         <article class="box container">
             <!--Part7/Icon-->
                <x-blueicon/>
