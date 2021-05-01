@@ -35,7 +35,10 @@
 
             <!--Part-coffee -->
                <x-coffee/>
-               
+
+            <!--Part-banner1-2-w50 -->
+               <x-banner1-2-w50/>
+
             <!--Part- -->
 
 
@@ -45,12 +48,6 @@
             <!--Part- -->
             <!--Part- -->
             <!--Part- -->
-            <!--Part- -->
-
-
-
-
-
         </article>
 
 

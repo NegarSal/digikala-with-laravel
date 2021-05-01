@@ -6,20 +6,6 @@
 <article class="box container">
 
 
-    <section>
-        <!--Part 9-->
-
-<!--END Part 9-->
-    </section>
-<section class="banner1">
-    <div class="container flex">
-        <a class="atag" href="#"><img src="{{ asset('img/5.3.jpg') }}"></a>
-        <a class="atag" href="#"><img src="{{ asset('img/5.4.jpg') }}"></a>
-    </div>
-</section>
-
-
-
 <!--Part 9-->
 <div class="swiper-container s1 swiper1">
     <div class="headline">
