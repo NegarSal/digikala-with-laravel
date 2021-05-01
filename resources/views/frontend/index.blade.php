@@ -51,6 +51,9 @@
            <!--Part-lastPart-->
                 <x-banner2/>
 
+            <!--Part-lastPart-->
+            <x-Brand/>
+
         </article>
 
 
