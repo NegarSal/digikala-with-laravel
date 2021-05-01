@@ -12,11 +12,15 @@
 
         <!--Part 3-->
             <x-banner1/>
-        <!--End Part3-->
+        <!--Part3-->
 
         <!--fresh-offers-->
-        <x-fresh-offers/>
+            <x-fresh-offers/>
         <!--fresh-offers-->
+
+        <!--Part 5-->
+           <x-banner1-w50/>
+        <!--Part 5-->
 
 
 

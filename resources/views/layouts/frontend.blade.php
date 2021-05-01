@@ -34,7 +34,7 @@
 
        @include('layouts.inc.middle')
 
-      
+
 
     <!-- End project here-->
 

@@ -1,7 +1,6 @@
 
     <!-- He who is contented is rich. - Laozi -->
 
-   
     <article class="specialoffer marketSlider">
         <section class="slider container flex">
             <div class="right">
