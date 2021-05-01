@@ -7,14 +7,7 @@
 
     <section>
 
-<section class="banner1">
-    <div class="container flex">
-        <a href="#"><img src="{{ asset('img/7.1.jpg') }}"></a>
-        <a href="#"><img src="{{ asset('img/7.2.jpg') }}"></a>
-        <a href="#"><img src="{{ asset('img/7.3.jpg') }}"></a>
-        <a href="#"><img src="{{ asset('img/7.4.jpg') }}"></a>
-    </div>
-</section>
+
 <!--Part 10-->
 <div class="swiper-container s1 swiper1">
     <div class="headline">
