@@ -135,11 +135,41 @@
                         <div>قیمت فروشنده<i class="far fa-question-circle"></i></div>
                         <div class="proprice">۴,۸۴۰,۰۰۰ <span>تومان</span></div>
                         <div class="eye"><i class="far fa-eye"></i>۲۰+ نفر در حال بازدید این کالا می‌باشند.</div>
-                        <a href="" class="basket">افزودن به سبد خرید</a>
+                        <a href="" class="basket">افزودن به سبد </a>
                     </div>
                 </div>
                 <div class="bestPrice">آیا قیمت مناسب تری سراغ دارید؟<i class="fas fa-tag"></i></div>
             </section>
+        </article>
+        <article class="deliver container">
+            <div class="deltitle">لیست فروشندگان این کالا</div>
+            <div class="supplier flex">
+                <div class="suppliergaranti"><i class="fas fa-archive"></i> کالا پلاس <button>برگزیده</button>
+                    <div class="supplierrating">عملکرد: ۵از۵</div>
+                </div>
+                <div class="suppliertruck"><i class="fas fa-truck"></i> ارسال دیجی کالا</div>
+                <div class="suppliergaranti"><i class="	fas fa-shield-alt"></i> گارانتی۱۸ماهه وی دو سل</div>
+                <div class="supplierproprice">۴,۸۴۰,۰۰۰ <span>تومان</span></div>
+                <a href="" class="supplierbasket">افزودن به سبد </a>
+            </div>
+
+            <div class="supplier flex">
+                <div class="suppliergaranti"><i class="fas fa-archive"></i> راتین رایا
+                    <div class="supplierrating">عملکرد: ۴ از ۵</div>
+                </div>
+                <div class="suppliertruck"><i class="fas fa-truck"></i> ارسال دیجی کالا</div>
+                <div class="suppliergaranti"><i class="	fas fa-shield-alt"></i>گارانتی ۱۸ ماهه پارس پردیس</div>
+                <div class="supplierproprice">۴,۸۴۰,۰۰۰ <span>تومان</span></div>
+                <a href="" class="supplierbasket">افزودن به سبد </a>
+            </div>
+
+            <div class="supplier flex" id="suplast">
+                <div class="suppliergaranti"><i class="fas fa-archive"></i> رانسب شاپ</div>
+                <div class="suppliertruck"><i class="fas fa-truck"></i> ارسال دیجی کالا</div>
+                <div class="suppliergaranti"><i class="	fas fa-shield-alt"></i> گارانتی ۱۸ ماهه کسری پارس</div>
+                <div class="supplierproprice">۴,۸۴۰,۰۰۰ <span>تومان</span></div>
+                <a href="" class="supplierbasket">افزودن به سبد </a>
+            </div>
         </article>
 <!--first-slider-->
 <div class="swiper-container s1 swiper1">
@@ -578,6 +608,19 @@
     </div>
 <!--text-->
 <div class="lastText">شناسه کالا :DKP - ۴۱۴۹۰۳۷</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </div>
 </main>

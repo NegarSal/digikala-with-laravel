@@ -928,16 +928,109 @@ margin-top: 14px;
     margin-top: 5px;
     text-align: left;
 }
+
+/*product-deliver*/
+#product article .deliver{
+padding: 10px;
+}
+#product article .deltitle{
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #515151;
+}
+#product article .deltitle:after{
+     content: "";
+     background-color: #ef394e;
+     margin-top: 8px;
+     height: 2px;
+     width: 70px;
+     border-radius: 1px;
+     display: block;
+     margin-bottom: 20px;
+}
+#product article .supplier{
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 83px;
+    padding: 0 16px;
+    border-bottom: 1px solid #c0c2c5;
+}
+#product article #suplast{
+    border-bottom: none;
+}
+#product article .suppliergaranti{
+    font-size: 14px;
+    line-height: 1.571;
+    color: #424750;
+    font-weight: 200;
+}
+#product article .suppliergaranti button{
+    color: #00a049;
+    height: 18px;
+    background: rgba(0,160,73,.2);
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+}
+#product article .supplierrating{
+    font-size: 12px;
+    font-size: .857rem;
+    line-height: 1.833;
+    color: #81858b;
+    margin-top: 2px;
+}
+#product article .suppliertruck{
+    display: flex;
+    align-items: center;
+    color: #424750;
+    font-size: 12px;
+    line-height: 1.833;
+}
+#product article .suppliertruck i{
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 8px;
+}
+#product article .supplierproprice{
+    font-size: 16px;
+    line-height: 1.375;
+    color: #424750;
+    display: flex;
+    align-items: center;
+}
+#product article .supplierproprice span{
+    font-size: 10px;
+    line-height: 10px;
+    color: #424750;
+    margin-right: 4px;
+}
+#product article .supplierbasket {
+    padding: 9px 16px;
+    direction: rtl;
+    font-size: 12px;
+    line-height: 1.571;
+    font-weight: 300;
+    border: 1px solid #ef394e;
+    color: #ef394e;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 9px;
+}
+
+
+
 /*product-tabs*/
-/**/
 #product .tab #tabChildes{
     background-color: #fff;
-
+    position:relative;
 }
 #product .tab > ul{
     background-color: #fff;
     border: 1px solid #dfdfdf;
-    position: sticky;
     top: 68px;
     z-index: 2;
 }
@@ -945,6 +1038,7 @@ margin-top: 14px;
     font-size: 17px;
     position: relative;
     border-bottom: 1px solid #e0e0e2;
+    cursor: pointer;
 }
 #product .tab > ul > li > a{
     display: block;
@@ -1177,10 +1271,6 @@ display: block;
 
 
 
-
-
-
-
 /*-----Start Tab5-----*/
 #product .tab #tabChildes .tab5 .tba5Container{
     padding: 40px;
@@ -1231,7 +1321,7 @@ display: block;
       }
 
 
-      
+
 @media (max-width: 760px) {
     .swiper-button-next {
       right: 20px;
