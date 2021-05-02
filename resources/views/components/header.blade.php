@@ -75,7 +75,7 @@
                                         </div>
                                       </div>
                                       <div class="left">
-                                        <img src="{{ asset('img/suggestion.png') }}" style="width:300px; height:440px;">
+                                        <img src="{{ asset('img/sub.sug.png') }}" style="width:300px; height:440px;">
                                       </div>
                                     </div>
                                   </div>
@@ -88,14 +88,13 @@
                                 <div class="card">
                                     <div class="flex">
                                         <div class="right">
-                                            <h5 class="card-title">خدمات ویژه کاربران <a style="color: purple;">دیجی پلاس</a></h5><br>
-                                            <p class="card-text" style="color: #777">ارسال رایگان بدون محدودیت قیمت هدیه نقدی و بازگشت </p>
-                                            <p class="card-text" style="color: #777">  کالا تا ۳۰روز پس از تحویل</p><br>
-                                            <p><a href="">اطلاعات بیشتر و عضویت</a></p><hr>
-                                            کالاهای <a style="color: purple;">دیجی پلاس</a>
+                                            <p class="card-title flex">خدمات ویژه کاربران <a style="color: purple;">دیجی پلاس</a></p><br>
+                                            <p class="card-text" style="color: #777;">ارسال رایگان بدون محدودیت قیمت,هدیه نقدی و بازگشت کالا تا۳۰ روز پس از تحویل</p>
+                                            <p><a href="" style="color: #0fabc6;" class="flex">اطلاعات بیشتر و عضویت</a></p><hr>
+                                            <p class="flex">کالاهای <a style="color: purple;">دیجی پلاس</a></p>
                                         </div>
                                       <div class="left">
-                                        <img src="{{ asset('img/plus.jpg') }}" style="width:270px; height:260px;">
+                                        <img src="{{ asset('img/plus.jpg') }}">
                                       </div>
                                     </div>
                                   </div>
@@ -106,16 +105,16 @@
                             <div class="subnav-content">
                                 <div class="sub1">
                                     <div class="flex">
-                                        <div class="subRight">
-                                            <p class="card-title"><b>digi</b> <a style="color:blue;">club</a></p>
+                                        <div class="subRight" style="margin-right: 4px">
+                                            <p class="card-title flex"> <a style="color:blue;">club</a><b>digi</b></p>
                                             <p class="card-text">صفحه اصلی دیجی کلاب</p>
-                                            <p class="card-text"><i class="fa fa-calendar"></i> جوایز دیجی کلاب</p>
-                                            <p class="card-text" style="color: #777"><i class="far fa-clock"></i> تاریخچه امتیازات دیجی کلاب</p>
-                                            <p class="card-text"><i class="fa fa-flag"></i> ماموریت های دیجی کلاب</p>
-                                            <p class="card-text"><i class="fa fa-gift"></i> قرعه کشی</p>
+                                            <p class="card-text"><i class="fa fa-calendar" style="color: #777"></i> جوایز دیجی کلاب</p>
+                                            <p class="card-text" style="color: #777"><i class="far fa-clock" style="color: #777"></i> تاریخچه امتیازات دیجی کلاب</p>
+                                            <p class="card-text"><i class="fa fa-flag" style="color: #777"></i> ماموریت های دیجی کلاب</p>
+                                            <p class="card-text"><i class="fa fa-gift" style="color: #777"></i> قرعه کشی</p>
                                         </div>
                                       <div class="subLeft">
-                                        <img src="{{ asset('img/club.jpg') }}" style="width:400px; height:250px;">
+                                        <img src="{{ asset('img/club.jpg') }}">
                                       </div>
                                     </div>
                                   </div>

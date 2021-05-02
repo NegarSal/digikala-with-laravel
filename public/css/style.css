@@ -159,8 +159,8 @@ header nav.hidden{
 .subnav {
     float: left;
 
-  }
-  .subnav .subnavbtn {
+}
+.subnav .subnavbtn {
     font-size: 16px;
     border: none;
     outline: none;
@@ -171,11 +171,11 @@ header nav.hidden{
     cursor: pointer;
     color:#616161;
     font-size:12px ;
-  }
-  .navbar a:hover, .subnav:hover .subnavbtn {
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
     background-color: #fff;
-  }
-  .subnav-content {
+}
+.subnav-content {
     display: none;
     position: absolute;
     background-color: #fff;
@@ -183,10 +183,21 @@ header nav.hidden{
     z-index: 10;
     cursor: pointer;
     border-radius: 8px;
-  }
-  .subnav:hover .subnav-content {
+}
+.subnav:hover .subnav-content {
     display: block;
-  }
+}
+.subnav .subnav-content .card .left img{
+    padding:10px;
+    border-radius:25px;
+
+}
+.subnav .subnav-content .sub1 .subLeft img{
+    width:400px;
+    height:260px;
+    padding:12px;
+    border-radius:35px;
+}
 
 
 /*slider-part1*/
