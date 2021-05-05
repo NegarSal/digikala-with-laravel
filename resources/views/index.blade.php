@@ -1,4 +1,4 @@
-@extends('layouts.frontend')
+@extends('layouts.master')
 
 @section('content')
     <div>
@@ -56,7 +56,7 @@
 
         </article>
     </main>
-    
+
 <!--footer-->
         <x-footer/>
     </div>

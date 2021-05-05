@@ -16,7 +16,7 @@ use App\Http\Controllers\UserCart;
 */
 
 Route::get('/', function () {
-    return view('frontend.index');
+    return view('index');
 });
 
 Route::post("user",[UserAuth::class,'userLogin']);
@@ -25,4 +25,8 @@ Route::view("login", 'login');
 
 Route::view("cart", 'cart');
 
-Route::view("product", 'product');
+
+
+Route::get('/product', function () {
+    return view('product');
+});
