@@ -110,3 +110,12 @@
 
 
 
+
+<script src="/js/jquery-3.6.0.js"></script>
+<script src="/js/jquery.countdown.min.js"></script>
+<script src="/js/swiper-bundle.min.js"></script>
+<script src="/js/script.js"></script>
+<script src="/js/app.js"></script>
+
+</body>
+</html>

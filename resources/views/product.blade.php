@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html lang="fa">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-        <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <title>
-            @yield('title') مشخصات , قیمت و خرید گوشی موبایل
-        </title>
-        <link rel="icon" type="image/jpeg" href="{{ asset('/img/logo.jpeg') }}"/>
+<title>
+    @yield('title') مشخصات , قیمت و خرید گوشی موبایل
+</title>
 
-        <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
-        <link rel="stylesheet" href="{{ asset('/css/swiper-bundle.min.css') }}">
-
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
-      </head>
-<body>
-<!--navbar-->
 <x-header/>
 
 <!--middlepart-->
@@ -636,11 +621,3 @@
 
 <!--footer-->
 <x-footer/>
-
-<script src="/js/jquery-3.6.0.js"></script>
-<script src="/js/jquery.countdown.min.js"></script>
-<script src="/js/swiper-bundle.min.js"></script>
-<script src="/js/script.js"></script>
-
-</body>
-</html>
