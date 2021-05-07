@@ -3,7 +3,7 @@
 
 
 
-<footer>
+
     <a href="#" class="scrollTop flex"><i class="fas fa-caret-up"></i>برگشت به بالا</a>
     <div class="contain container">
       <nav class="feature flex container mx1450px">
@@ -106,16 +106,3 @@
         </div>
     </div>
 
-</footer>
-
-
-
-
-<script src="/js/jquery-3.6.0.js"></script>
-<script src="/js/jquery.countdown.min.js"></script>
-<script src="/js/swiper-bundle.min.js"></script>
-<script src="/js/script.js"></script>
-<script src="/js/app.js"></script>
-
-</body>
-</html>
