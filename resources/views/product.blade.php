@@ -466,6 +466,14 @@
                 <h2 class="h2">پرسش و پاسخ
                     <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
                 </h2>
+                <section>
+                   <div class="qempty">پرسش خود را در مورد کالا مطرح کنید</div>
+                   <textarea name="" id="" cols="30" rows="10"></textarea>
+                   <div class="qterm flex">
+                       <div class="qterm1">ثبت پرسش به معنی موافقت با <a href=""> قوانین انتشار دیجی‌کالا</a> است.</div>
+                       <button href="">ثبت پرسش</button>
+                   </div>
+                </section>
             </div>
         </div>
     </div>
@@ -605,7 +613,12 @@
 
 
 
-
+<div class="agreementCheck">
+    <input type="checkbox" id="check">
+    <label for="check">پرسش‌های پاسخ داده شده</label>
+    <input type="checkbox" id="check">
+    <label for="check">پرسش‌های بی‌پاسخ</label>
+</div>
 
 
 

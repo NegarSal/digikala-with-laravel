@@ -34,6 +34,9 @@ html{
 img{
     max-width: 100%;
 }
+button{
+    font-family: inherit;
+}
 header .header .headerRight .logo{
     background-size: contain;
     background: url("../img/logo.svg") no-repeat center;
@@ -1314,6 +1317,60 @@ display: block;
 #product .tab #tabChildes .tab5 .tba5Container{
     padding: 40px;
 }
+#product .tab #tabChildes .tab5 .tba5Container section{
+   padding-top: 25px;
+}
+#product .tab #tabChildes .tab5 .tba5Container section .qempty{
+    font-size: 14px;
+    line-height: 2.5;
+    color: #232933;
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 40px;
+}
+#product .tab #tabChildes .tab5 .tba5Container section > textarea{
+    outline: none;
+    padding: 9px 12px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #e0e0e2;
+    font-size: 14px;
+    line-height: 24px;
+    width: 100%;
+    color: #030a16;
+    resize: none;
+}
+#product .tab #tabChildes .tab5 section .qterm {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 24px;
+}
+#product .tab #tabChildes .tab5 section .qterm .qterm1{
+    display: flex;
+    font-size: 12px;
+}
+#product .tab #tabChildes .tab5 section .qterm .qterm1 a{
+    display: inline-block;
+    color: #00bfd6;
+    font-size: 12px;
+    cursor: pointer;
+    background: transparent;
+    padding:0 5px;
+}
+#product .tab #tabChildes .tab5 section .qterm button{
+    background: #e0e0e2;
+    border: 1px solid #e0e0e2;
+    border-radius: 9px;
+    color: #a1a3a8;
+    cursor: pointer;
+    font-size: 12px;
+    outline: none;
+}
+
+
+
+
 /*-----Last text-----*/
 #product .lastText {
     color: #858585;
