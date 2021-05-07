@@ -613,12 +613,6 @@
 
 
 
-<div class="agreementCheck">
-    <input type="checkbox" id="check">
-    <label for="check">پرسش‌های پاسخ داده شده</label>
-    <input type="checkbox" id="check">
-    <label for="check">پرسش‌های بی‌پاسخ</label>
-</div>
 
 
 

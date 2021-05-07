@@ -15,18 +15,12 @@ use App\Http\Controllers\UserCart;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::view('/', 'index');
 
 Route::post("user",[UserAuth::class,'userLogin']);
-Route::view("login", 'login');
 
+Route::view('/login', 'login');
 
-Route::view("cart", 'cart');
+Route::view('/cart', 'cart');
 
-
-
-Route::get('/product', function () {
-    return view('product');
-});
+Route::view('/product', 'product');

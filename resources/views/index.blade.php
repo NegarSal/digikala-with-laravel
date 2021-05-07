@@ -2,62 +2,63 @@
 
 @section('content')
     <div>
-        <x-header/>
-        <x-slider/>
+
 
     <main>
         <!--specialoffer-->
-            <x-specialoffer/>
+        @include('sections.specialoffer')
+
 
         <!--Part 3-->
-            <x-banner1/>
+        @include('sections.banner1')
+
 
         <!--fresh-offers-->
-            <x-fresh-offers/>
+        @include('sections.fresh-offers')
 
         <!--Part-banner1-w50--->
-           <x-banner1-w50/>
+        @include('sections.banner1-w50')
 
         <!--Part-book-->
-           <x-book/>
+        @include('sections.book')
 
         <article class="box container">
             <!--Part7/Icon-->
-               <x-blueicon/>
+            @include('sections.blueicon')
 
             <!--Part-mobile-->
-              <x-mobile/>
+            @include('sections.mobile')
 
             <!--Part-banner1-2--->
-               <x-banner1-2/>
+            @include('sections.banner1-2')
+
             <!--Part-laundry detergent--->
-               <x-laundry-detergent/>
+            @include('sections.laundry-detergent')
 
             <!--Part-coffee -->
-               <x-coffee/>
+            @include('sections.coffee')
 
             <!--Part-banner1-2-w50-->
-               <x-banner1-2-w50/>
+            @include('sections.banner1-2-w50')
 
             <!--Part-moisturizing-->
-                <x-moisturizing/>
+            @include('sections.moisturizing')
 
            <!--Part-watch-->
-                <x-watch/>
+           @include('sections.watch')
 
            <!--Part-recent-pro-->
-                <x-recent-pro/>
+           @include('sections.recent-pro')
 
            <!--Part-lastPart-->
-                <x-banner2/>
+           @include('sections.banner2')
 
             <!--Part-lastPart-->
-            <x-Brand/>
+            @include('sections.brand')
 
         </article>
     </main>
 
-<!--footer-->
-        <x-footer/>
+
     </div>
 @endsection

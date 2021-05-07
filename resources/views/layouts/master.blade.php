@@ -1,9 +1,15 @@
 
     <!-- Start project here-->
+    @include('components.header')
+    @include('sections.slider')
 
         <main>
             @yield('content')
         </main>
 
-    <!-- End project here-->
+
+      <!--footer-->
+         @include('components.footer')
+
+<!-- End project here-->
 
