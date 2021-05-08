@@ -26,3 +26,4 @@ Route::view('/cart', 'cart');
 
 Route::view('/product', 'product');
 
+Route::get('/sections/slider', [SliderController::class,'show']);
