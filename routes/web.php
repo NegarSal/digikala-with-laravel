@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserAuth;
 use App\Http\Controllers\UserCart;
+use App\Http\Controllers\SliderController;
 
 /*
 |--------------------------------------------------------------------------
