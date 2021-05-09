@@ -8,7 +8,8 @@ use App\Models\Slider;
 class SliderController extends Controller
 {
     function show() {
-        $data= Slider::all();
-        return view('/sections.slider' , ['sliders'=>$data]);
-    }
+        //$data= Slider::all();
+      // return view('slider' , compact('data') );
+
+}
 }

@@ -16,7 +16,7 @@
                     <div class="swiper-slide"><a href="#"><img src="{{ asset('img/1.6.jpg') }}"></a></div>
                     <div class="swiper-slide"><a href="#"><img src="{{ asset('img/1.7.jpg') }}"></a></div>
                     <div class="swiper-slide"><a href="#"><img src="{{ asset('img/1.8.jpg') }}"></a></div>
-                 </div>
+                </div>
              <!-- Add Pagination -->
              <div class="swiper-pagination"></div>
              <!-- Add Arrows -->
