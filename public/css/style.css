@@ -201,6 +201,42 @@ header nav.hidden{
     padding:12px;
     border-radius:35px;
 }
+/*digi plus*/
+.subnav .subnav-content .new-list {
+    right: 140px;
+    width: 648px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.subnav .subnav-content .submenu .submenu-content{
+    color: #616161;
+}
+.subnav .subnav-content .submenu .submenu-content .head-title{
+    margin-bottom: 4px;
+    color: #030a16;
+    font-size: 12px;
+    line-height: 1.83;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-right: 4px;
+}
+.subnav .subnav-content .submenu .submenu-content .head-title img{
+    margin-left: 4px;
+    margin-right: 4px;
+    max-width: 58px;
+    line-height: 22px;
+}
+.subnav .subnav-content .submenu .submenu-content .head-subtitle{
+    color: #62666d;
+    font-size: 11px;
+    line-height: 1.91;
+    padding-right: 4px;
+}
+
+
+
 
 
 /*slider-part1*/

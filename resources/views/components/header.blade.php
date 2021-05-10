@@ -82,7 +82,7 @@
                         <div class="subnav">
                           <button class="subnavbtn"><i class="far fa-gem"></i>دیجی پلاس</button>
                         <div class="subnav-content">
-                            <div class="c-navi-new-list">
+                            <div class="new-list">
                                 <div class="submenu">
                                     <div class="submenu-content">
                                         <div class="head-title">
@@ -91,18 +91,18 @@
                                         <div class="head-subtitle">
                                             ارسال رایگان بدون محدودیت قیمت، هدیه نقدی و بازگشت کالا تا ۳۰ روز پس از تحویل
                                         </div>
-                                            <ul class="">
-                                                <li class="register">
-                                                    <a class="" href="/plus/landing/">
-                                                        اطلاعات بیشتر و عضویت
-                                                    </a>
-                                                </li>
-                                                <li class="plus-products">
-                                                    <a class="" href="#">
-                                                        کالاهای <img src="{{ asset('img/d-plus.svg') }}" alt="Digiplus">
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                        <ul class="">
+                                            <li class="register">
+                                                <a class="" href="#">
+                                                    اطلاعات بیشتر و عضویت
+                                                </a>
+                                            </li>
+                                            <li class="plus-products">
+                                                <a class="" href="#">
+                                                    کالاهای <img src="{{ asset('img/d-plus.svg') }}" alt="Digiplus">
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </div>
                                     <a class="" href="#">
                                         <img class="" src="{{ asset('img/plus.jpg') }}" alt="Banner">
