@@ -234,10 +234,58 @@ header nav.hidden{
     line-height: 1.91;
     padding-right: 4px;
 }
-
-
-
-
+.subnav .subnav-content .submenu .submenu-content .submenu-nav{
+    margin-top: 8px;
+    width: 100%;
+}
+.subnav .subnav-content .submenu .submenu-content .submenu-nav .register{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 8px;
+}
+.subnav .subnav-content .submenu .submenu-content .submenu-nav .register a{
+    padding: 9px 16px;
+    direction: rtl;
+    font-size: 14px;
+    line-height: 1.571;
+    font-weight: 700;
+    color: #0fabc6;
+    background: none;
+    border-radius: 0;
+}
+.subnav .subnav-content .submenu .submenu-content .submenu-nav .plus-products{
+    padding-top: 12px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    border-top: 1px solid #dfdfdf;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.subnav .subnav-content .submenu .submenu-content .submenu-nav .plus-products a{
+    display: flex;
+    align-items: center;
+}
+.subnav .subnav-content .submenu .submenu-content .submenu-nav .plus-products img{
+    margin-right: 4px;
+    max-width: 58px;
+}
+.subnav .subnav-content .submenu .submenu-nav .banner-link{
+    justify-content: center;
+    width: 324px;
+    min-height: 162px;
+    border: 1px solid rgba(3,10,22,.02);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.subnav .subnav-content .submenu .submenu-nav .banner-link img{
+    min-width: 324px;
+    min-height: 100%;
+    width: 100%;
+}
 
 /*slider-part1*/
 .swiper-container {

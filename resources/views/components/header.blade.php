@@ -91,11 +91,9 @@
                                         <div class="head-subtitle">
                                             ارسال رایگان بدون محدودیت قیمت، هدیه نقدی و بازگشت کالا تا ۳۰ روز پس از تحویل
                                         </div>
-                                        <ul class="">
+                                        <ul class="submenu-nav">
                                             <li class="register">
-                                                <a class="" href="#">
-                                                    اطلاعات بیشتر و عضویت
-                                                </a>
+                                               <a href="#">اطلاعات بیشتر و عضوی</a>
                                             </li>
                                             <li class="plus-products">
                                                 <a class="" href="#">
@@ -104,7 +102,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <a class="" href="#">
+                                    <a class="banner-link" href="#">
                                         <img class="" src="{{ asset('img/plus.jpg') }}" alt="Banner">
                                     </a>
                                 </div>
