@@ -27,4 +27,6 @@ Route::view('/cart', 'cart');
 Route::view('/product', 'product');
 
 //Route::get('/', [SliderController::class,'show']);
+//Route::get('/','App\Http\Controllers\MasterController@index');
+
 
