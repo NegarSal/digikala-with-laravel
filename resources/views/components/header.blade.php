@@ -80,23 +80,37 @@
                           </div>
                         <li><a href=""><i class="fas fa-medal"></i> دیجی کالای من</a></li>
                         <div class="subnav">
-                            <button class="subnavbtn"><i class="far fa-gem"></i>دیجی پلاس</button>
-                            <div class="subnav-content">
-                                <div class="card">
-                                    <div class="flex">
-                                        <div class="right">
-                                            <p class="card-title flex">خدمات ویژه کاربران <a style="color: purple;">دیجی پلاس</a></p><br>
-                                            <p class="card-text" style="color: #777;">ارسال رایگان بدون محدودیت قیمت,هدیه نقدی و بازگشت کالا تا۳۰ روز پس از تحویل</p>
-                                            <p><a href="" style="color: #0fabc6;" class="flex">اطلاعات بیشتر و عضویت</a></p><hr>
-                                            <p class="flex">کالاهای <a style="color: purple;">دیجی پلاس</a></p>
+                          <button class="subnavbtn"><i class="far fa-gem"></i>دیجی پلاس</button>
+                        <div class="subnav-content">
+                            <div class="c-navi-new-list">
+                                <div class="submenu">
+                                    <div class="submenu-content">
+                                        <div class="head-title">
+                                            خدمات ویژه کاربران <img src="{{ asset('img/d-plus.svg') }}" alt="Digiplus">
+                                         </div>
+                                        <div class="head-subtitle">
+                                            ارسال رایگان بدون محدودیت قیمت، هدیه نقدی و بازگشت کالا تا ۳۰ روز پس از تحویل
                                         </div>
-                                      <div class="left">
-                                        <img src="{{ asset('img/plus.jpg') }}">
-                                      </div>
+                                            <ul class="">
+                                                <li class="register">
+                                                    <a class="" href="/plus/landing/">
+                                                        اطلاعات بیشتر و عضویت
+                                                    </a>
+                                                </li>
+                                                <li class="plus-products">
+                                                    <a class="" href="#">
+                                                        کالاهای <img src="{{ asset('img/d-plus.svg') }}" alt="Digiplus">
+                                                    </a>
+                                                </li>
+                                            </ul>
                                     </div>
-                                  </div>
+                                    <a class="" href="#">
+                                        <img class="" src="{{ asset('img/plus.jpg') }}" alt="Banner">
+                                    </a>
+                                </div>
                             </div>
-                          </div>
+                        </div>
+                        </div>
                         <div class="subnav">
                             <button class="subnavbtn"><i class="fa fa-crosshairs"></i>دیجی کلاب</button>
                             <div class="subnav-content">
@@ -127,6 +141,7 @@
             </ul>
         </div>
     </nav>
+
 
 
 
