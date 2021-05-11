@@ -262,7 +262,7 @@ header nav.hidden{
 }
 .subnav .subnav-content .new-list .submenu .b-link img{
     max-width: 505px;
-    max-height: 75%;
+    max-height: 80%;
     width: 100%;
     border-radius: 8px;
 }
@@ -270,10 +270,16 @@ header nav.hidden{
 /*digi club*/
 .subnav .subnav-content .digiclub .submenu1 {
     display: flex;
+    margin-right: 4px;
 }
-.subnav .subnav-content .digiclub .submenu1 .submenu1-content .club-logo img{
-    margin: 4px 0 8px auto;
+.subnav .subnav-content .digiclub .submenu1 .submenu1-content .dclub img{
+    margin-top:14px;
     height: 28px;
+    margin-right: 8px;
+}
+.subnav .subnav-content .digiclub .submenu1 .submenu1-content .submenu-nav{
+    margin-top: auto;
+    width: 100%;
 }
 .subnav .subnav-content .digiclub .submenu1 .submenu1-content .submenu-nav .nav-item{
     display: flex;
@@ -283,16 +289,22 @@ header nav.hidden{
     font-size: 12px;
     line-height: 1.833;
     white-space: nowrap;
+    margin-right: 8px;
 }
 .subnav .subnav-content .digiclub .submenu1 .submenu1-content .submenu-nav .nav-item i{
-    color: #c0c2c5;
+    color: #b0bec5;
     margin-left: 8px;
 }
 .subnav .subnav-content .digiclub .submenu1 .submenu1-content .submenu-nav .nav-item:nth-child(3){
-    color: #c0c2c5;
+    color: #b0bec5;
 }
-
-
+.subnav .subnav-content .digiclub .submenu1 .b-link2 img{
+    border-radius: 8px;
+    margin-right: 100px;
+    margin-top: 14px;
+    width: 400px;
+    height: 180px;
+}
 
 
 

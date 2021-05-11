@@ -115,7 +115,7 @@
                                <div class="digiclub">
                                  <div class="submenu1">
                                     <div class="submenu1-content">
-                                        <a class="club-logo" href="#">
+                                        <a class="dclub" href="#">
                                             <img  src="{{ asset('img/d-club.svg') }}" alt="Digiclub">
                                         </a>
                                         <ul class="submenu-nav">
