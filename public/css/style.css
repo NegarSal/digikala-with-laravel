@@ -258,7 +258,7 @@ header nav.hidden{
 .subnav .subnav-content .submenu .submenu-content .submenu-nav .plus-products img{
     margin-right: 4px;
     max-width: 58px;
-    list-style-type: disc;
+    list-style-type: disc ;
 }
 .subnav .subnav-content .new-list .submenu .b-link img{
     max-width: 505px;
@@ -266,6 +266,49 @@ header nav.hidden{
     width: 100%;
     border-radius: 8px;
 }
+
+/*digi club*/
+.subnav .subnav-content .digiclub .submenu1 {
+    display: flex;
+}
+.subnav .subnav-content .digiclub .submenu1 .submenu1-content .club-logo img{
+    margin: 4px 0 8px auto;
+    height: 28px;
+}
+.subnav .subnav-content .digiclub .submenu1 .submenu1-content .submenu-nav .nav-item{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    color: #030a16;
+    font-size: 12px;
+    line-height: 1.833;
+    white-space: nowrap;
+}
+.subnav .subnav-content .digiclub .submenu1 .submenu1-content .submenu-nav .nav-item i{
+    color: #c0c2c5;
+    margin-left: 8px;
+}
+.subnav .subnav-content .digiclub .submenu1 .submenu1-content .submenu-nav .nav-item:nth-child(3){
+    color: #c0c2c5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*slider-part1*/
 .swiper-container {
     height: 100%;

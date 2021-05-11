@@ -113,16 +113,18 @@
                             <button class="subnavbtn"><i class="fa fa-crosshairs"></i>دیجی کلاب</button>
                             <div class="subnav-content">
                                <div class="digiclub">
-                                 <div class="header-submenu">
-                                    <div class="submenu__content">
-                                        <img class="club-logo" src="{{ asset('img/d-club.svg') }}" alt="Digiclub">
-                                    <ul class="submenu-nav">
-                                        <li class="nav-item"> صفحه اصلی دیجی‌کلاب</li>
-                                        <li class="nav-item"><i class="fa fa-calendar"></i> جوایز دیجی‌کلاب</li>
-                                        <li class="nav-item"><i class="far fa-clock"></i> تاریخچه امتیازات دیجی‌کلاب</li>
-                                        <li class="nav-item"><i class="fa fa-flag"></i> ماموریت‌های دیجی‌کلابی</li>
-                                        <li class="nav-item"><i class="fa fa-gift"></i> قرعه‌کشی</li>
-                                    </ul>
+                                 <div class="submenu1">
+                                    <div class="submenu1-content">
+                                        <a class="club-logo" href="#">
+                                            <img  src="{{ asset('img/d-club.svg') }}" alt="Digiclub">
+                                        </a>
+                                        <ul class="submenu-nav">
+                                            <li class="nav-item"> صفحه اصلی دیجی‌کلاب</li>
+                                            <li class="nav-item"><i class="fa fa-calendar"></i> جوایز دیجی‌کلاب</li>
+                                            <li class="nav-item"><i class="far fa-clock"></i> تاریخچه امتیازات دیجی‌کلاب</li>
+                                            <li class="nav-item"><i class="fa fa-flag"></i> ماموریت‌های دیجی‌کلابی</li>
+                                            <li class="nav-item"><i class="fa fa-gift"></i> قرعه‌کشی</li>
+                                        </ul>
                                     </div>
                                     <a class="b-link2" href="#">
                                         <img src="{{ asset('img/club.jpg') }}">
