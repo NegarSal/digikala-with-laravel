@@ -83,7 +83,7 @@
                           <button class="subnavbtn"><i class="far fa-gem"></i>دیجی پلاس</button>
                         <div class="subnav-content">
                             <div class="new-list">
-                                <div class="submenu">
+                                <div class="submenu" >
                                     <div class="submenu-content">
                                         <div class="head-title">
                                             خدمات ویژه کاربران <img src="{{ asset('img/d-plus.svg') }}" alt="Digiplus">
@@ -103,7 +103,7 @@
                                         </ul>
                                     </div>
                                     <a class="b-link" href="#">
-                                        <img class="" src="{{ asset('img/plus.jpg') }}" style="margin-right:5px;">
+                                        <img class="" src="{{ asset('img/plus.jpg') }}">
                                     </a>
                                 </div>
                             </div>

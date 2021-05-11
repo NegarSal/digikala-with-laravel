@@ -193,6 +193,7 @@ header nav.hidden{
     background-color: #fff;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
+    height: 210px;
 }
 .subnav .subnav-content .submenu{
     width: 100%;
@@ -201,6 +202,8 @@ header nav.hidden{
 }
 .subnav .subnav-content .submenu .submenu-content{
     color: #616161;
+    align-items: flex-start;
+    margin-left: 24px;
 }
 .subnav .subnav-content .submenu .submenu-content .head-title{
     margin-bottom: 4px;
@@ -231,16 +234,14 @@ header nav.hidden{
 .subnav .subnav-content .submenu .submenu-content .submenu-nav .register{
     display: flex;
     margin-bottom: 8px;
-
 }
 .subnav .subnav-content .submenu .submenu-content .submenu-nav .register a{
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 12px;
     color: #0fabc6;
+    margin-right: 0;
+    margin-top: 0;
 }
 .subnav .subnav-content .submenu .submenu-content .submenu-nav .plus-products{
-    padding-top: 12px;
-    margin-top: 12px;
     margin-bottom: 0;
     border-top: 1px solid #dfdfdf;
     font-size: 12px;
@@ -256,9 +257,12 @@ header nav.hidden{
 .subnav .subnav-content .submenu .submenu-content .submenu-nav .plus-products img{
     margin-right: 4px;
     max-width: 58px;
+    list-style-type: disc;
 }
 .subnav .subnav-content .new-list .submenu .b-link img{
-    margin-right: -4px;
+    max-width: 570px;
+    max-height: 80%;
+    width: 100%;
 }
 
 /*slider-part1*/
