@@ -306,7 +306,38 @@ header nav.hidden{
     height: 180px;
 }
 
+/*offers*/
 
+.subnav .subnav-content .top-bar{
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.subnav .subnav-content .top-bar .sublist-all{
+    font-size: 12px;
+    line-height: 1.833;
+    font-weight: 700;
+    color: #424750;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.subnav .subnav-content .newsublist{
+    width: 50%;
+    direction: rtl;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 700;
+}
+.subnav .subnav-content .newsublist .newtitle1{
+    color: #424750;
+    display: block !important;
+}
+.subnav .subnav-content .newlist-item .newtitle{
+    width: 50%;
+    direction: rtl;
+    text-align: right;
+}
 
 
 

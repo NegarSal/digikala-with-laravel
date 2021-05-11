@@ -45,13 +45,13 @@
                                      </div>
                                 <ul>
                                     <li class="newsublist">
-                                      <a href="" class="newtitle"><span>کالاهای شگفت‌انگیز</span></a>
+                                      <a href="" class="newtitle1"><span>کالاهای شگفت‌انگیز</span></a>
                                     </li>
                                     <li class="newsublist">
-                                      <a href="" class="newtitle"><span>شگفت‌انگیز سوپرمارکتی</span></a>
+                                      <a href="" class="newtitle1"><span>شگفت‌انگیز سوپرمارکتی</span></a>
                                     </li>
                                     <li class="newsublist">
-                                      <a href="" class="newtitle"><span>فروش ویژه</span></a>
+                                      <a href="" class="newtitle1"><span>فروش ویژه</span></a>
                                     </li>
                                     <li class="newlist-item">
                                       <a href="" class="newtitle">کالای دیجیتال</a>
