@@ -93,7 +93,7 @@
                                         </div>
                                         <ul class="submenu-nav">
                                             <li class="register">
-                                               <a href="#">اطلاعات بیشتر و عضوی</a>
+                                               <a href="#">اطلاعات بیشتر و عضویت</a>
                                             </li>
                                             <li class="plus-products">
                                                 <a class="" href="#">
@@ -102,8 +102,8 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <a class="banner-link" href="#">
-                                        <img class="" src="{{ asset('img/plus.jpg') }}" alt="Banner">
+                                    <a class="b-link" href="#">
+                                        <img class="" src="{{ asset('img/plus.jpg') }}" style="margin-right:5px;">
                                     </a>
                                 </div>
                             </div>

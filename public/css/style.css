@@ -159,10 +159,6 @@ header nav.hidden{
     font-size:12px ;
 }
 /*subnavs in navBar*/
-.subnav {
-    float: left;
-
-}
 .subnav .subnavbtn {
     font-size: 16px;
     border: none;
@@ -182,32 +178,26 @@ header nav.hidden{
     display: none;
     position: absolute;
     background-color: #fff;
-    width: 600px;
+    width: 735px;
     z-index: 10;
     cursor: pointer;
     border-radius: 8px;
 }
 .subnav:hover .subnav-content {
     display: block;
-}
-.subnav .subnav-content .card .left img{
-    padding:10px;
-    border-radius:25px;
-
-}
-.subnav .subnav-content .sub1 .subLeft img{
-    width:400px;
-    height:260px;
-    padding:12px;
-    border-radius:35px;
+    font-size: 12px;
+    line-height: 30px;
 }
 /*digi plus*/
 .subnav .subnav-content .new-list {
-    right: 140px;
-    width: 648px;
-    position: relative;
+    background-color: #fff;
+    justify-content: space-between;
+    border-radius: 0 0 8px 8px;
+}
+.subnav .subnav-content .submenu{
+    width: 100%;
+    padding: 16px 12px 12px;
     display: flex;
-    align-items: center;
 }
 .subnav .subnav-content .submenu .submenu-content{
     color: #616161;
@@ -240,19 +230,13 @@ header nav.hidden{
 }
 .subnav .subnav-content .submenu .submenu-content .submenu-nav .register{
     display: flex;
-    align-items: center;
-    list-style: none;
     margin-bottom: 8px;
+
 }
 .subnav .subnav-content .submenu .submenu-content .submenu-nav .register a{
-    padding: 9px 16px;
-    direction: rtl;
     font-size: 14px;
-    line-height: 1.571;
-    font-weight: 700;
+    font-weight: 300;
     color: #0fabc6;
-    background: none;
-    border-radius: 0;
 }
 .subnav .subnav-content .submenu .submenu-content .submenu-nav .plus-products{
     padding-top: 12px;
@@ -273,18 +257,8 @@ header nav.hidden{
     margin-right: 4px;
     max-width: 58px;
 }
-.subnav .subnav-content .submenu .submenu-nav .banner-link{
-    justify-content: center;
-    width: 324px;
-    min-height: 162px;
-    border: 1px solid rgba(3,10,22,.02);
-    border-radius: 8px;
-    overflow: hidden;
-}
-.subnav .subnav-content .submenu .submenu-nav .banner-link img{
-    min-width: 324px;
-    min-height: 100%;
-    width: 100%;
+.subnav .subnav-content .new-list .submenu .b-link img{
+    margin-right: -4px;
 }
 
 /*slider-part1*/
