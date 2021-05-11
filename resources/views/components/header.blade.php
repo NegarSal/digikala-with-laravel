@@ -103,7 +103,7 @@
                                         </ul>
                                     </div>
                                     <a class="b-link" href="#">
-                                        <img class="" src="{{ asset('img/plus.jpg') }}">
+                                        <img src="{{ asset('img/plus.jpg') }}">
                                     </a>
                                 </div>
                             </div>
@@ -112,23 +112,26 @@
                         <div class="subnav">
                             <button class="subnavbtn"><i class="fa fa-crosshairs"></i>دیجی کلاب</button>
                             <div class="subnav-content">
-                                <div class="sub1">
-                                    <div class="flex">
-                                        <div class="subRight" style="margin-right: 4px">
-                                            <p class="card-title flex"> <a style="color:blue;">club</a><b>digi</b></p>
-                                            <p class="card-text">صفحه اصلی دیجی کلاب</p>
-                                            <p class="card-text"><i class="fa fa-calendar" style="color: #777"></i> جوایز دیجی کلاب</p>
-                                            <p class="card-text" style="color: #777"><i class="far fa-clock" style="color: #777"></i> تاریخچه امتیازات دیجی کلاب</p>
-                                            <p class="card-text"><i class="fa fa-flag" style="color: #777"></i> ماموریت های دیجی کلاب</p>
-                                            <p class="card-text"><i class="fa fa-gift" style="color: #777"></i> قرعه کشی</p>
-                                        </div>
-                                      <div class="subLeft">
-                                        <img src="{{ asset('img/club.jpg') }}">
-                                      </div>
+                               <div class="digiclub">
+                                 <div class="header-submenu">
+                                    <div class="submenu__content">
+                                        <img class="club-logo" src="{{ asset('img/d-club.svg') }}" alt="Digiclub">
+                                    <ul class="submenu-nav">
+                                        <li class="nav-item"> صفحه اصلی دیجی‌کلاب</li>
+                                        <li class="nav-item"><i class="fa fa-calendar"></i> جوایز دیجی‌کلاب</li>
+                                        <li class="nav-item"><i class="far fa-clock"></i> تاریخچه امتیازات دیجی‌کلاب</li>
+                                        <li class="nav-item"><i class="fa fa-flag"></i> ماموریت‌های دیجی‌کلابی</li>
+                                        <li class="nav-item"><i class="fa fa-gift"></i> قرعه‌کشی</li>
+                                    </ul>
                                     </div>
-                                  </div>
+                                    <a class="b-link2" href="#">
+                                        <img src="{{ asset('img/club.jpg') }}">
+                                    </a>
+                                 </div>
+                               </div>
                             </div>
-                          </div>
+                        </div>
+
                         <li><a href="">سوالی دارید؟</a></li>
                         <li><a href="">فروشنده شوید</a></li>
                     </ul>
