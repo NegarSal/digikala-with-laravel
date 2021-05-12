@@ -40,81 +40,42 @@
                         <div class="subnav">
                             <button class="subnavbtn"><i class="fas fa-tag"></i> تخفیف ها و پیشنهادها</button>
                             <div class="subnav-content3">
-                               <div class="flex">
-                                <div class="subright">
-                                    <div class="top-bar">
-                                        <a href="" class="sublist-all">مشاهده همه تخفیف‌ها و پیشنهادها</a>
+                                <div class="card">
+                                    <div class="flex">
+                                        <div class="flex">
+                                            <div class="card-body">
+                                               <li class="card-title">مشاهده همه تخفیف ها و پیشنهادها</li>
+                                               <li class="card-text">کالاهای شگفت انگیز</li>
+                                               <li class="card-text">شگفت انگیز سوپرمارکتی</li>
+                                               <li class="card-text">فروش ویژه</li>
+                                               <li style="color: #777">کالای دیجیتال</li>
+                                               <li>خودرو ابزار و تجهیزات صنعتی</li>
+                                               <li>مد و پوشاک</li>
+                                               <li>اسباب بازی کودک و نوازاد</li>
+                                               <li>کالاهای سوپرمارکتی</li>
+                                               <li>زیبایی و سلامت</li>
+                                               <li>خانه و آشپزخانه</li>
+                                               <li>کتاب لوازم تحریر و هنر</li>
+                                               <li>ورزش و سفر</li>
+                                            </div>
+                                        </div>
+                                        <div class="flex">
+                                            <div class="card-body">
+                                               <h5 class="card-title"></h5>
+                                               <li class="card-text" style="color: #777">سایر لوازم جانبی موتورسیکلت کمتراز۲۰۰هزارتومان</li>
+                                               <li class="card-text" style="color: #777">شمش و پلاک طلا کمتر از ۱۵۰هزارتومان</li>
+                                               <li class="card-text"><i class="fas fa-fire"></i> پرفروشترین کالاها</li>
+                                               <li class="card-text"><i class="fa fa-gift"></i> باهرخرید هدیه بگیرید</li>
+                                               <li class="card-text"><i class="fa fa-tags"></i> تخفیف پایان سال</li>
+                                               <li class="card-text"><i class="far fa-credit-card"></i> کارت هدیه خرید از دیجی کالا</li>
+                                               <li class="card-text"><i class="fa fa-shopping-basket"></i> تازه های فروشنده های جدید</li>
+                                            </div>
+                                        </div>
+                                        <div class="left">
+                                            <img src="{{ asset('img/sub.sug.png') }}" style="width:300px; height:440px;">
+                                        </div>
                                     </div>
-                                    <ul>
-                                        <li class="newsublist">
-                                          <a href="" class="newtitle1"><span>کالاهای شگفت‌انگیز</span></a>
-                                        </li>
-                                        <li class="newsublist">
-                                          <a href="" class="newtitle1"><span>شگفت‌انگیز سوپرمارکتی</span></a>
-                                        </li>
-                                        <li class="newsublist">
-                                          <a href="" class="newtitle1"><span>فروش ویژه</span></a>
-                                        </li>
-                                        <li class="newlist-item">
-                                          <a href="" class="newtitle">کالای دیجیتال</a>
-                                        </li>
-                                        <li class="newlist-item">
-                                          <a href="" class="newtitle"> خودرو، ابزار و تجهیزات صنعتی</a>
-                                        </li>
-                                        <li class="newlist-item">
-                                          <a href="" class="newtitle"> مد و پوشاک</a>
-                                        </li>
-                                        <li class="newlist-item">
-                                          <a href="" class="newtitle">اسباب بازی، کودک و نوزاد</a>
-                                        </li>
-                                        <li class="newlist-item">
-                                          <a href="" class="newtitle">کالاهای سوپرمارکتی</a>
-                                        </li>
-                                        <li class="newlist-item">
-                                          <a href="" class="newtitle">زیبایی و سلامت</a>
-                                        </li>
-                                        <li class="newlist-item">
-                                          <a href="" class="newtitle">خانه و آشپزخانه</a>
-                                        </li>
-                                        <li class="newlist-item">
-                                          <a href="" class="newtitle"> کتاب، لوازم تحریر و هنر</a>
-                                        </li>
-                                        <li class="newlist-item">
-                                          <a href="" class="newtitle">ورزش و سفر</a>
-                                        </li>
-                                        <li class="sublist-option">
-                                          <a href="" class="newtitle">شمش و پلاک طلا و نقره کمتر از ۱۵۰ هزار تومان</a>
-                                        </li>
-                                        <li class="sublist-option">
-                                          <a href="" class="newtitle">تلفن کمتر از ۲۹۹ هزار تومان</a>
-                                        </li>
-
-                                        <li class="newitem">
-                                          <a href="" class="newtitle"> مشتریان جدید</a>
-                                        </li>
-                                        <li class="newitem">
-                                          <a href="" class="newtitle"><i class="fas fa-fire"></i> پرفروش‌ترین‌ کالاها </a>
-                                        </li>
-                                        <li class="newitem">
-                                          <a href="" class="newtitle"><i class="fa fa-gift"></i> با هر خرید هدیه بگیرید!</a>
-                                        </li>
-                                        <li class="newitem">
-                                          <a href="" class="newtitle"><i class="fa fa-tags"></i> تخفیف پایان فصل</a>
-                                        </li>
-                                        <li class="newitem">
-                                          <a href="" class="newtitle"><i class="far fa-credit-card"></i> کارت هدیه خرید از دیجی‌کالا</a>
-                                        </li>
-                                        <li class="newitem">
-                                          <a href="" class="newtitle"><i class="fa fa-shopping-basket"></i> تازه‌های فروشنده‌های جدید</a>
-                                        </li>
-                                    </ul>
                                 </div>
-                                <div class="newbanner">
-                                    <a  class="newbanner1" href="" >
-                                        <img src="{{ asset('img/sub.sug.png') }}"/>
-                                    </a>
-                                </div>
-                               </div>
                             </div>
                         </div>
 

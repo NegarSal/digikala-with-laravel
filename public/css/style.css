@@ -373,46 +373,10 @@ header nav.hidden{
     font-size: 12px;
     line-height: 30px;
 }
-.subnav .subnav-content3 .subright{
 
-}
-.subnav .subnav-content3 .subright .top-bar{
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-}
-.subnav .subnav-content3 .subright .top-bar .sublist-all{
-    font-size: 12px;
-    line-height: 1.833;
-    color: #424750;
-    margin-top: 26px;
-    margin-right: 10px;
-}
-.subnav .subnav-content3 .subright .newsublist{
-    width: 50%;
-    text-align: right;
-    font-size: 14px;
-}
-.subnav .subnav-content3 .subright .newsublist .newtitle1{
-    color: #424750;
-    display: block!important;
-    font-size: 12px;
-    line-height: 12px;
-}
-.subnav .subnav-content3 .subright .newlist-item .newtitle{
-    width: 50%;
-    text-align: right;
-}
-.subnav .subnav-content3 .newbanner{
-    width: 350px;
-    height: 100%;
-    padding: 12px;
-}
-.subnav .subnav-content3 .newbanner .newbanner1 img{
-    max-height: 100%;
-    width: 100%;
-    border-radius: 4px;
-}
+
+
+
 
 
 /*partition*/
