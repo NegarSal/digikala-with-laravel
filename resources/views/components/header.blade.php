@@ -45,9 +45,9 @@
                                         <div class="flex">
                                             <div class="card-body">
                                                <li class="card-item11">مشاهده همه تخفیف ها و پیشنهادها <i class="fas fa-angle-left"></i></li>
-                                               <li class="card-item1">کالاهای شگفت انگیز</li>
-                                               <li class="card-item1">شگفت انگیز سوپرمارکتی</li>
-                                               <li class="card-item1">فروش ویژه</li>
+                                               <li class="card-item1">کالاهای شگفت انگیز <i class="fas fa-angle-left"></i></li>
+                                               <li class="card-item1">شگفت انگیز سوپرمارکتی <i class="fas fa-angle-left"></i></li>
+                                               <li class="card-item1">فروش ویژه <i class="fas fa-angle-left"></i></li>
                                                <li class="card-item">کالای دیجیتال</li>
                                                <li class="card-item">خودرو ابزار و تجهیزات صنعتی</li>
                                                <li class="card-item">مد و پوشاک</li>

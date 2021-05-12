@@ -373,36 +373,46 @@ header nav.hidden{
     font-size: 12px;
     line-height: 30px;
 }
-.subnav .subnav-content3 .card-body .card-item11{
+.subnav .subnav-content3 .card .card-body .card-item11{
     color: #232933;
     margin-right:10px;
     font-size: 12px;
+    margin-bottom: 15px;
 }
-.subnav .subnav-content3 .card-body .card-item1{
+.subnav .subnav-content3 .card .card-body .card-item11 i{
+    margin-right: 5px;
+}
+.subnav .subnav-content3 .card .card-body .card-item1{
     color: #232933;
     margin-right:10px;
     font-size: 14px;
 }
-.subnav .subnav-content3 .card-body .card-item{
+.subnav .subnav-content3 .card .card-body .card-item1 i{
+    margin-right: 5px;
+    height: 4px;
+}
+.subnav .subnav-content3 .card .card-body .card-item{
     margin-right:10px;
     color: #777;
     font-size: 12px;
     line-height: 32px;
 }
-.subnav .subnav-content3 .card-body1 .card-text22{
+.subnav .subnav-content3 .card .card-body1 .card-text22{
     color: #777;
     margin-right: 22px;
+    margin-top: -50px;
 }
-.subnav .subnav-content3 .card-body1 .card-text23{
+.subnav .subnav-content3 .card .card-body1 .card-text23{
     color: #777;
     margin-right: 22px;
     border-bottom: 1px solid #e0e0e2;
+    margin-bottom: 80px;
 }
-.subnav .subnav-content3 .card-body1 .card-text24{
+.subnav .subnav-content3 .card .card-body1 .card-text24{
     font-size: 12px;
     margin-right: 22px;
 }
-.subnav .subnav-content3 .card-body1 .card-text24 i{
+.subnav .subnav-content3 .card .card-body1 .card-text24 i{
     color: #777;
     margin-left: 10px;
 }
@@ -411,7 +421,7 @@ header nav.hidden{
     width:350px;
     height:430px;
     margin-top: 14px;
-    margin-right: 37px;
+    margin-right: 25px;
 }
 
 
