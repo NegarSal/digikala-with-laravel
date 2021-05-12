@@ -44,35 +44,34 @@
                                     <div class="flex">
                                         <div class="flex">
                                             <div class="card-body">
-                                               <li class="card-title">مشاهده همه تخفیف ها و پیشنهادها</li>
-                                               <li class="card-text">کالاهای شگفت انگیز</li>
-                                               <li class="card-text">شگفت انگیز سوپرمارکتی</li>
-                                               <li class="card-text">فروش ویژه</li>
-                                               <li style="color: #777">کالای دیجیتال</li>
-                                               <li>خودرو ابزار و تجهیزات صنعتی</li>
-                                               <li>مد و پوشاک</li>
-                                               <li>اسباب بازی کودک و نوازاد</li>
-                                               <li>کالاهای سوپرمارکتی</li>
-                                               <li>زیبایی و سلامت</li>
-                                               <li>خانه و آشپزخانه</li>
-                                               <li>کتاب لوازم تحریر و هنر</li>
-                                               <li>ورزش و سفر</li>
+                                               <li class="card-item11">مشاهده همه تخفیف ها و پیشنهادها</li>
+                                               <li class="card-item1">کالاهای شگفت انگیز</li>
+                                               <li class="card-item1">شگفت انگیز سوپرمارکتی</li>
+                                               <li class="card-item1">فروش ویژه</li>
+                                               <li class="card-item">کالای دیجیتال</li>
+                                               <li class="card-item">خودرو ابزار و تجهیزات صنعتی</li>
+                                               <li class="card-item">مد و پوشاک</li>
+                                               <li class="card-item">اسباب بازی کودک و نوازاد</li>
+                                               <li class="card-item">کالاهای سوپرمارکتی</li>
+                                               <li class="card-item">زیبایی و سلامت</li>
+                                               <li class="card-item">خانه و آشپزخانه</li>
+                                               <li class="card-item">کتاب لوازم تحریر و هنر</li>
+                                               <li class="card-item">ورزش و سفر</li>
                                             </div>
                                         </div>
                                         <div class="flex">
-                                            <div class="card-body">
-                                               <h5 class="card-title"></h5>
-                                               <li class="card-text" style="color: #777">سایر لوازم جانبی موتورسیکلت کمتراز۲۰۰هزارتومان</li>
-                                               <li class="card-text" style="color: #777">شمش و پلاک طلا کمتر از ۱۵۰هزارتومان</li>
-                                               <li class="card-text"><i class="fas fa-fire"></i> پرفروشترین کالاها</li>
-                                               <li class="card-text"><i class="fa fa-gift"></i> باهرخرید هدیه بگیرید</li>
-                                               <li class="card-text"><i class="fa fa-tags"></i> تخفیف پایان سال</li>
-                                               <li class="card-text"><i class="far fa-credit-card"></i> کارت هدیه خرید از دیجی کالا</li>
-                                               <li class="card-text"><i class="fa fa-shopping-basket"></i> تازه های فروشنده های جدید</li>
+                                            <div class="card-body1">
+                                               <li class="card-text22">سایر لوازم جانبی موتورسیکلت کمتراز۲۰۰هزارتومان</li>
+                                               <li class="card-text23">شمش و پلاک طلا کمتر از ۱۵۰هزارتومان</li>
+                                               <li class="card-text24"><i class="fas fa-fire"></i> پرفروشترین کالاها</li>
+                                               <li class="card-text24"><i class="fa fa-gift"></i> باهرخرید هدیه بگیرید</li>
+                                               <li class="card-text24"><i class="fa fa-tags"></i> تخفیف پایان سال</li>
+                                               <li class="card-text24"><i class="far fa-credit-card"></i> کارت هدیه خرید از دیجی کالا</li>
+                                               <li class="card-text24"><i class="fa fa-shopping-basket"></i> تازه های فروشنده های جدید</li>
                                             </div>
                                         </div>
-                                        <div class="left">
-                                            <img src="{{ asset('img/sub.sug.png') }}" style="width:300px; height:440px;">
+                                        <div class="banner1">
+                                            <img src="{{ asset('img/sub.sug.png') }}">
                                         </div>
                                     </div>
                                 </div>

@@ -373,7 +373,45 @@ header nav.hidden{
     font-size: 12px;
     line-height: 30px;
 }
-
+.subnav .subnav-content3 .card-body .card-item11{
+    color: #232933;
+    margin-top: -4px;
+    margin-right:10px;
+    font-size: 12px;
+}
+.subnav .subnav-content3 .card-body .card-item1{
+    color: #232933;
+    margin-right:10px;
+    font-size: 14px;
+}
+.subnav .subnav-content3 .card-body .card-item{
+    margin-right:10px;
+    color: #777;
+    font-size: 12px;
+}
+.subnav .subnav-content3 .card-body1 .card-text22{
+    color: #777;
+    margin-right: 22px;
+}
+.subnav .subnav-content3 .card-body1 .card-text23{
+    color: #777;
+    margin-right: 22px;
+}
+.subnav .subnav-content3 .card-body1 .card-text24{
+    font-size: 12px;
+    margin-right: 22px;
+}
+.subnav .subnav-content3 .card-body1 .card-text24 i{
+    color: #777;
+    margin-left: 10px;
+}
+.subnav .subnav-content3 .card .banner1 img{
+    border-radius: 8px;
+    width:340px;
+    height:430px;
+    margin-left:40px;
+    margin-top: 14px;
+}
 
 
 
