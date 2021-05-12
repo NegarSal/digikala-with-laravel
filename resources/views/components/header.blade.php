@@ -39,7 +39,7 @@
                         <li><a href=""><i class="fa fa-shopping-basket"></i> سوپرمارکت</a></li>
                         <div class="subnav">
                             <button class="subnavbtn"><i class="fas fa-tag"></i> تخفیف ها و پیشنهادها</button>
-                            <div class="subnav-content">
+                            <div class="subnav-content3">
                                     <div class="top-bar">
                                          <a href="" class="sublist-all">مشاهده همه تخفیف‌ها و پیشنهادها</a>
                                      </div>
@@ -119,7 +119,7 @@
                         <li><a href=""><i class="fas fa-medal"></i> دیجی کالای من</a></li>
                         <div class="subnav">
                           <button class="subnavbtn"><i class="far fa-gem"></i>دیجی پلاس</button>
-                        <div class="subnav-content">
+                        <div class="subnav-content1">
                             <div class="new-list">
                                 <div class="submenu" >
                                     <div class="submenu-content">
@@ -149,7 +149,7 @@
                         </div>
                         <div class="subnav">
                             <button class="subnavbtn"><i class="fa fa-crosshairs"></i>دیجی کلاب</button>
-                            <div class="subnav-content">
+                            <div class="subnav-content2">
                                <div class="digiclub">
                                  <div class="submenu1">
                                     <div class="submenu1-content">

@@ -196,23 +196,43 @@ header nav.hidden{
     line-height: 30px;
 }
 /*digi plus*/
-.subnav .subnav-content .new-list {
+.subnav-content1 {
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    display: none;
+    right: 12%;
+    left: 40%;
+    z-index: 12;
+    background-color: #fff;
+    justify-content: space-between;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 15%);
+}
+.subnav:hover .subnav-content1 {
+    display: block;
+    font-size: 12px;
+    line-height: 30px;
+}
+.subnav .subnav-content1 .new-list {
     background-color: #fff;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
     height: 188px;
 }
-.subnav .subnav-content .submenu{
+.subnav .subnav-content1 .submenu{
     width: 100%;
     padding: 16px 12px 12px;
     display: flex;
 }
-.subnav .subnav-content .submenu .submenu-content{
+.subnav .subnav-content1 .submenu .submenu-content{
     color: #616161;
     align-items: flex-start;
     margin-left: 24px;
 }
-.subnav .subnav-content .submenu .submenu-content .head-title{
+.subnav .subnav-content1 .submenu .submenu-content .head-title{
     margin-bottom: 4px;
     color: #030a16;
     font-size: 12px;
@@ -222,33 +242,33 @@ header nav.hidden{
     align-items: center;
     padding-right: 4px;
 }
-.subnav .subnav-content .submenu .submenu-content .head-title img{
+.subnav .subnav-content1 .submenu .submenu-content .head-title img{
     margin-left: 4px;
     margin-right: 4px;
     max-width: 58px;
     line-height: 22px;
 }
-.subnav .subnav-content .submenu .submenu-content .head-subtitle{
+.subnav .subnav-content1 .submenu .submenu-content .head-subtitle{
     color: #62666d;
     font-size: 11px;
     line-height: 1.91;
     padding-right: 4px;
 }
-.subnav .subnav-content .submenu .submenu-content .submenu-nav{
+.subnav .subnav-content1 .submenu .submenu-content .submenu-nav{
     margin-top: 8px;
     width: 100%;
 }
-.subnav .subnav-content .submenu .submenu-content .submenu-nav .register{
+.subnav .subnav-content1 .submenu .submenu-content .submenu-nav .register{
     display: flex;
     margin-bottom: 8px;
 }
-.subnav .subnav-content .submenu .submenu-content .submenu-nav .register a{
+.subnav .subnav-content1 .submenu .submenu-content .submenu-nav .register a{
     font-size: 12px;
     color: #0fabc6;
     margin-right: 0;
     margin-top: -15px;
 }
-.subnav .subnav-content .submenu .submenu-content .submenu-nav .plus-products{
+.subnav .subnav-content1 .submenu .submenu-content .submenu-nav .plus-products{
     border-top: 1px solid #dfdfdf;
     margin-top: -10px;
     font-size: 12px;
@@ -257,16 +277,16 @@ header nav.hidden{
     display: flex;
     align-items: center;
 }
-.subnav .subnav-content .submenu .submenu-content .submenu-nav .plus-products a{
+.subnav .subnav-content1 .submenu .submenu-content .submenu-nav .plus-products a{
     display: flex;
     align-items: center;
 }
-.subnav .subnav-content .submenu .submenu-content .submenu-nav .plus-products img{
+.subnav .subnav-content1 .submenu .submenu-content .submenu-nav .plus-products img{
     margin-right: 4px;
     max-width: 58px;
     list-style-type: disc ;
 }
-.subnav .subnav-content .new-list .submenu .b-link img{
+.subnav .subnav-content1 .new-list .submenu .b-link img{
     max-width: 440px;
     max-height: 85%;
     width: 100%;
@@ -274,20 +294,40 @@ header nav.hidden{
 }
 
 /*digi club*/
-.subnav .subnav-content .digiclub .submenu1 {
+.subnav-content2 {
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    display: none;
+    right: 12%;
+    left: 40%;
+    z-index: 12;
+    background-color: #fff;
+    justify-content: space-between;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 15%);
+}
+.subnav:hover .subnav-content2 {
+    display: block;
+    font-size: 12px;
+    line-height: 30px;
+}
+.subnav .subnav-content2 .digiclub .submenu1 {
     display: flex;
     margin-right: 4px;
 }
-.subnav .subnav-content .digiclub .submenu1 .submenu1-content .dclub img{
+.subnav .subnav-content2 .digiclub .submenu1 .submenu1-content .dclub img{
     margin-top:14px;
     height: 28px;
     margin-right: 8px;
 }
-.subnav .subnav-content .digiclub .submenu1 .submenu1-content .submenu-nav{
+.subnav .subnav-content2 .digiclub .submenu1 .submenu1-content .submenu-nav{
     margin-top: auto;
     width: 100%;
 }
-.subnav .subnav-content .digiclub .submenu1 .submenu1-content .submenu-nav .nav-item{
+.subnav .subnav-content2 .digiclub .submenu1 .submenu1-content .submenu-nav .nav-item{
     display: flex;
     align-items: center;
     padding: 4px;
@@ -297,28 +337,48 @@ header nav.hidden{
     white-space: nowrap;
     margin-right: 8px;
 }
-.subnav .subnav-content .digiclub .submenu1 .submenu1-content .submenu-nav .nav-item i{
+.subnav .subnav-content2 .digiclub .submenu1 .submenu1-content .submenu-nav .nav-item i{
     color: #b0bec5;
     margin-left: 8px;
 }
-.subnav .subnav-content .digiclub .submenu1 .submenu1-content .submenu-nav .nav-item:nth-child(3){
+.subnav .subnav-content2 .digiclub .submenu1 .submenu1-content .submenu-nav .nav-item:nth-child(3){
     color: #b0bec5;
 }
-.subnav .subnav-content .digiclub .submenu1 .b-link2 img{
+.subnav .subnav-content2 .digiclub .submenu1 .b-link2 img{
     border-radius: 8px;
     margin-right: 100px;
     margin-top: 14px;
-    width: 400px;
+    width: 360px;
     height: 180px;
 }
 
 /*offers*/
-.subnav .subnav-content .top-bar{
+.subnav-content3 {
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    display: none;
+    right: 12%;
+    left: 30%;
+    z-index: 12;
+    background-color: #fff;
+    justify-content: space-between;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 15%);
+}
+.subnav:hover .subnav-content3 {
+    display: block;
+    font-size: 12px;
+    line-height: 30px;
+}
+.subnav .subnav-content3 .top-bar{
     justify-content: space-between;
     display: flex;
     align-items: center;
 }
-.subnav .subnav-content .top-bar .sublist-all{
+.subnav .subnav-content3 .top-bar .sublist-all{
     font-size: 12px;
     line-height: 1.833;
     font-weight: 700;
@@ -326,18 +386,18 @@ header nav.hidden{
     margin-top: 12px;
     margin-right: 10px;
 }
-.subnav .subnav-content .newsublist{
+.subnav .subnav-content3 .newsublist{
     width: 50%;
     direction: rtl;
     text-align: right;
     font-size: 14px;
     font-weight: 700;
 }
-.subnav .subnav-content .newsublist .newtitle1{
+.subnav .subnav-content3 .newsublist .newtitle1{
     color: #424750;
     display: block !important;
 }
-.subnav .subnav-content .newlist-item .newtitle{
+.subnav .subnav-content3 .newlist-item .newtitle{
     width: 50%;
     direction: rtl;
     text-align: right;
