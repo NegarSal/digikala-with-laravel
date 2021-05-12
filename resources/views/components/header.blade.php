@@ -44,7 +44,7 @@
                                     <div class="flex">
                                         <div class="flex">
                                             <div class="card-body">
-                                               <li class="card-item11">مشاهده همه تخفیف ها و پیشنهادها</li>
+                                               <li class="card-item11">مشاهده همه تخفیف ها و پیشنهادها <i class="fas fa-angle-left"></i></li>
                                                <li class="card-item1">کالاهای شگفت انگیز</li>
                                                <li class="card-item1">شگفت انگیز سوپرمارکتی</li>
                                                <li class="card-item1">فروش ویژه</li>
@@ -61,8 +61,8 @@
                                         </div>
                                         <div class="flex">
                                             <div class="card-body1">
-                                               <li class="card-text22">سایر لوازم جانبی موتورسیکلت کمتراز۲۰۰هزارتومان</li>
-                                               <li class="card-text23">شمش و پلاک طلا کمتر از ۱۵۰هزارتومان</li>
+                                               <li class="card-text22">کتاب چاپی تا ۷۰ درصد تخقیف</li>
+                                               <li class="card-text23">ماشین حساب کمتر از ۹۹ هزار تومان</li>
                                                <li class="card-text24"><i class="fas fa-fire"></i> پرفروشترین کالاها</li>
                                                <li class="card-text24"><i class="fa fa-gift"></i> باهرخرید هدیه بگیرید</li>
                                                <li class="card-text24"><i class="fa fa-tags"></i> تخفیف پایان سال</li>

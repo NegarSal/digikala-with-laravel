@@ -288,7 +288,7 @@ header nav.hidden{
 }
 .subnav .subnav-content1 .new-list .submenu .b-link img{
     max-width: 440px;
-    max-height: 85%;
+    max-height: 95%;
     width: 100%;
     border-radius: 8px;
 }
@@ -375,7 +375,6 @@ header nav.hidden{
 }
 .subnav .subnav-content3 .card-body .card-item11{
     color: #232933;
-    margin-top: -4px;
     margin-right:10px;
     font-size: 12px;
 }
@@ -388,6 +387,7 @@ header nav.hidden{
     margin-right:10px;
     color: #777;
     font-size: 12px;
+    line-height: 32px;
 }
 .subnav .subnav-content3 .card-body1 .card-text22{
     color: #777;
@@ -396,6 +396,7 @@ header nav.hidden{
 .subnav .subnav-content3 .card-body1 .card-text23{
     color: #777;
     margin-right: 22px;
+    border-bottom: 1px solid #e0e0e2;
 }
 .subnav .subnav-content3 .card-body1 .card-text24{
     font-size: 12px;
@@ -407,10 +408,10 @@ header nav.hidden{
 }
 .subnav .subnav-content3 .card .banner1 img{
     border-radius: 8px;
-    width:340px;
+    width:350px;
     height:430px;
-    margin-left:40px;
     margin-top: 14px;
+    margin-right: 37px;
 }
 
 
