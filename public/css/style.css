@@ -169,7 +169,7 @@ header nav.hidden{
     margin: 0;
     cursor: pointer;
     color:#616161;
-    font-size:12px ;
+    font-size:12px;
 }
 .navbar a:hover, .subnav:hover .subnavbtn {
     background-color: #fff;
@@ -423,11 +423,12 @@ header nav.hidden{
     margin-top: 14px;
     margin-right: 25px;
 }
-
-
-
-
-
+.subnav .subnav-content3 .card .card-body .card-item11:hover,.subnav .subnav-content3 .card .card-body .card-item1:hover,
+.subnav .subnav-content3 .card .card-body .card-item:hover,.subnav .subnav-content3 .card .card-body1 .card-text22:hover,
+.subnav .subnav-content3 .card .card-body1 .card-text23:hover,.subnav .subnav-content3 .card .card-body1 .card-text24:hover,
+.subnav .subnav-content3 .card .card-body1 .card-text24 i:hover{
+    color: #ef5661;
+}
 /*partition*/
 .subnav-content4 {
     cursor: pointer;
