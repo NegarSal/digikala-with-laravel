@@ -373,39 +373,69 @@ header nav.hidden{
     font-size: 12px;
     line-height: 30px;
 }
-.subnav .subnav-content3 .top-bar{
+.subnav .subnav-content3 .subright{
+
+}
+.subnav .subnav-content3 .subright .top-bar{
     justify-content: space-between;
     display: flex;
     align-items: center;
 }
-.subnav .subnav-content3 .top-bar .sublist-all{
+.subnav .subnav-content3 .subright .top-bar .sublist-all{
     font-size: 12px;
     line-height: 1.833;
-    font-weight: 700;
     color: #424750;
-    margin-top: 12px;
+    margin-top: 26px;
     margin-right: 10px;
 }
-.subnav .subnav-content3 .newsublist{
+.subnav .subnav-content3 .subright .newsublist{
     width: 50%;
-    direction: rtl;
     text-align: right;
     font-size: 14px;
-    font-weight: 700;
 }
-.subnav .subnav-content3 .newsublist .newtitle1{
+.subnav .subnav-content3 .subright .newsublist .newtitle1{
     color: #424750;
-    display: block !important;
+    display: block!important;
+    font-size: 12px;
+    line-height: 12px;
 }
-.subnav .subnav-content3 .newlist-item .newtitle{
+.subnav .subnav-content3 .subright .newlist-item .newtitle{
     width: 50%;
-    direction: rtl;
     text-align: right;
 }
+.subnav .subnav-content3 .newbanner{
+    width: 350px;
+    height: 100%;
+    padding: 12px;
+}
+.subnav .subnav-content3 .newbanner .newbanner1 img{
+    max-height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
 
 
-
-
+/*partition*/
+.subnav-content4 {
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    display: none;
+    right: 1%;
+    left: 1%;
+    z-index: 12;
+    background-color: #fff;
+    justify-content: space-between;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 15%);
+}
+.subnav:hover .subnav-content4 {
+    display: block;
+    font-size: 12px;
+    line-height: 30px;
+}
 
 
 
