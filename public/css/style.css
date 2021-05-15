@@ -451,15 +451,6 @@ header nav.hidden{
     line-height: 30px;
 }
 
-
-
-
-
-
-
-
-
-
 /*slider-part1*/
 .swiper-container {
     height: 100%;
@@ -474,7 +465,6 @@ header nav.hidden{
     display: flex;
     justify-content: center;
 }
-
 
 /*slider-part2(banner)*/
 main article{
@@ -1668,6 +1658,34 @@ display: block;
         border-top: none;
 
       }
+
+ /*-------responsive-------*/
+
+ @media (max-width: 576px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    body{
+        padding-top: 80px;
+    }
+    /*slider-part1*/
+    .swiper-container {
+        width: 51%;
+        border-radius:20px;
+    }
+    .swiper-button-next , .swiper-button-prev{
+        visibility: hidden;
+    }
+    /*slider-part2(banner)*/
+    main article  .bannerLeft{
+        visibility: hidden;
+    }
+    /*specialoffer*/
+
+ }
+
+
 
 
 
