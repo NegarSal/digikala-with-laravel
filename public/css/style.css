@@ -1661,11 +1661,8 @@ display: block;
 
  /*-------responsive-------*/
 
- /* X-Small devices (less than 576px) */
+ /* X-Small devices (less than 425px) */
  @media (max-width: 425px){
-    html, body {
-        overflow-x: hidden;
-    }
     body{
         padding-top: 20px;
     }
@@ -1684,7 +1681,49 @@ display: block;
         visibility: hidden;
     }
     /*specialoffer*/
-
+    .specialoffer .slider{
+        padding: 25px 5px;
+        overflow-x: scroll !important;
+    }
+    .specialoffer .right .showALL{
+        border:none;
+        font-size: 13px;
+    }
+    .swiper-slide .image{
+        width: 70px;
+        height: 70px;
+    }
+    .swiper-wrapper .swiper-slide .card{
+        width: 80px;
+        height: 110px;
+        padding: 5px;
+    }
+    .swiper-wrapper .swiper-slide .card .title{
+        height: 60px;
+        padding: 5px 0;
+        text-align: center;
+        font-size: 10px;
+        line-height: 8px;
+    }
+    .swiper-wrapper .swiper-slide .card .price{
+        text-align: center;
+    }
+    .swiper-wrapper .swiper-slide .card .price .newPrice span:nth-child(1){
+        font-size: 12px;
+    }
+    .swiper-wrapper .swiper-slide .card .price .newPrice span:nth-child(2){
+        font-size: 12px;
+    }
+    .swiper-wrapper .swiper-slide .card .timer{
+        font-size: 12px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .swiper-wrapper .swiper-slide .card>i{
+        margin-top: 15px;
+        font-size: 12px;
+        margin-bottom: -35px;
+    }
  }
 
  /* Small devices (less than 768px) */
