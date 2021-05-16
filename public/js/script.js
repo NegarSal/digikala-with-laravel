@@ -47,9 +47,23 @@ var swiper1 = new Swiper('.s1', {
       resize: function () {
         swiper.changeDirection(getDirection());
       }
-    }
+    },
+    breakpoints: {
+        425: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+          direction: 'horizontal'
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      }
   });
-
   function getDirection() {
     var windowWidth = window.innerWidth;
     var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';

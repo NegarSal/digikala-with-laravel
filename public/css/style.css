@@ -510,7 +510,6 @@ main .specialoffer{
 }
 .specialoffer .slider{
     padding: 35px 16px;
-
 }
 .specialoffer .right{
     width: 12%;
@@ -1667,7 +1666,7 @@ display: block;
         padding-top: 20px;
     }
     /*slider-part1*/
-    .swiper-container {
+    .s0 {
         max-width:400px;
         border-radius:20px;
         right: 1px !important;
@@ -1682,47 +1681,17 @@ display: block;
     }
     /*specialoffer*/
     .specialoffer .slider{
-        padding: 25px 5px;
         overflow-x: scroll !important;
+    }
+    .specialoffer .right{
+        width: 150px;
     }
     .specialoffer .right .showALL{
         border:none;
         font-size: 13px;
     }
-    .swiper-slide .image{
-        width: 70px;
-        height: 70px;
-    }
-    .swiper-wrapper .swiper-slide .card{
-        width: 80px;
-        height: 110px;
-        padding: 5px;
-    }
     .swiper-wrapper .swiper-slide .card .title{
-        height: 60px;
-        padding: 5px 0;
         text-align: center;
-        font-size: 10px;
-        line-height: 8px;
-    }
-    .swiper-wrapper .swiper-slide .card .price{
-        text-align: center;
-    }
-    .swiper-wrapper .swiper-slide .card .price .newPrice span:nth-child(1){
-        font-size: 12px;
-    }
-    .swiper-wrapper .swiper-slide .card .price .newPrice span:nth-child(2){
-        font-size: 12px;
-    }
-    .swiper-wrapper .swiper-slide .card .timer{
-        font-size: 12px;
-        margin-top: 15px;
-        text-align: center;
-    }
-    .swiper-wrapper .swiper-slide .card>i{
-        margin-top: 15px;
-        font-size: 12px;
-        margin-bottom: -35px;
     }
  }
 
