@@ -1,5 +1,6 @@
 
     <!-- Smile, breathe, and go slowly. - Thich Nhat Hanh -->
+<article>
     <div class="swiper-container s1 swiper1">
         <div class="headline">
             <span>کرم مرطوب کننده و نرم کننده</span>
@@ -129,3 +130,4 @@
         <div class="swiper-button-next next"></div>
         <div class="swiper-button-prev prev"></div>
         </div>
+</article>

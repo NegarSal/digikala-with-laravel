@@ -641,8 +641,9 @@ main .marketSlider{
     background-color: #6bb927;
 }
 /*Part 5-banner*/
-.banner1 .container .atag{
-    width: 49%;
+.banner1 .atag{
+    display: block;
+    max-width:100%;
 }
 /*Part7/Icon*/
 main .box .boxContainer .boxCard a{
@@ -702,7 +703,7 @@ main .box  .boxCard .item .tedad{
     border-bottom: 1px solid #ef5661;
     padding: 15px 0;
 }
-.box .banner1 .container{
+.box .banner1{
     padding: 0;
 }
 .box .banner2 {

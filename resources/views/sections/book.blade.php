@@ -1,6 +1,6 @@
 
     <!-- When there is no desire, all things are at peace. - Laozi -->
-<article class="box container">
+<article>
     <div class="swiper-container s1 swiper1">
         <div class="headline">
             <span>کتاب چاپی</span>

@@ -1,6 +1,6 @@
 
     <!-- Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant -->
-
+<article>
     <div class="swiper-container s1 swiper1">
         <div class="headline">
             <span>گوشی موبایل</span>
@@ -130,3 +130,4 @@
         <div class="swiper-button-next next"></div>
         <div class="swiper-button-prev prev"></div>
         </div>
+</article>

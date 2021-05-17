@@ -1,6 +1,6 @@
 
     <!-- If you do not have a consistent goal in life, you can not live it in a consistent way. - Marcus Aurelius -->
-
+<article>
     <div class="swiper-container s1 swiper1">
         <div class="headline">
             <span>شوینده لباس</span>
@@ -130,4 +130,4 @@
         <div class="swiper-button-next next"></div>
         <div class="swiper-button-prev prev"></div>
         </div>
-
+</article>

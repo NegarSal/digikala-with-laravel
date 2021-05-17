@@ -22,7 +22,6 @@
         <!--Part-book-->
         @include('sections.book')
 
-        <article class="box container">
             <!--Part7/Icon-->
             @include('sections.blueicon')
 
@@ -56,7 +55,6 @@
             <!--Part-lastPart-->
             @include('sections.brand')
 
-        </article>
     </main>
 
 

@@ -2,7 +2,7 @@
     <!-- He who is contented is rich. - Laozi -->
 
     <article class="specialoffer marketSlider">
-        <section class="slider container flex">
+        <section class="slider flex">
             <div class="right">
                 <a class="marketBanner" href=""></a>
                 <div class="showALL">مشاهده همه <i class='fas fa-angle-left'></i></div>

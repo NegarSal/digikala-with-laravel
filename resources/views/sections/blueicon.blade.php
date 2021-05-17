@@ -1,6 +1,6 @@
 
     <!-- Smile, breathe, and go slowly. - Thich Nhat Hanh -->
-    
+<article class="box container">
     <div class="boxContainer">
         <div class="headerBox">بیش از ۲،۰۰۰،۰۰۰ کالا در دسته‌بندی‌های مختلف</div>
         <div class="boxCard flex">
@@ -51,3 +51,4 @@
             </a>
         </div>
     </div>
+</article>
