@@ -1,6 +1,6 @@
 
     <!-- Very little is needed to make a happy life. - Marcus Antoninus -->
-
+<article>
     <div class="swiper-container s1 swiper1">
         <div class="headline">
             <span>ساعت هوشمند</span>
@@ -130,3 +130,4 @@
         <div class="swiper-button-next next"></div>
         <div class="swiper-button-prev prev"></div>
         </div>
+</article>

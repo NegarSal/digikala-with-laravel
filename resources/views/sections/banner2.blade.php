@@ -1,13 +1,18 @@
 
     <!-- I begin to speak only when I am certain what I will say is not better left unsaid - Cato the Younger -->
-
+<article>
     <div class="banner2">
-        <a href="#">
-            <img src="{{ asset('img/b-banner.jpg') }}" alt="">
-        </a>
+        <div class="row fle11">
+            <a href="#" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-3">
+                <img src="{{ asset('img/b-banner.jpg') }}" alt="">
+            </a>
+        </div>
     </div>
+</article>
+
 
     <!--Recent bestsellers-->
+<article>
     <div class="swiper-container s1 swiper1">
         <div class="headline">
             <span>محصولات پرفروش اخیر</span>
@@ -137,10 +142,11 @@
         <div class="swiper-button-next next"></div>
         <div class="swiper-button-prev prev"></div>
         </div>
-
+</article>
 
 
 <!--Parton sale -->
+<article>
 <div class="swiper-container s1 swiper1">
     <div class="headline">
         <span>منتخب محصولات تخفیف و حراج</span>
@@ -270,4 +276,4 @@
     <div class="swiper-button-next next"></div>
     <div class="swiper-button-prev prev"></div>
     </div>
-
+</article>

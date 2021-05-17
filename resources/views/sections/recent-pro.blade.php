@@ -1,6 +1,6 @@
 
     <!-- Simplicity is the essence of happiness. - Cedric Bledsoe -->
-
+<article>
     <div class="swiper-container s1 swiper1">
         <div class="headline">
             <span>محصولات پربازدید اخیر</span>
@@ -130,3 +130,4 @@
         <div class="swiper-button-next next"></div>
         <div class="swiper-button-prev prev"></div>
         </div>
+</article>

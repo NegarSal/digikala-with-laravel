@@ -18,10 +18,10 @@
         </div>
     </div>
     <nav>
-        <div class="container">
+        <div class="container11">
             <ul class="flex">
                 <li class="menu1">
-                    <ul class="flex">
+                    <ul class="fle11">
                         <div class="subnav">
                             <button class="subnavbtn"><i class="fas fa-bars"></i> دسته بندی کالاها</button>
                             <div class="subnav-content4">
@@ -41,8 +41,8 @@
                             <button class="subnavbtn"><i class="fas fa-tag"></i> تخفیف ها و پیشنهادها</button>
                             <div class="subnav-content3">
                                 <div class="card">
-                                    <div class="flex">
-                                        <div class="flex">
+                                    <div class="fle11">
+                                        <div class="fle11">
                                             <div class="card-body">
                                                <li class="card-item11">مشاهده همه تخفیف ها و پیشنهادها <i class="fas fa-angle-left"></i></li>
                                                <li class="card-item1">کالاهای شگفت انگیز <i class="fas fa-angle-left"></i></li>
@@ -59,7 +59,7 @@
                                                <li class="card-item">ورزش و سفر</li>
                                             </div>
                                         </div>
-                                        <div class="flex">
+                                        <div class="fle11">
                                             <div class="card-body1">
                                                <li class="card-text22">کتاب چاپی تا ۷۰ درصد تخقیف</li>
                                                <li class="card-text23">ماشین حساب کمتر از ۹۹ هزار تومان</li>

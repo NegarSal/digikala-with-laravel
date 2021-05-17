@@ -1,6 +1,6 @@
 
     <!-- Simplicity is the ultimate sophistication. - Leonardo da Vinci -->
-
+<article>
     <div class="swiper-container s1 swiper1">
         <div class="headline">
             <span>قهوه ساز و دمنوش</span>
@@ -130,3 +130,4 @@
         <div class="swiper-button-next next"></div>
         <div class="swiper-button-prev prev"></div>
         </div>
+</article>

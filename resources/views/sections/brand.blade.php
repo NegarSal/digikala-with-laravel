@@ -3,6 +3,7 @@
 
 
 <!--part Brand-->
+<article>
 <div class="swiper-container s1 swiper1">
     <div class="headline">
         <span>برندهای ویژه</span>
@@ -54,6 +55,6 @@
     <div class="swiper-button-next next"></div>
     <div class="swiper-button-prev prev"></div>
     </div>
-
+</article>
 
 

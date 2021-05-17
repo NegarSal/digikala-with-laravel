@@ -129,7 +129,7 @@ header nav.hidden{
     display: flex;
     align-items: center;
 }
-.container{
+.container11{
     max-width: 1676px;
     min-width: 1009px;
     margin-right: auto;
@@ -138,11 +138,11 @@ header nav.hidden{
     padding-left: 15px;
 
 }
-.container > ul{
+.container11 > ul{
     justify-content: space-between;
     line-height: 30px;
 }
-.container ul li ul li a{
+.container11 ul li ul li a{
     padding: 10px;
     display: block;
     padding: 10px;
@@ -151,14 +151,14 @@ header nav.hidden{
     font-size:12px ;
     margin-right: 12px;
 }
-.container ul li ul li:nth-child(1){
+.container11 ul li ul li:nth-child(1){
     color: #616161;
     font-size:12px ;
     display: flex;
     align-items: center;
     border-left: 1px solid #f0f0f1;
 }
-.container ul .location{
+.container11 ul .location{
     color:#616161;
     font-size:12px ;
 }
@@ -633,6 +633,15 @@ main .specialoffer{
     max-width:100%;
 }
 .banner1 img{
+    border-radius: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+/*banner2*/
+.banner2 a{
+    display: block;
+    max-width:100%;
+}
+.banner2 img{
     border-radius: 16px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
 }
