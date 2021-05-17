@@ -19,7 +19,7 @@
     </div>
     <nav>
         <div class="container11">
-            <ul class="flex">
+            <ul class="fle11">
                 <li class="menu1">
                     <ul class="fle11">
                         <div class="subnav">
@@ -70,7 +70,7 @@
                                                <li class="card-text24"><i class="fa fa-shopping-basket"></i> تازه های فروشنده های جدید</li>
                                             </div>
                                         </div>
-                                        <div class="banner1">
+                                        <div class="ban1">
                                             <img src="{{ asset('img/sub.sug.png') }}">
                                         </div>
                                     </div>

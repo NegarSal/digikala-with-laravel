@@ -350,9 +350,8 @@ header nav.hidden{
 }
 .subnav .subnav-content2 .digiclub .submenu1 .b-link2 img{
     border-radius: 8px;
-    margin-right: 100px;
-    margin-top: 14px;
-    width: 360px;
+    margin: 14px;
+    width: 415px;
     height: 180px;
 }
 
@@ -420,10 +419,10 @@ header nav.hidden{
     color: #777;
     margin-left: 10px;
 }
-.subnav .subnav-content3 .card .banner1 img{
+.subnav .subnav-content3 .card .ban1 img{
     border-radius: 8px;
-    width:350px;
-    height:430px;
+    width:320px;
+    height:410px;
     margin-top: 14px;
     margin-right: 25px;
 }
