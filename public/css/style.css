@@ -125,6 +125,10 @@ header nav.hidden{
     display: flex;
     align-items: center;
 }
+.fle11{
+    display: flex;
+    align-items: center;
+}
 .container{
     max-width: 1676px;
     min-width: 1009px;
@@ -624,11 +628,11 @@ main .specialoffer{
     top: 30%;
 }
 /*banner1*/
-.banner1 .container a{
-    display: inline-block;
-    width: 24%;
+.banner1 a{
+    display: block;
+    max-width:100%;
 }
-.banner1 .container img{
+.banner1 img{
     border-radius: 16px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
 }
