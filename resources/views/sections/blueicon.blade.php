@@ -1,9 +1,9 @@
 
     <!-- Smile, breathe, and go slowly. - Thich Nhat Hanh -->
-<article class="box container">
-    <div class="boxContainer">
+<article class="box container11">
+    <div class="boxContainer1">
         <div class="headerBox">بیش از ۲،۰۰۰،۰۰۰ کالا در دسته‌بندی‌های مختلف</div>
-        <div class="boxCard flex">
+        <div class="boxCard fle11">
             <a class="item" href="#">
                 <i class="fas fa-laptop"></i>
                 <div class="title">کالای دیجیتال</div>

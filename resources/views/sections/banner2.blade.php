@@ -1,13 +1,11 @@
 
     <!-- I begin to speak only when I am certain what I will say is not better left unsaid - Cato the Younger -->
-<article>
-    <div class="banner2">
+<article class="banner2">
         <div class="row fle11">
             <a href="#" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-3">
                 <img src="{{ asset('img/b-banner.jpg') }}" alt="">
             </a>
         </div>
-    </div>
 </article>
 
 

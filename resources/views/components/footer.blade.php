@@ -1,34 +1,34 @@
 
     <!-- Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant -->
-    
+
     <a href="#" class="scrollTop fle11"><i class="fas fa-caret-up"></i>برگشت به بالا</a>
 
-    <div class="contain container11">
-      <nav class="feature fle11 container11 mx1450px">
-        <a href=""><img src="{{ asset('img/footer/item1.svg') }}" alt="">
+    <div class=" container11">
+      <nav class="feature fle11 container11 row">
+        <a href="" class="col-xs-1 col-sm-6 col-md-6 col-lg-2 mt-3"><img src="{{ asset('img/footer/item1.svg') }}" alt="">
             <div class="itemTitle">تحویل اکسپرس</div>
         </a>
-        <a href=""><img src="{{ asset('img/footer/item2.svg') }}" alt="">
+        <a href="" class="col-xs-1 col-sm-6 col-md-6 col-lg-2 mt-3"><img src="{{ asset('img/footer/item2.svg') }}" alt="">
             <div class="itemTitle">پشتیبانی ۲۴ ساعته</div>
         </a>
-        <a href=""><img src="{{ asset('img/footer/item3.svg') }}" alt="">
+        <a href="" class="col-xs-1 col-sm-4 col-md-4 col-lg-2 mt-3"><img src="{{ asset('img/footer/item3.svg') }}" alt="">
             <div class="itemTitle">پرداخت در محل</div></a>
-        <a href=""><img src="{{ asset('img/footer/item4.svg') }}" alt="">
+        <a href="" class="col-xs-1 col-sm-4 col-md-4 col-lg-2 mt-3"><img src="{{ asset('img/footer/item4.svg') }}" alt="">
             <div class="itemTitle">۷روز ضمانت بازگشت</div>
         </a>
-        <a href=""><img src="{{ asset('img/footer/item5.svg') }}" alt="">
+        <a href="" class="col-xs-1 col-sm-4 col-md-4 col-lg-2 mt-3"><img src="{{ asset('img/footer/item5.svg') }}" alt="">
             <div class="itemTitle">ضمانت اصل بودن کالا</div>
         </a>
       </nav>
-      <div class="middleBar mx1450px container11 fle11">
+      <div class="middleBar container11 fle11 row">
         <div class="right fle11">
-            <nav>
+            <nav class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mt-3">
                 <a href="">راهنمای خرید از دیجی‌کالا</a>
                 <a href="">نحوه ثبت سفارش</a>
                 <a href="">رویه ارسال سفارش</a>
                 <a href="">شیوه‌های پرداخت</a>
             </nav>
-            <nav>
+            <nav class="col-xs-12 col-sm-6 col-md-3 col-lg-3 mt-3">
                 <a href="">خدمات مشتریان</a>
                 <a href="">پاسخ به پرسش‌های متداول</a>
                 <a href="">رویه‌های بازگرداندن کالا</a>
@@ -36,7 +36,7 @@
                 <a href="">حریم خصوصی</a>
                 <a href="">گزارش باگ</a>
             </nav>
-            <nav>
+            <nav class="col-xs-12 col-sm-12 col-md-3 col-lg-3 mt-3">
                 <a href="">با دیجی‌کالا</a>
                 <a href="">اتاق خبر دیجی‌کالا</a>
                 <a href="">فروش در دیجی‌کالا</a>

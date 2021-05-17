@@ -2,7 +2,7 @@
     <!-- Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant -->
 
     <article class="specialoffer">
-        <section class="slider flex">
+        <section class="slider fle11">
             <div class="right">
                 <a class="banner" href=""></a>
                 <div class="showALL">مشاهده همه <i class='fas fa-angle-left'></i></div>
