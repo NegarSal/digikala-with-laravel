@@ -22,7 +22,7 @@ body{
     position: relative;
 }
 a{
-    text-decoration: none;
+    text-decoration: none !important;
     display: block;
 }
 li{
@@ -468,24 +468,28 @@ header nav.hidden{
 
 /*slider-part2(banner)*/
 main article{
-    margin-top: 15px !important;;
+    margin-top: 80px !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: -40px;
 }
-main article .flex{
+main article .fle{
     justify-content:space-between;
 }
 main article .flex .slider{
     width: 67%;
 }
 main article .flex .bannerLeft{
-    width: 32%;
+    width: 33%;
+    margin-bottom: 10px;
 }
-main article .flex .bannerLeft a{
+main article .fle .bannerLeft a{
     display: block;
 }
-main article .flex .bannerLeft a img{
+main article .fle .bannerLeft a img{
     border-radius: 20px;
 }
-main article .flex .bannerLeft a:nth-child(1){
+main article .fle .bannerLeft a:nth-child(1){
     margin-bottom: 10px;
 }
 
@@ -623,7 +627,6 @@ main .specialoffer{
 .banner1 .container a{
     display: inline-block;
     width: 24%;
-
 }
 .banner1 .container img{
     border-radius: 16px;
@@ -1660,62 +1663,5 @@ display: block;
 
  /*-------responsive-------*/
 
- /* X-Small devices (less than 425px) */
- @media (max-width: 425px){
-    body{
-        padding-top: 20px;
-    }
-    /*slider-part1*/
-    .s0 {
-        max-width:400px;
-        border-radius:20px;
-        right: 1px !important;
-        left: 1px !important;
-    }
-    .swiper-button-next , .swiper-button-prev{
-        visibility: hidden;
-    }
-    /*slider-part2(banner)*/
-    main article  .bannerLeft{
-        visibility: hidden;
-    }
-    /*specialoffer*/
-    .specialoffer .slider{
-        overflow-x: scroll !important;
-    }
-    .specialoffer .right{
-        width: 150px;
-    }
-    .specialoffer .right .showALL{
-        border:none;
-        font-size: 13px;
-    }
-    .swiper-wrapper .swiper-slide .card .title{
-        text-align: center;
-    }
- }
 
- /* Small devices (less than 768px) */
- @media (max-width: 768px) {
-    html, body {
-        overflow-x: hidden;
-    }
-    body{
-        padding-top:120px;
-    }
-    /*slider-part1*/
-    .swiper-container {
-        width:80%;
-        border-radius:20px;
-        right:100px;
-    }
-    .swiper-button-next , .swiper-button-prev{
-        visibility: hidden;
-    }
-    /*slider-part2(banner)*/
-    main article  .bannerLeft{
-        visibility: hidden;
-    }
-    /*specialoffer*/
 
- }
