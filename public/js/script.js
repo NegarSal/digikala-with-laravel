@@ -47,7 +47,25 @@ var swiper1 = new Swiper('.s1', {
       resize: function () {
         swiper.changeDirection(getDirection());
       }
-    }
+    },
+    breakpoints: {
+        320:{
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 15,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      }
   });
   function getDirection() {
     var windowWidth = window.innerWidth;

@@ -520,6 +520,7 @@ main .specialoffer{
 }
 .specialoffer .right{
     width: 12%;
+    margin-left: 80px;
 }
 .specialoffer .right .showALL{
     color: white;
@@ -541,8 +542,8 @@ main .specialoffer{
     width: 85%;
 }
 .swiper-slide .image{
-    width: 180px;
-    height: 180px;
+    width: 130px;
+    height: 130px;
     margin: 0 auto;
 }
 .swiper-wrapper .swiper-slide .card{
@@ -694,7 +695,7 @@ main .marketSlider{
     width: 100%;
     background-color: white;
     margin: 16px 0;
-    padding: 9px 33px 10px 23px !important;
+    padding: 9px 33px 10px 20px !important;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
 }
 .swiper1 a:hover{
