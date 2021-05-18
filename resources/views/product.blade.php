@@ -22,6 +22,8 @@
         <!--fontawesome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
+                <!--bootstrap-->
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
       </head>
       <body>
@@ -33,10 +35,10 @@
 
 <!--middlepart-->
 <main>
-    <div class="container" id="product">
-        <div class="navBar flex">
+    <div class="container11" id="product">
+        <div class="navBar fle11">
             <nav>
-                <ul class="flex">
+                <ul class="fle11">
                     <li><a href="">دیجی کالا</a></li>
                     <li><a href="">کالای دیجیتال</a></li>
                     <li><a href="">موبایل</a></li>
@@ -47,27 +49,27 @@
                 <a href="">کالای خود را در دیجی کالا بفروشید</a>
             </div>
         </div>
-        <article class="flex">
+        <article class="fle11">
             <section class="gallery">
                 <div class="galleryOption">
                     <ul>
-                        <li class="flex">
+                        <li class="fle11 mt-3">
                             <i class='far fa-heart'></i>
                             <div class="tooltip">افزودن به علاقه مندی</div>
                         </li>
-                        <li class="flex">
+                        <li class="fle11 mt-3">
                             <i class='fas fa-share-alt'></i>
                             <div class="tooltip">اشتراک گذاری</div>
                         </li>
-                        <li class="flex">
+                        <li class="fle11 mt-3">
                             <i class='far fa-bell'></i>
                             <div class="tooltip">اطلاع رسانی شگفت انگیز</div>
                         </li>
-                        <li class="flex">
+                        <li class="fle11 mt-3">
                             <i class='fas fa-chart-line'></i>
                             <div class="tooltip">نمودار قیمت</div>
                         </li>
-                        <li class="flex">
+                        <li class="fle11 mt-3">
                             <i class='far fa-copy'></i>
                             <div class="tooltip">مقایسه</div>
                         </li>
@@ -77,7 +79,7 @@
                     <img src="img/image1280/p1.jpg" alt="">
                 </div>
                 <div class="imgGallery">
-                    <ul class="flex">
+                    <ul class="fle11">
                         <li><img src="{{ asset('img/thumbnail/p.1.jpg') }}" alt=""></li>
                         <li><img src="{{ asset('img/thumbnail/p.2.jpg') }}" alt=""></li>
                         <li><img src="{{ asset('img/thumbnail/p.3.jpg') }}" alt=""></li>
@@ -92,7 +94,7 @@
                 </div>
                 <div class="proText">
                     <span class="proTitle2">Xiaomi POCO X3 M2007J20CG Dual SIM 128GB Mobile Phone</span>
-                    <div class="star flex">
+                    <div class="star fle11">
                         <div class="item"><i class="fas fa-star"></i>۴.۳(۴۱۳)</div>
                         <div class="comments">۵۱۶ دیدگاه کاربران</div>
                         <div class="qa">۱۵۷ پرسش و پاسخ</div>
@@ -118,12 +120,12 @@
                             </span>
                         <button onclick="myFunction()" id="myBtn">موارد بیشتر</button>
                         </ul>
-                        <div class="information flex"><i class="fas fa-info-circle"></i>
+                        <div class="information fle11"><i class="fas fa-info-circle"></i>
                             هشدار سامانه همتا: حتما در زمان تحویل دستگاه،
                              به کمک کد فعال‌سازی چاپ شده روی جعبه یا کارت گارانتی، دستگاه را از طریق #7777*،
                              برای سیم‌کارت خود فعال‌سازی کنید. آموزش تصویری در آدرس اینترنتی hmti.ir/05
                         </div>
-                        <div class="plusbox flex">
+                        <div class="plusbox fle11">
                             <div class="plusbox1"><i class="fas fa-cog"></i>خدمات ویژه کاربران دیجی‌پلاس</div>
                             <div class="plusbox2">شما هم عضو شوید <i class="fas fa-angle-left" id="angle"></i></div>
                         </div>
@@ -132,7 +134,7 @@
             </section>
             <section class="details">
                 <div class="probox">
-                    <div class="seller flex">
+                    <div class="seller fle11">
                         <div class="seller1">فروشنده</div>
                         <div class="seller2">۴ فروشنده دیگر</div>
                     </div>
@@ -153,9 +155,9 @@
                 <div class="bestPrice">آیا قیمت مناسب تری سراغ دارید؟<i class="fas fa-tag"></i></div>
             </section>
         </article>
-        <article class="deliver container">
+        <article class="deliver container11">
             <div class="deltitle">لیست فروشندگان این کالا</div>
-            <div class="supplier flex">
+            <div class="supplier fle11">
                 <div class="suppliergaranti"><i class="fas fa-archive"></i> کالا پلاس <button>برگزیده</button>
                     <div class="supplierrating">عملکرد: ۴ از ۵</div>
                 </div>
@@ -165,7 +167,7 @@
                 <a href="" class="supplierbasket">افزودن به سبد </a>
             </div>
 
-            <div class="supplier flex">
+            <div class="supplier fle11">
                 <div class="suppliergaranti"><i class="fas fa-archive"></i> راتین رایا
                     <div class="supplierrating">عملکرد: ۴ از ۵</div>
                 </div>
@@ -175,7 +177,7 @@
                 <a href="" class="supplierbasket">افزودن به سبد </a>
             </div>
 
-            <div class="supplier flex" id="suplast">
+            <div class="supplier fle11" id="suplast">
                 <div class="suppliergaranti"><i class="fas fa-archive"></i> رانسب شاپ</div>
                 <div class="suppliertruck"><i class="fas fa-truck"></i> ارسال دیجی کالا</div>
                 <div class="suppliergaranti"><i class="	fas fa-shield-alt"></i> گارانتی ۱۸ ماهه کسری پارس</div>
@@ -184,6 +186,7 @@
             </div>
         </article>
 <!--first-slider-->
+<article>
 <div class="swiper-container s1 swiper1">
     <div class="headline">
         <span>محصولات مرتبط</span>
@@ -313,11 +316,11 @@
     <div class="swiper-button-next next"></div>
     <div class="swiper-button-prev prev"></div>
     </div>
-
+</article>
     </section>
 <!--tabs-->
 <section class="tab">
-    <ul class="flex" id="tabs">
+    <ul class="fle11" id="tabs">
         <li class="active"><a>نقد و بررسی</a></li>
         <li><a>بررسی تخصصی</a></li>
         <li><a>مشخصات</a></li>
@@ -382,22 +385,22 @@
                 <h2 class="h2">مشخصات کالا
                     <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
                 </h2>
-                <section class="flex">
+                <section class="fle11">
                     <h3 class="title">مشخصات کلی</h3>
                     <ul>
-                        <li class="flex">
+                        <li class="fle11">
                             <div class="property">ابعاد</div>
                             <div class="value">162.3x77.3x9.6 میلی‌متر</div>
                         </li>
-                        <li class="flex">
+                        <li class="fle11">
                             <div class="property">توضیحات سیم کارت</div>
                             <div class="value">سایز نانو (8.8 × 12.3 میلی‌متر)</div>
                         </li>
-                        <li class="flex">
+                        <li class="fle11">
                             <div class="property">وزن</div>
                             <div class="value">198 گرم</div>
                         </li>
-                        <li class="flex">
+                        <li class="fle11">
                             <div class="property">ساختار بدنه</div>
                             <div class="value">
                                 قاب جلو از شیشه با محافظ گوریلا گلس ۳
@@ -405,28 +408,28 @@
                                 فریم از جنس پلاستیک
                             </div>
                         </li>
-                        <li class="flex">
+                        <li class="fle11">
                             <div class="property">ویژگی‌های خاص</div>
                             <div class="value">مجهز به حس‌گر اثرانگشت , مناسب عکاسی , مناسب عکاسی سلفی , مناسب بازی , دارای بدنه مقاوم</div>
                         </li>
-                        <li class="flex">
+                        <li class="fle11">
                             <div class="property">تعداد سیم کارت</div>
                             <div class="value">دو سیم کارت</div>
                         </li>
-                        <li class="flex">
+                        <li class="fle11">
                             <div class="property">زمان معرفی</div>
                             <div class="value">24 نوامبر 2020</div>
                         </li>
-                        <li class="flex">
+                        <li class="fle11">
                             <div class="property">شیار مجزا برای کارت حافظه</div>
                             <div class="value">دارد</div>
                         </li>
-                        <li class="flex">
+                        <li class="fle11">
                             <div class="property">مدل</div>
                             <div class="value">
                                 (جهانی) Xiaomi POCO M3 M2010J19CG - Global</div>
                         </li>
-                        <li class="flex">
+                        <li class="fle11">
                             <div class="property">شناسه کالا</div>
                             <div class="value">2800000492908</div>
                         </li>
@@ -441,7 +444,7 @@
                 </h2>
             </div>
             <section>
-                <div class="flex">
+                <div class="fle11">
                     <div class="rating">
                         <ul>
                             <li>
@@ -506,6 +509,7 @@
     </div>
 </section>
 <!--second slider-->
+<article>
 <div class="swiper-container s1 swiper1">
     <div class="headline">
         <span>خریداران این محصول، محصولات زیر را هم خریده‌اند</span>
@@ -635,6 +639,7 @@
     <div class="swiper-button-next next"></div>
     <div class="swiper-button-prev prev"></div>
     </div>
+</article>
 <!--text-->
 <div class="lastText">شناسه کالا :DKP - ۴۱۴۹۰۳۷</div>
 
@@ -653,6 +658,10 @@
 <script src="/js/swiper-bundle.min.js"></script>
 <script src="/js/script.js"></script>
 <script src="/js/app.js"></script>
+
+<!--bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 
 </body>
 </html>

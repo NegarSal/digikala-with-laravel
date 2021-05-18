@@ -917,7 +917,8 @@ footer .info .copyRight{
 #product .navBar{
     justify-content: space-between;
     line-height: 20px;
-    margin-top: 25px;
+    margin-top: 45px;
+    margin-bottom: -45px;
 }
 #product .navBar nav ul li:hover{
     font-weight: 700;
@@ -1681,7 +1682,7 @@ display: block;
       }
 
  /*-------responsive-------*/
- 
+
  @media (max-width: 640px){
     header .header .headerLeft {
         visibility: hidden;
