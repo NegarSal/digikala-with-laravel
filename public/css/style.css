@@ -520,7 +520,7 @@ main .specialoffer{
 }
 .specialoffer .right{
     width: 12%;
-    margin-left: 80px;
+    margin-left: 20px;
 }
 .specialoffer .right .showALL{
     color: white;
@@ -533,6 +533,7 @@ main .specialoffer{
     width: 140px;
     margin: 0 auto;
     margin-top: 25px;
+    margin-left: 20px;
 }
 .specialoffer .right .showALL>i{
     margin-right: 20px;
@@ -540,6 +541,7 @@ main .specialoffer{
 }
 .s1{
     width: 85%;
+    margin-right: 40px;
 }
 .swiper-slide .image{
     width: 130px;
@@ -556,7 +558,7 @@ main .specialoffer{
 .swiper-wrapper .swiper-slide .card .title{
     height: 77px;
     padding: 10px 0;
-    text-align: right;
+    text-align: center;
     font-size: 12px;
     line-height: 25px;
     color: #535353;
@@ -1679,6 +1681,37 @@ display: block;
       }
 
  /*-------responsive-------*/
+ @media (max-width: 640px){
+    .specialoffer .right{
+        width: 150px;
+    }
+    .specialoffer .right .showALL{
+        border:none;
+        font-size: 13px;
+    }
+ }
+ @media (max-width: 768px){
+    .specialoffer .right{
+        width: 150px;
+    }
+    .specialoffer .right .showALL{
+        font-size: 13px;
+    }
+ }
 
-
-
+ @media (max-width: 992px){
+    .specialoffer .right{
+        width: 150px;
+    }
+    .specialoffer .right .showALL{
+        font-size: 13px;
+    }
+ }
+ @media (max-width: 1024px){
+    .specialoffer .right{
+        width: 150px;
+    }
+    .specialoffer .right .showALL{
+        font-size: 13px;
+    }
+ }

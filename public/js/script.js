@@ -61,9 +61,13 @@ var swiper1 = new Swiper('.s1', {
           slidesPerView: 2,
           spaceBetween: 15,
         },
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
         1024: {
-          slidesPerView: 5,
-          spaceBetween: 50,
+          slidesPerView: 4,
+          spaceBetween: 20,
         },
       }
   });
