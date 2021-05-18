@@ -1,13 +1,13 @@
 
     <!-- If you do not have a consistent goal in life, you can not live it in a consistent way. - Marcus Aurelius -->
 
-    <div class="header">
-        <div class="headerRight">
+    <div class="header row">
+        <div class="headerRight col-xs-* col-sm-5 col-md-4 col-lg-8">
             <a href="#" class="logo"></a>
             <i class="fa fa-fw fa-search"></i>
             <input type="text" class="searchBox" placeholder="جستجو در دیجی کالا...">
         </div>
-        <div class="headerLeft">
+        <div class="headerLeft .d-none .d-sm-block col-sm-7 col-md-8 col-lg-4">
             <a href="login">
                 <i class="far fa-user"></i>
                 ورود به حساب کاربري
@@ -144,7 +144,5 @@
             </ul>
         </div>
     </nav>
-
-
 
 

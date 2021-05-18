@@ -58,7 +58,7 @@ header .header{
     min-width: 1009px;
     margin: 0 auto;
     padding: 12px 14px;
-    display: flex;
+
     align-items: center;
     background-color: white;
     position: relative;
@@ -1681,6 +1681,7 @@ display: block;
       }
 
  /*-------responsive-------*/
+
  @media (max-width: 640px){
     .specialoffer .right{
         width: 150px;
@@ -1689,6 +1690,9 @@ display: block;
         border:none;
         font-size: 13px;
     }
+    footer .feature a .itemTitle{
+     visibility: hidden;
+    }
  }
  @media (max-width: 768px){
     .specialoffer .right{
@@ -1696,6 +1700,16 @@ display: block;
     }
     .specialoffer .right .showALL{
         font-size: 13px;
+    }
+    footer .feature a img{
+        width: 30px;
+        margin: 0;
+        height: 30px;
+    }
+    footer .feature a .itemTitle{
+        font-size: 10px;
+        color: #606060;
+        text-align: center !important;
     }
  }
 

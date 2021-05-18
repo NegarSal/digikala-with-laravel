@@ -5,18 +5,18 @@
 
     <div class=" container11">
       <nav class="feature fle11 container11 row">
-        <a href="" class="col-xs-1 col-sm-6 col-md-6 col-lg-2 mt-3"><img src="{{ asset('img/footer/item1.svg') }}" alt="">
+        <a href="" class="col-xs-6 col-sm-4 col-md-6 col-lg-2 mt-3"><img src="{{ asset('img/footer/item1.svg') }}" alt="">
             <div class="itemTitle">تحویل اکسپرس</div>
         </a>
-        <a href="" class="col-xs-1 col-sm-6 col-md-6 col-lg-2 mt-3"><img src="{{ asset('img/footer/item2.svg') }}" alt="">
+        <a href="" class="col-xs-6 col-sm-4 col-md-6 col-lg-2 mt-3"><img src="{{ asset('img/footer/item2.svg') }}" alt="">
             <div class="itemTitle">پشتیبانی ۲۴ ساعته</div>
         </a>
-        <a href="" class="col-xs-1 col-sm-4 col-md-4 col-lg-2 mt-3"><img src="{{ asset('img/footer/item3.svg') }}" alt="">
+        <a href="" class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><img src="{{ asset('img/footer/item3.svg') }}" alt="">
             <div class="itemTitle">پرداخت در محل</div></a>
-        <a href="" class="col-xs-1 col-sm-4 col-md-4 col-lg-2 mt-3"><img src="{{ asset('img/footer/item4.svg') }}" alt="">
+        <a href="" class="d-none d-sm-block d-sm-none d-md-block col-md-4 col-lg-2 mt-3"><img src="{{ asset('img/footer/item4.svg') }}" alt="">
             <div class="itemTitle">۷روز ضمانت بازگشت</div>
         </a>
-        <a href="" class="col-xs-1 col-sm-4 col-md-4 col-lg-2 mt-3"><img src="{{ asset('img/footer/item5.svg') }}" alt="">
+        <a href="" class="d-none d-sm-block d-sm-none d-md-block col-md-4 col-lg-2 mt-3"><img src="{{ asset('img/footer/item5.svg') }}" alt="">
             <div class="itemTitle">ضمانت اصل بودن کالا</div>
         </a>
       </nav>
@@ -65,11 +65,11 @@
       <div class="contactUs"> هفت روز هفته ، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم
         شماره تماس :۶۱۹۳۰۰۰۰ - ۰۲۱
        info@digikala.com :آدرس ایمیل</div>
-      <div class="downLoadApp fle11 row">
-        <a href=""  class="col-xs-6 col-sm-6 col-md-6 col-lg-3 mt-3"><img src="{{ asset('img/footer/item8.png') }}" alt=""></a>
-        <a href=""  class="col-xs-6 col-sm-6 col-md-6 col-lg-3 mt-3"><img src="{{ asset('img/footer/item6.svg') }}" alt=""></a>
-        <a href=""  class="col-xs-6 col-sm-6 col-md-6 col-lg-3 mt-3"><img src="{{ asset('img/footer/item7.svg') }}" alt=""></a>
-        <a href=""  class="col-xs-6 col-sm-6 col-md-6 col-lg-3 mt-3"><img src="{{ asset('img/footer/item9.png') }}" alt=""></a>
+      <div class="downLoadApp fle11">
+        <a href=""><img src="{{ asset('img/footer/item8.png') }}" alt=""></a>
+        <a href=""><img src="{{ asset('img/footer/item6.svg') }}" alt=""></a>
+        <a href=""><img src="{{ asset('img/footer/item7.svg') }}" alt=""></a>
+        <a href=""><img src="{{ asset('img/footer/item9.png') }}" alt=""></a>
     </div>
     </div>
     <div class="info">

@@ -15,7 +15,6 @@ $(document).ready(function() {
         posEnd=posStart;
     })
 });
-
 /*script for slider s0*/
 var swiper0 = new Swiper('.s0', {
     slidesPerView: 1,
