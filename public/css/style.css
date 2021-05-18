@@ -1681,12 +1681,7 @@ display: block;
       }
 
  /*-------responsive-------*/
- @media (max-width: 320px){
-    header .header .headerLeft {
-        visibility: hidden;
-        display: none;
-    }
-}
+ 
  @media (max-width: 640px){
     header .header .headerLeft {
         visibility: hidden;

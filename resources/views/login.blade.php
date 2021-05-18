@@ -2,7 +2,7 @@
     @yield('title')ورود/ثبت نام|فروشگاه اینترنتی دیجی کالا
 </title>
 
-<div class="container">
+<div class="container11">
     <form action="user" method="post">
         @csrf
         <div class="login-header-logo">

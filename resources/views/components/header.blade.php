@@ -8,7 +8,7 @@
             <input type="text" class="searchBox" placeholder="جستجو در دیجی کالا...">
         </div>
         <div class="headerLeft col-md-8 col-lg-4">
-            <a href="login fle11">
+            <a href="login" class="fle11">
                 <i class="far fa-user"></i>
                 <span>ورود به حساب کاربري</span>
             </a>
