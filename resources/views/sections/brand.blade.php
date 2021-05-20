@@ -3,7 +3,7 @@
 
 
 <!--part Brand-->
-<article>
+<article class="mb-3">
 <div class="swiper-container s1 swiper1">
     <div class="headline">
         <span>برندهای ویژه</span>

@@ -1,8 +1,8 @@
 
     <!-- I begin to speak only when I am certain what I will say is not better left unsaid - Cato the Younger -->
 <article class="banner2">
-        <div class="row fle11">
-            <a href="#" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-3">
+        <div class="row">
+            <a href="#" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <img src="{{ asset('img/b-banner.jpg') }}" alt="">
             </a>
         </div>

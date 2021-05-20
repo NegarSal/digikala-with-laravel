@@ -644,7 +644,7 @@ main .specialoffer{
     max-width:100%;
 }
 .banner2 img{
-    border-radius: 16px;
+    border-radius: 10px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
 }
 /*fresh-offers*/
@@ -729,6 +729,9 @@ main .marketSlider{
 /*footer*/
 footer{
     background-color: #eceff1;
+}
+footer a:hover{
+    color: #4a4a4a;
 }
 footer .contain{
     padding: 0 41px;
@@ -898,12 +901,18 @@ footer .info .description .left img{
     width: 250px;
 }
 footer .info .digi{
-    margin: 15px 0;
+    margin: 5px 0;
 }
 footer .info .digi ul{
     justify-content: space-around;
-    padding: 15px 0;
+    padding: 5px 0;
     border-bottom: 1px solid #b0bec5;
+}
+footer .info .digi ul li{
+    margin-right: 1px;
+    margin-left: 0;
+    padding-left: 1px;
+    padding-right: 0;
 }
 footer .info .copyRight{
     font-size: 12px;
@@ -1568,19 +1577,6 @@ display: block;
     margin-left: 4px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*-----Start Tab5-----*/
 #product .tab #tabChildes .tab5 .tba5Container{
     padding: 40px;
@@ -1695,9 +1691,15 @@ display: block;
         border:none;
         font-size: 13px;
     }
+    .banner1 a{
+      text-align: center;
+    }
     footer .feature a .itemTitle{
      visibility: hidden;
      display: none;
+    }
+    footer .info .digi ul li img{
+       text-align: center;
     }
     .box{
         visibility: hidden;
@@ -1755,5 +1757,4 @@ display: block;
         visibility: hidden;
         display: none;
     }
-
  }

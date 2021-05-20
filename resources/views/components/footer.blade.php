@@ -1,8 +1,8 @@
 
     <!-- Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant -->
-
+<div class="">
     <a href="#" class="scrollTop fle11"><i class="fas fa-caret-up"></i>برگشت به بالا</a>
-
+</div>
     <div class=" container11">
       <nav class="feature fle11 container11 row">
         <a href="" class="col-xs-6 col-sm-4 col-md-6 col-lg-2 mt-3"><img src="{{ asset('img/footer/item1.svg') }}" alt="">
@@ -72,7 +72,7 @@
         <a href=""><img src="{{ asset('img/footer/item9.png') }}" alt=""></a>
     </div>
     </div>
-    <div class="info">
+    <div class="info row">
         <div class="description fle11 container11">
             <div class="right">
                 <h1>فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین</h1>
@@ -89,13 +89,13 @@
             </div>
         </div>
         <nav class="digi">
-            <ul class="fle11 container11">
-                <li><a href=""><img src="{{ asset('img/footer/item11.svg') }}" alt=""></a></li>
-                <li><a href=""><img src="{{ asset('img/footer/item10.svg') }}" alt=""></a></li>
-                <li><a href=""><img src="{{ asset('img/footer/item15.svg') }}" alt=""></a></li>
-                <li><a href=""><img src="{{ asset('img/footer/item12.svg') }}" alt=""></a></li>
-                <li><a href=""><img src="{{ asset('img/footer/item14.svg') }}" alt=""></a></li>
-                <li><a href=""><img src="{{ asset('img/footer/item13.svg') }}" alt=""></a></li>
+            <ul class="row fle11">
+                <li class="col-xs-2 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item11.svg') }}" alt=""></a></li>
+                <li class="col-xs-2 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item10.svg') }}" alt=""></a></li>
+                <li class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item15.svg') }}" alt=""></a></li>
+                <li class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item12.svg') }}" alt=""></a></li>
+                <li class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item14.svg') }}" alt=""></a></li>
+                <li class="col-xs-4 col-sm-4 col-md-4 col-lg-1 mt-3"><a href=""><img src="{{ asset('img/footer/item13.svg') }}" alt=""></a></li>
             </ul>
         </nav>
         <div class="copyRight">
