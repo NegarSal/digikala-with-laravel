@@ -1,22 +1,22 @@
 
     <!-- Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant -->
-<div class="">
+
     <a href="#" class="scrollTop fle11"><i class="fas fa-caret-up"></i>برگشت به بالا</a>
-</div>
+
     <div class=" container11">
-      <nav class="feature fle11 container11 row">
-        <a href="" class="col-xs-6 col-sm-4 col-md-6 col-lg-2 mt-3"><img src="{{ asset('img/footer/item1.svg') }}" alt="">
+      <nav class="feature fle11 row">
+        <a href="" class="col-xs-6 col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item1.svg') }}" alt="">
             <div class="itemTitle">تحویل اکسپرس</div>
         </a>
-        <a href="" class="col-xs-6 col-sm-4 col-md-6 col-lg-2 mt-3"><img src="{{ asset('img/footer/item2.svg') }}" alt="">
+        <a href="" class="col-xs-6 col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item2.svg') }}" alt="">
             <div class="itemTitle">پشتیبانی ۲۴ ساعته</div>
         </a>
-        <a href="" class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><img src="{{ asset('img/footer/item3.svg') }}" alt="">
+        <a href="" class="col-xs-4 col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item3.svg') }}" alt="">
             <div class="itemTitle">پرداخت در محل</div></a>
-        <a href="" class="d-none d-sm-block d-sm-none d-md-block col-md-4 col-lg-2 mt-3"><img src="{{ asset('img/footer/item4.svg') }}" alt="">
+        <a href="" class="d-none d-sm-block d-sm-none d-md-block col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item4.svg') }}" alt="">
             <div class="itemTitle">۷روز ضمانت بازگشت</div>
         </a>
-        <a href="" class="d-none d-sm-block d-sm-none d-md-block col-md-4 col-lg-2 mt-3"><img src="{{ asset('img/footer/item5.svg') }}" alt="">
+        <a href="" class="d-none d-sm-block d-sm-none d-md-block col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item5.svg') }}" alt="">
             <div class="itemTitle">ضمانت اصل بودن کالا</div>
         </a>
       </nav>
@@ -73,8 +73,8 @@
     </div>
     </div>
     <div class="info row">
-        <div class="description fle11 container11">
-            <div class="right">
+        <div class="description container11">
+            <div class="right col-xs-12 col-sm-12 col-md-8 col-lg-9 mt-3">
                 <h1>فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین</h1>
                 <p>دیجی‌کالا به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با پایبندی به سه اصل، پرداخت در محل،
                  7 روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا موفق شده تا همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود.
@@ -82,7 +82,7 @@
                 هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند در اینجا پیدا خواهید کرد.
                 </p>
             </div>
-            <div class="left fle11">
+            <div class="left col-xs-12 col-sm-12 col-md-4 col-lg-3 mt-3">
                 <a href=""><img src="{{ asset('img/footer/c1.png') }}" alt=""></a>
                 <a href=""><img src="{{ asset('img/footer/c3.png') }}" alt=""></a>
                 <a href=""><img src="{{ asset('img/footer/c2.png') }}" alt=""></a>

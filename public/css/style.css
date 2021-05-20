@@ -18,8 +18,10 @@ body{
     font-family: 'Shabnam-Bold-FD' !important;
     background-color: #f5f5f5 !important;
     height: 100%;
-    padding-top: 120px;
+    padding-top: 90px;
     position: relative;
+    overflow-x: hidden;
+    margin-right: 5px;
 }
 a{
     text-decoration: none !important;
@@ -761,18 +763,20 @@ footer .feature{
     padding-bottom: 15px;
 }
 footer .feature a{
+    margin-right:20px;
+    margin-left: 0;
     max-width: 100%;
     display: block;
+    align-items: center;
 }
 footer .feature a img{
-    width: 58px;
-    margin: 0 30px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
 }
 footer .feature a .itemTitle{
     font-size: 14px;
     color: #606060;
-    text-align: center;
+    text-align: right;
 }
 footer .middleBar .right{
     width: 60%;
@@ -867,6 +871,7 @@ footer .info{
 }
 footer .info .description{
     padding: 15px 41px;
+    display: flex;
 }
 footer .info .description .right{
     line-height: 28px;
@@ -884,6 +889,7 @@ footer .info .description .right p{
 }
 footer .info .description .left{
     justify-content: flex-end;
+    display: flex;
 }
 footer .info .description .left a{
     background-color: #f0f0f0;
@@ -893,6 +899,7 @@ footer .info .description .left a{
     width: 120px;
     border: 1px solid #e5e5ea;
     border-radius: 8px;
+
 }
 footer .info .description .left a:nth-child(3){
     margin-left: 0;
@@ -1705,6 +1712,10 @@ display: block;
         visibility: hidden;
         display: none;
     }
+    footer .info .description .left a{
+        max-width: 100%;
+        display: block;
+    }
  }
  @media (max-width: 768px){
     header .header .headerLeft {
@@ -1728,6 +1739,15 @@ display: block;
         visibility: hidden;
         display: none;
     }
+    footer .feature a img{
+        width: 30px;
+        margin-right:10px;
+        height: 30px;
+    }
+    footer .feature a .itemTitle{
+        text-align:right;
+        font-size: 12px;
+    }
  }
  @media (max-width: 992px){
     header .header .headerLeft {
@@ -1741,6 +1761,15 @@ display: block;
     }
     .specialoffer .right .showALL{
         font-size: 13px;
+    }
+    footer .feature a img{
+        width: 30px;
+        margin-right:10px;
+        height: 30px;
+    }
+    footer .feature a .itemTitle{
+        text-align:right;
+        font-size: 12px;
     }
  }
  @media (max-width: 1024px){
