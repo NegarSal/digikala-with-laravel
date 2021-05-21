@@ -933,6 +933,10 @@ footer .info .copyRight{
     text-align: center;
     padding: 0 0 15px 0;
 }
+footer .info .copyRight{
+    padding-right: 5px;
+}
+
 /* styles-about-product page*/
 
 #product .navBar{
@@ -1713,9 +1717,11 @@ display: block;
         visibility: hidden;
         display: none;
     }
-    footer .info .description .left a{
-        max-width: 100%;
+    footer .info .description{
         display: block;
+    }
+    footer .info .description .left{
+        justify-content:center;
     }
     footer .info .digi ul li{
         width: 120px;
@@ -1727,6 +1733,11 @@ display: block;
     }
     footer .info .digi ul li img{
        text-align: center;
+    }
+    footer .info .copyRight{
+        padding-right: 20px;
+        padding-left: 10px;
+        font-size: 10px;
     }
  }
  @media (max-width: 768px){
@@ -1760,6 +1771,17 @@ display: block;
         text-align:right;
         font-size: 12px;
     }
+    footer .info .description{
+        display: block;
+    }
+    footer .info .description .left{
+        justify-content:center;
+    }
+    footer .info .copyRight{
+        padding-right: 20px;
+        padding-left: 10px;
+        font-size: 11px;
+    }
  }
  @media (max-width: 992px){
     header .header .headerLeft {
@@ -1781,6 +1803,17 @@ display: block;
     }
     footer .feature a .itemTitle{
         text-align:right;
+        font-size: 12px;
+    }
+    footer .info .description{
+        display: block;
+    }
+    footer .info .description .left{
+        justify-content:center;
+    }
+    footer .info .copyRight{
+        padding-right: 20px;
+        padding-left: 10px;
         font-size: 12px;
     }
  }
