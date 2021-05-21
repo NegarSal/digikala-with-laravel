@@ -90,16 +90,16 @@
         </div>
         <nav class="digi">
             <ul class="row fle11">
-                <li class="col-xs-2 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item11.svg') }}" alt=""></a></li>
-                <li class="col-xs-2 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item10.svg') }}" alt=""></a></li>
+                <li class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item11.svg') }}" alt=""></a></li>
+                <li class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item10.svg') }}" alt=""></a></li>
                 <li class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item15.svg') }}" alt=""></a></li>
                 <li class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item12.svg') }}" alt=""></a></li>
                 <li class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item14.svg') }}" alt=""></a></li>
-                <li class="col-xs-4 col-sm-4 col-md-4 col-lg-1 mt-3"><a href=""><img src="{{ asset('img/footer/item13.svg') }}" alt=""></a></li>
+                <li class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item13.svg') }}" alt=""></a></li>
             </ul>
         </nav>
-        <div class="copyRight">
-            <p>استفاده از مطالب فروشگاه اینترنتی دیجی‌کالا فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است.
+        <div class="copyRight row">
+            <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mx-3">استفاده از مطالب فروشگاه اینترنتی دیجی‌کالا فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است.
                  کلیه حقوق این سایت متعلق به شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) می‌باشد</p>
         </div>
     </div>
