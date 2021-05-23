@@ -3,7 +3,7 @@
 
     <a href="#" class="scrollTop fle11"><i class="fas fa-caret-up"></i>برگشت به بالا</a>
 
-    <div class=" container11">
+<div>
       <nav class="feature fle11 row">
         <a href="" class="col-xs-6 col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item1.svg') }}" alt="">
             <div class="itemTitle">تحویل اکسپرس</div>
@@ -20,7 +20,7 @@
             <div class="itemTitle">ضمانت اصل بودن کالا</div>
         </a>
       </nav>
-      <div class="middleBar container11 fle11 row">
+    <div class="middleBar container11 fle11 row">
         <div class="right fle11">
             <nav class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
                 <a href="">راهنمای خرید از دیجی‌کالا</a>
@@ -61,9 +61,9 @@
                 <i class="fab fa-instagram"></i>
             </div>
         </div>
-      </div>
+    </div>
       <div class="contactUs row">
-          <p class="d-none d-sm-block d-sm-none d-md-block col-md-12 col-lg-12">هفت روز هفته ، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم
+          <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mx-3">هفت روز هفته ، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم
         شماره تماس :۶۱۹۳۰۰۰۰ - ۰۲۱
        info@digikala.com :آدرس ایمیل</p>
       </div>
@@ -72,8 +72,8 @@
         <a href="" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 mt-3"><img src="{{ asset('img/footer/item6.svg') }}" alt=""></a>
         <a href="" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 mt-3"><img src="{{ asset('img/footer/item7.svg') }}" alt=""></a>
         <a href="" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 mt-3"><img src="{{ asset('img/footer/item9.png') }}" alt=""></a>
-    </div>
-    </div>
+      </div>
+</div>
     <div class="info row">
         <div class="description container11">
             <div class="right col-xs-12 col-sm-12 col-md-8 col-lg-9 mt-3">

@@ -137,7 +137,6 @@ header nav.hidden{
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
-
 }
 .container11 > ul{
     justify-content: space-between;
@@ -735,9 +734,6 @@ footer{
 footer a:hover{
     color: #4a4a4a;
 }
-footer .contain{
-    padding: 0 41px;
-}
 footer .scrollTop{
     text-align: center;
     border-top: 1px solid #eceff1;
@@ -851,19 +847,22 @@ footer .left .socialMedia .fab:hover{
 }
 footer .contactUs{
     text-align: center;
-    padding: 3px 0px;
+    margin-right: 8px;
+    margin-left: 8px;
     font-size: 16px;
     display: block;
 }
 footer .downLoadApp{
     width: 100%;
-    padding: 10px 7px;
+    margin: 10px;
+    margin-right: 10px;
     justify-content: center;
-}footer .downLoadApp a{
+}
+footer .downLoadApp a{
     display: block;
     max-width:100%;
 }
-footer .downLoadApp a img{
+footer .downLoadApp img{
     width: 150px;
     justify-content:center;
 }
@@ -903,7 +902,6 @@ footer .info .description .left a{
     width: 120px;
     border: 1px solid #e5e5ea;
     border-radius: 8px;
-
 }
 footer .info .description .left a:nth-child(3){
     margin-left: 0;
@@ -913,7 +911,6 @@ footer .info .description .left img{
 }
 footer .info .digi{
     margin: 5px 0;
-
 }
 footer .info .digi ul{
     justify-content: space-around;
@@ -1722,13 +1719,15 @@ display: block;
         visibility: hidden;
         display: none;
     }
-    footer .contactUs p{
-        text-align: center;
-        padding-left: 20px;
-        font-size: 12px;
+    footer .downLoadApp{
+        margin: 5px;
     }
-    footer .downLoadApp img:nth-child(2){
-        margin-left: 15px;
+    footer .downLoadApp img{
+        width: 130px;
+     display: flex !important;
+    }
+    footer .downLoadApp img:nth-child(1){
+        margin-right: 5px;
     }
     footer .info .description{
         display: block;
@@ -1782,14 +1781,6 @@ display: block;
     }
     footer .feature a .itemTitle{
         text-align:right;
-        font-size: 12px;
-    }
-    footer .downLoadApp img:nth-child(2){
-        margin-left: 15px;
-    }
-    footer .contactUs p{
-        text-align: center;
-        padding-left: 20px;
         font-size: 12px;
     }
     footer .info .description{
