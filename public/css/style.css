@@ -617,7 +617,7 @@ main .specialoffer{
     border-radius: 0 8px 8px 0;
     position: absolute;
     left: 0 !important;
-    top: 30%;
+    top: 40%;
 }
 .swiper-button-prev.prev{
     width: 49px;
@@ -628,7 +628,7 @@ main .specialoffer{
     left: 0 !important;
     border-radius:  8px 0 0 8px ;
     right: 0 !important;
-    top: 30%;
+    top: 40%;
 }
 /*banner1*/
 .banner1 a{
@@ -697,9 +697,10 @@ main .marketSlider{
 .swiper1{
     width: 100%;
     background-color: white;
-    margin: 16px 0;
+    margin: 16px;
     padding: 9px 33px 10px 20px !important;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    margin-right: 5px;
 }
 .swiper1 a:hover{
     box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
@@ -850,20 +851,24 @@ footer .left .socialMedia .fab:hover{
 }
 footer .contactUs{
     text-align: center;
-    padding: 12px 0px;
+    padding: 3px 0px;
+    font-size: 16px;
+    display: block;
 }
 footer .downLoadApp{
     width: 100%;
-    padding: 15px 7px;
-    flex-wrap: wrap;
+    padding: 10px 7px;
     justify-content: center;
-    font-size: 14px;
-    line-height: 27px;
+}footer .downLoadApp a{
+    display: block;
+    max-width:100%;
 }
-footer .downLoadApp img{
+footer .downLoadApp a img{
     width: 150px;
-    justify-content: space-between;
-    margin-left: 7px;
+    justify-content:center;
+}
+footer .downLoadApp img:nth-child(1){
+    margin-right: 15px;
 }
 footer .info{
     background-color: #d7dee0;
@@ -1717,6 +1722,14 @@ display: block;
         visibility: hidden;
         display: none;
     }
+    footer .contactUs p{
+        text-align: center;
+        padding-left: 20px;
+        font-size: 12px;
+    }
+    footer .downLoadApp img:nth-child(2){
+        margin-left: 15px;
+    }
     footer .info .description{
         display: block;
     }
@@ -1769,6 +1782,14 @@ display: block;
     }
     footer .feature a .itemTitle{
         text-align:right;
+        font-size: 12px;
+    }
+    footer .downLoadApp img:nth-child(2){
+        margin-left: 15px;
+    }
+    footer .contactUs p{
+        text-align: center;
+        padding-left: 20px;
         font-size: 12px;
     }
     footer .info .description{
