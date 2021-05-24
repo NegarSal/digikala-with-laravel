@@ -65,7 +65,6 @@ header .header{
     position: relative;
     z-index: 100;
 }
-
 header .header .headerRight{
     display: flex;
     align-items: center;
@@ -296,7 +295,6 @@ header nav.hidden{
     width: 100%;
     border-radius: 8px;
 }
-
 /*digi club*/
 .subnav-content2 {
     cursor: pointer;
@@ -354,7 +352,6 @@ header nav.hidden{
     width: 415px;
     height: 180px;
 }
-
 /*offers*/
 .subnav-content3 {
     cursor: pointer;
@@ -468,7 +465,6 @@ header nav.hidden{
     display: flex;
     justify-content: center;
 }
-
 /*slider-part2(banner)*/
 main article{
     margin-top: 60px !important;
@@ -495,7 +491,6 @@ main article .fle .bannerLeft a img{
 main article .fle .bannerLeft a:nth-child(1){
     margin-bottom: 10px;
 }
-
 /*specialoffer*/
 .specialoffer .slider .banner{
     background: url("../img/sp-o.png");
@@ -938,9 +933,7 @@ footer .info .copyRight{
 footer .info .copyRight{
     padding-right: 5px;
 }
-
 /* styles-about-product page*/
-
 #product .navBar{
     justify-content: space-between;
     line-height: 20px;
@@ -1156,7 +1149,6 @@ footer .info .copyRight{
     color: #424750;
     font-size: 16px;
     margin-left: 5px;
-
 }
 #product article .details .probox .garanti button{
     color: #00a049;
@@ -1217,17 +1209,17 @@ footer .info .copyRight{
     line-height: 20px;
 }
 #product article .details .probox .price .basket{
-font-size: 18px;
-line-height: 1.222;
-border-radius: 8px;
-color: #fff;
-overflow: hidden;
-text-align: center;
-min-height: 48px;
-padding: 12px 18px;
-background-color: #ef394e;
-border: none;
-margin-top: 14px;
+    font-size: 18px;
+    line-height: 1.222;
+    border-radius: 8px;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    min-height: 48px;
+    padding: 12px 18px;
+    background-color: #ef394e;
+    border: none;
+    margin-top: 14px;
 }
 #product article .details .bestPrice{
     color: #9b9b9b;
@@ -1236,7 +1228,6 @@ margin-top: 14px;
     margin-top: 5px;
     text-align: left;
 }
-
 /*product-deliver*/
 #product article .deliver{
 padding: 10px;
@@ -1249,14 +1240,14 @@ padding: 10px;
     color: #515151;
 }
 #product article .deltitle:after{
-     content: "";
-     background-color: #ef394e;
-     margin-top: 8px;
-     height: 2px;
-     width: 70px;
-     border-radius: 1px;
-     display: block;
-     margin-bottom: 20px;
+    content: "";
+    background-color: #ef394e;
+    margin-top: 8px;
+    height: 2px;
+    width: 70px;
+    border-radius: 1px;
+    display: block;
+    margin-bottom: 20px;
 }
 #product article .supplier{
     width: 100%;
@@ -1328,9 +1319,6 @@ padding: 10px;
     align-items: center;
     border-radius: 9px;
 }
-
-
-
 /*product-tabs*/
 #product .tab #tabChildes{
     background-color: #fff;
@@ -1363,7 +1351,6 @@ padding: 10px;
     background-color: #fff;
     color: #ef394e;
 }
-
 #product .tab > ul > li.active:before{
     content: '';
     display: block;
@@ -1506,7 +1493,6 @@ display: block;
     color: #232933;
     display: block;
 }
-
 /*-----Start Tab3-----*/
 #product .tab #tabChildes .tab3 .tba3Container{
     padding: 40px;
@@ -1594,7 +1580,6 @@ display: block;
     font-size: 19px;
     margin-left: 4px;
 }
-
 /*-----Start Tab5-----*/
 #product .tab #tabChildes .tab5 .tba5Container{
     padding: 40px;
@@ -1649,7 +1634,6 @@ display: block;
     font-size: 12px;
     outline: none;
 }
-
 /*-----Last text-----*/
 #product .lastText {
     color: #858585;
@@ -1657,43 +1641,37 @@ display: block;
     width: 100%;
     padding: 24px;
 }
-
 /*styles for cart in navbar-header*/
 
-    /* Style the tab */
-    .tab {
-        overflow: hidden;
-        border: 1px solid #ccc;
-      }
-
-      /* Style the buttons inside the tab */
-      .tab button {
-        background-color: inherit;
-        float: right;
-        outline: none;
-        cursor: pointer;
-        padding: 14px 16px;
-        transition: 0.3s;
-        font-size: 25px;
-        border: 0 ;
-
-        color: #777;
-      }
-
-      /* Create an active/current tablink class */
-      .tab button.active {
-        border-bottom:1px solid red;
-        color: red;
-      }
-
-      /* Style the tab content */
-      .tabcontent {
-        display: none;
-        padding: 6px 12px;
-        border: 1px solid #ccc;
-        border-top: none;
-
-      }
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: right;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 25px;
+    border: 0 ;
+    color: #777;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+    border-bottom:1px solid red;
+    color: red;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
 
  /*-------responsive-------*/
 
@@ -1710,11 +1688,11 @@ display: block;
         font-size: 13px;
     }
     .banner1 a{
-      text-align: center;
+        text-align: center;
     }
     footer .feature a .itemTitle{
-     visibility: hidden;
-     display: none;
+        visibility: hidden;
+        display: none;
     }
     .box{
         visibility: hidden;
@@ -1807,7 +1785,7 @@ display: block;
     .specialoffer .right .showALL{
         font-size: 13px;
     }
-    footer .left{
+    footer .middleBar .left{
         visibility: hidden;
         display: none;
     }

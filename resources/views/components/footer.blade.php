@@ -4,19 +4,19 @@
     <a href="#" class="scrollTop fle11"><i class="fas fa-caret-up"></i>برگشت به بالا</a>
 
 <div>
-      <nav class="feature fle11 row">
+      <nav class="feature fle11 row row-cols-auto">
         <a href="" class="col-xs-6 col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item1.svg') }}" alt="">
             <div class="itemTitle">تحویل اکسپرس</div>
         </a>
         <a href="" class="col-xs-6 col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item2.svg') }}" alt="">
             <div class="itemTitle">پشتیبانی ۲۴ ساعته</div>
         </a>
-        <a href="" class="col-xs-4 col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item3.svg') }}" alt="">
+        <a href="" class="col-xs-6 col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item3.svg') }}" alt="">
             <div class="itemTitle">پرداخت در محل</div></a>
-        <a href="" class="d-none d-sm-block col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item4.svg') }}" alt="">
+        <a href="" class="col-xs-6 col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item4.svg') }}" alt="">
             <div class="itemTitle">۷روز ضمانت بازگشت</div>
         </a>
-        <a href="" class="d-none d-sm-block col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item5.svg') }}" alt="">
+        <a href="" class="col-xs-6 col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item5.svg') }}" alt="">
             <div class="itemTitle">ضمانت اصل بودن کالا</div>
         </a>
       </nav>
@@ -67,7 +67,7 @@
         شماره تماس :۶۱۹۳۰۰۰۰ - ۰۲۱
        info@digikala.com :آدرس ایمیل</p>
       </div>
-      <div class="downLoadApp row ">
+      <div class="downLoadApp row row-cols-2">
         <a href="" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 mt-3"><img src="{{ asset('img/footer/item8.png') }}" alt=""></a>
         <a href="" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 mt-3"><img src="{{ asset('img/footer/item6.svg') }}" alt=""></a>
         <a href="" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 mt-3"><img src="{{ asset('img/footer/item7.svg') }}" alt=""></a>
