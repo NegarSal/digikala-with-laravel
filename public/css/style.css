@@ -760,6 +760,12 @@ footer .feature a{
     display: block;
     align-items: center;
 }
+footer .feature a img:nth-child(1){
+    margin-right: 15px;
+}
+footer .feature a img:nth-child(5){
+    margin-left: 5px;
+}
 footer .feature a img{
     width: 50px;
     height: 50px;
@@ -1698,6 +1704,9 @@ display: block;
         visibility: hidden;
         display: none;
     }
+    footer .middleBar .right{
+        width: 100%;
+    }
     footer .middleBar .left{
         visibility: hidden;
         display: none;
@@ -1746,6 +1755,9 @@ display: block;
     .box {
         visibility: hidden;
         display: none;
+    }
+    footer .middleBar .right{
+        width: 100%;
     }
     footer .middleBar .left{
         visibility: hidden;

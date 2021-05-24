@@ -20,15 +20,15 @@
             <div class="itemTitle">ضمانت اصل بودن کالا</div>
         </a>
       </nav>
-    <div class="middleBar container11 fle11 row">
+    <div class="middleBar container11 fle11">
         <div class="right fle11">
-            <nav class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <nav class="col-xs-3 col-sm-6 col-md-4 col-lg-3">
                 <a href="">راهنمای خرید از دیجی‌کالا</a>
                 <a href="">نحوه ثبت سفارش</a>
                 <a href="">رویه ارسال سفارش</a>
                 <a href="">شیوه‌های پرداخت</a>
             </nav>
-            <nav class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <nav class="col-xs-3 col-sm-6 col-md-4 col-lg-3">
                 <a href="">خدمات مشتریان</a>
                 <a href="">پاسخ به پرسش‌های متداول</a>
                 <a href="">رویه‌های بازگرداندن کالا</a>
@@ -91,7 +91,7 @@
             </div>
         </div>
         <nav class="digi">
-            <ul class="row fle11">
+            <ul class="row fle11 row-cols-auto">
                 <li class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item11.svg') }}" alt=""></a></li>
                 <li class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item10.svg') }}" alt=""></a></li>
                 <li class="col-xs-4 col-sm-4 col-md-4 col-lg-2 mt-3"><a href=""><img src="{{ asset('img/footer/item15.svg') }}" alt=""></a></li>
