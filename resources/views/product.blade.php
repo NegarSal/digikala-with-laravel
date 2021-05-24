@@ -155,32 +155,32 @@
                 <div class="bestPrice">آیا قیمت مناسب تری سراغ دارید؟<i class="fas fa-tag"></i></div>
             </section>
         </article>
-        <article class="deliver container11">
+        <article class="deliver container11 row row-cols-auto">
             <div class="deltitle">لیست فروشندگان این کالا</div>
-            <div class="supplier fle11">
+            <div class="supplier fle11 col">
                 <div class="suppliergaranti"><i class="fas fa-archive"></i> کالا پلاس <button>برگزیده</button>
                     <div class="supplierrating">عملکرد: ۴ از ۵</div>
                 </div>
                 <div class="suppliertruck"><i class="fas fa-truck"></i> ارسال دیجی کالا</div>
-                <div class="suppliergaranti"><i class="	fas fa-shield-alt"></i> گارانتی۱۸ماهه وی دو سل</div>
+                <div class="suppliergaranti1"><i class="	fas fa-shield-alt"></i> گارانتی۱۸ماهه وی دو سل</div>
                 <div class="supplierproprice">۴,۸۴۰,۰۰۰ <span>تومان</span></div>
                 <a href="" class="supplierbasket">افزودن به سبد </a>
             </div>
 
-            <div class="supplier fle11">
+            <div class="supplier fle11 col">
                 <div class="suppliergaranti"><i class="fas fa-archive"></i> راتین رایا
                     <div class="supplierrating">عملکرد: ۴ از ۵</div>
                 </div>
                 <div class="suppliertruck"><i class="fas fa-truck"></i> ارسال دیجی کالا</div>
-                <div class="suppliergaranti"><i class="	fas fa-shield-alt"></i>گارانتی ۱۸ ماهه پارس پردیس</div>
+                <div class="suppliergaranti1"><i class="	fas fa-shield-alt"></i>گارانتی ۱۸ ماهه پارس پردیس</div>
                 <div class="supplierproprice">۴,۸۴۰,۰۰۰ <span>تومان</span></div>
                 <a href="" class="supplierbasket">افزودن به سبد </a>
             </div>
 
-            <div class="supplier fle11" id="suplast">
+            <div class="supplier fle11 col" id="suplast">
                 <div class="suppliergaranti"><i class="fas fa-archive"></i> رانسب شاپ</div>
                 <div class="suppliertruck"><i class="fas fa-truck"></i> ارسال دیجی کالا</div>
-                <div class="suppliergaranti"><i class="	fas fa-shield-alt"></i> گارانتی ۱۸ ماهه کسری پارس</div>
+                <div class="suppliergaranti1"><i class="	fas fa-shield-alt"></i> گارانتی ۱۸ ماهه کسری پارس</div>
                 <div class="supplierproprice">۴,۸۴۰,۰۰۰ <span>تومان</span></div>
                 <a href="" class="supplierbasket">افزودن به سبد </a>
             </div>

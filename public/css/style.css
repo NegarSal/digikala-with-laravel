@@ -1273,6 +1273,12 @@ padding: 10px;
     color: #424750;
     font-weight: 200;
 }
+#product article .suppliergaranti1{
+    font-size: 14px;
+    line-height: 1.571;
+    color: #424750;
+    font-weight: 200;
+}
 #product article .suppliergaranti button{
     color: #00a049;
     height: 18px;
@@ -1742,7 +1748,24 @@ display: block;
     }
     #product article .details{
         width: 49.71% !important;
-        margin-left: 5px;
+        margin-left: 8px;
+    }
+    #product .deliver .supplier .suppliertruck{
+        visibility: hidden;
+        display: none;
+    }
+    #product .deliver .supplier .suppliergaranti1{
+        visibility: hidden;
+        display: none;
+    }
+    #product .deliver .supplier .suppliergaranti{
+        margin-left: -880px;
+    }
+    #product article .supplier .supplierproprice{
+        margin-right: -580px;
+    }
+    #product article  .supplierbasket{
+        margin-left: -880px !important;
     }
  }
  @media (max-width: 768px){
@@ -1803,6 +1826,15 @@ display: block;
     }
     #product article .details{
         width: 49.71% !important;
+        margin-left: 8px;
+    }
+    #product .deliver .supplier .suppliertruck{
+        visibility: hidden;
+        display: none;
+    }
+    #product .deliver .supplier .suppliergaranti1{
+        visibility: hidden;
+        display: none;
     }
  }
  @media (max-width: 992px){
@@ -1851,7 +1883,15 @@ display: block;
     }
     #product article .details{
         width: 30%;
-        margin-left: 5px;
+        margin-left: 6px;
+    }
+    #product .deliver .supplier .suppliertruck{
+        visibility: hidden;
+        display: none;
+    }
+    #product .deliver .supplier .suppliergaranti1{
+        visibility: hidden;
+        display: none;
     }
  }
  @media (max-width: 1024px){
