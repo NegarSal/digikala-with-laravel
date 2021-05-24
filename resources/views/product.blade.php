@@ -22,12 +22,12 @@
         <!--fontawesome-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-                <!--bootstrap-->
-                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <!--bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
       </head>
-      <body>
 
+<body>
 
 <header>
     @include('components.header')
@@ -49,8 +49,8 @@
                 <a href="">کالای خود را در دیجی کالا بفروشید</a>
             </div>
         </div>
-        <article class="fle11">
-            <section class="gallery">
+        <article class="row row-cols-auto">
+            <section class="gallery col-xs-* col-sm-12 col-md-4 col-lg-4 mt-3">
                 <div class="galleryOption">
                     <ul>
                         <li class="fle11 mt-3">
@@ -88,7 +88,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="description">
+            <section class="description col-xs-* col-sm-12 col-md-4 col-lg-4 mt-3">
                 <div class="proTitle">
                     <h1>گوشی موبایل شیائومی مدل POCO M3 M2010J19CG دو سیم‌ کارت ظرفیت 128 گیگابایت</h1>
                 </div>
@@ -132,7 +132,7 @@
                     </div>
                 </div>
             </section>
-            <section class="details">
+            <section class="details col-xs-* col-sm-12 col-md-4 col-lg-6 mt-3">
                 <div class="probox">
                     <div class="seller fle11">
                         <div class="seller1">فروشنده</div>
