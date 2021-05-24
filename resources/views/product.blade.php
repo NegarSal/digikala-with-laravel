@@ -35,7 +35,7 @@
 
 <!--middlepart-->
 <main>
-    <div class="container11" id="product">
+    <div class="" id="product">
         <div class="navBar fle11">
             <nav>
                 <ul class="fle11 mt-4">
@@ -640,7 +640,6 @@
     </div>
 <!--text-->
 <div class="lastText mt-3">شناسه کالا :DKP - ۴۱۴۹۰۳۷</div>
-
 
 </div>
 </main>
