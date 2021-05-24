@@ -38,14 +38,14 @@
     <div class="container11" id="product">
         <div class="navBar fle11">
             <nav>
-                <ul class="fle11">
+                <ul class="fle11 mt-4">
                     <li><a href="">دیجی کالا</a></li>
                     <li><a href="">کالای دیجیتال</a></li>
                     <li><a href="">موبایل</a></li>
                     <li><a href="">گوشی موبایل</a></li>
                 </ul>
             </nav>
-            <div class="feedback">
+            <div class="feedback mt-4">
                 <a href="">کالای خود را در دیجی کالا بفروشید</a>
             </div>
         </div>
@@ -317,9 +317,9 @@
     <div class="swiper-button-prev prev"></div>
     </div>
 </article>
-    </section>
+
 <!--tabs-->
-<section class="tab">
+<section class="tab mt-5">
     <ul class="fle11" id="tabs">
         <li class="active"><a>نقد و بررسی</a></li>
         <li><a>بررسی تخصصی</a></li>
@@ -509,7 +509,6 @@
     </div>
 </section>
 <!--second slider-->
-<article>
 <div class="swiper-container s1 swiper1">
     <div class="headline">
         <span>خریداران این محصول، محصولات زیر را هم خریده‌اند</span>
@@ -639,9 +638,8 @@
     <div class="swiper-button-next next"></div>
     <div class="swiper-button-prev prev"></div>
     </div>
-</article>
 <!--text-->
-<div class="lastText">شناسه کالا :DKP - ۴۱۴۹۰۳۷</div>
+<div class="lastText mt-3">شناسه کالا :DKP - ۴۱۴۹۰۳۷</div>
 
 
 </div>

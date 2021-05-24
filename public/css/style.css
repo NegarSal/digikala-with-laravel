@@ -1696,6 +1696,7 @@ display: block;
       }
 
  /*-------responsive-------*/
+
  @media (max-width: 640px){
     header .header .headerLeft {
         visibility: hidden;
@@ -1719,15 +1720,9 @@ display: block;
         visibility: hidden;
         display: none;
     }
-    footer .downLoadApp{
-        margin: 5px;
-    }
-    footer .downLoadApp img{
-        width: 130px;
-     display: flex !important;
-    }
-    footer .downLoadApp img:nth-child(1){
-        margin-right: 5px;
+    footer .middleBar .left{
+        visibility: hidden;
+        display: none;
     }
     footer .info .description{
         display: block;
@@ -1774,6 +1769,10 @@ display: block;
         visibility: hidden;
         display: none;
     }
+    footer .middleBar .left{
+        visibility: hidden;
+        display: none;
+    }
     footer .feature a img{
         width: 30px;
         margin-right:10px;
@@ -1807,6 +1806,10 @@ display: block;
     }
     .specialoffer .right .showALL{
         font-size: 13px;
+    }
+    footer .left{
+        visibility: hidden;
+        display: none;
     }
     footer .feature a img{
         width: 30px;

@@ -13,22 +13,22 @@
         </a>
         <a href="" class="col-xs-4 col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item3.svg') }}" alt="">
             <div class="itemTitle">پرداخت در محل</div></a>
-        <a href="" class="d-none d-sm-block d-sm-none d-md-block col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item4.svg') }}" alt="">
+        <a href="" class="d-none d-sm-block col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item4.svg') }}" alt="">
             <div class="itemTitle">۷روز ضمانت بازگشت</div>
         </a>
-        <a href="" class="d-none d-sm-block d-sm-none d-md-block col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item5.svg') }}" alt="">
+        <a href="" class="d-none d-sm-block col-sm-4 col-md-3 col-lg-2 mt-3"><img src="{{ asset('img/footer/item5.svg') }}" alt="">
             <div class="itemTitle">ضمانت اصل بودن کالا</div>
         </a>
       </nav>
     <div class="middleBar container11 fle11 row">
         <div class="right fle11">
-            <nav class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <nav class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
                 <a href="">راهنمای خرید از دیجی‌کالا</a>
                 <a href="">نحوه ثبت سفارش</a>
                 <a href="">رویه ارسال سفارش</a>
                 <a href="">شیوه‌های پرداخت</a>
             </nav>
-            <nav class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+            <nav class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
                 <a href="">خدمات مشتریان</a>
                 <a href="">پاسخ به پرسش‌های متداول</a>
                 <a href="">رویه‌های بازگرداندن کالا</a>
@@ -36,7 +36,7 @@
                 <a href="">حریم خصوصی</a>
                 <a href="">گزارش باگ</a>
             </nav>
-            <nav class="d-none d-sm-block d-sm-none d-md-block col-md-3 col-lg-3">
+            <nav class="d-none d-sm-block d-sm-none d-md-block col-md-4 col-lg-3">
                 <a href="">با دیجی‌کالا</a>
                 <a href="">اتاق خبر دیجی‌کالا</a>
                 <a href="">فروش در دیجی‌کالا</a>
@@ -47,8 +47,8 @@
             </nav>
         </div>
         <div class="left row">
-            <div class="d-none d-sm-block d-sm-none d-md-block col-md-12 col-lg-12">از تخفیف‌ها و جدیدترین‌های دیجی‌کالا باخبر شوید :</div>
-            <div class="form d-none d-sm-block d-sm-none d-md-block col-md-12 col-lg-12">
+            <div class="col-lg-12">از تخفیف‌ها و جدیدترین‌های دیجی‌کالا باخبر شوید :</div>
+            <div class="form col-lg-12">
                 <form action="">
                     <input type="text" placeholder="آدرس ایمیل خود را وارد کنید">
                     <button> ارسال</button>
