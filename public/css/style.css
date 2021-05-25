@@ -1422,17 +1422,17 @@ padding: 10px;
     margin-right: 30px;
     margin-bottom: 120px;
 }
-#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .card{
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .card1{
     display: flex;
     padding: 16px 0;
     margin-bottom: 20px;
     border-bottom: 1px solid #e0e0e2;
 }
-#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .card .title2{
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .card1 .title2{
 display: block;
 }
-#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .card .title2 .proCard2
-, #product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .card .title2 .color{
+#product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .card1 .title2 .proCard2
+, #product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox .card1 .title2 .color{
     width: 100%;
     min-height: 50px;
     overflow: hidden;
@@ -1767,6 +1767,16 @@ display: block;
         margin-left: -880px;
     }
     /*product-tabs*/
+    /*-----Start Tab1-----*/
+    #product .tab #tabChildes .tab1 .tba1Container .expertSummary{
+        display: block;
+    }
+    #product .tab #tabChildes .tab1 .tba1Container .expertSummary .right{
+        max-width: 50%;
+    }
+    #product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox{
+        max-width: 40%;
+    }
     /*-----Start Tab2-----*/
     #product .tab #tabChildes .tab2 .tba2Container .expertSummary2 img{
         display: block;
@@ -1866,6 +1876,16 @@ display: block;
     }
     /*product-tabs*/
 
+    /*-----Start Tab1-----*/
+    #product .tab #tabChildes .tab1 .tba1Container .expertSummary{
+        display: block;
+    }
+    #product .tab #tabChildes .tab1 .tba1Container .expertSummary .right{
+        width: 60%;
+    }
+    #product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox{
+        width: 40%;
+    }
     /*-----Start Tab2-----*/
     #product .tab #tabChildes .tab2 .tba2Container .expertSummary2 img{
         display: block;
@@ -1931,6 +1951,15 @@ display: block;
     #product .deliver .supplier .suppliergaranti1{
         visibility: hidden;
         display: none;
+    }
+    /*product-tabs*/
+
+    /*-----Start Tab1-----*/
+    #product .tab #tabChildes .tab1 .tba1Container .expertSummary .right{
+        width: 45%;
+    }
+    #product .tab #tabChildes .tab1 .tba1Container .expertSummary .miniBox{
+        width: 40%;
     }
  }
  @media (max-width: 1024px){
