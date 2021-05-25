@@ -366,11 +366,11 @@
                 </div>
             </div>
             <div class="tab2 hidden">
-                <div class="tba2Container">
-                    <h2 class="h2">نقد و بررسی تخصصی
+                <div class="tba2Container row">
+                    <h2 class="h2 col-xs-12 col-sm-12 col-md-8 col-lg-8 mt-3">نقد و بررسی تخصصی
                         <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
                     </h2>
-                    <section class="expertSummary2">
+                    <section class="expertSummary2 col-xs-12 col-sm-12 col-md-8 col-lg-8 mt-3">
                        <div>جنجالی دیگر</div>
                        <img src="{{ asset('img/b1.jpg') }}">
                        <div class="tab2text">
@@ -383,11 +383,11 @@
                 </div>
             </div>
             <div class="tab3 hidden">
-                <div class="tba3Container">
-                    <h2 class="h2">مشخصات کالا
+                <div class="tba3Container row ">
+                    <h2 class="h2 col-xs-12 col-sm-12 col-md-8 col-lg-8 mt-3">مشخصات کالا
                         <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
                     </h2>
-                    <section class="fle11">
+                    <section class="fle11 col-xs-* col-sm-12 col-md-8 col-lg-8 mt-3">
                         <h3 class="title">مشخصات کلی</h3>
                         <ul>
                             <li class="fle11">
@@ -440,7 +440,7 @@
                 </div>
             </div>
             <div class="tab4 hidden">
-                <div class="tba4Container">
+                <div class="tba4Container row">
                     <h2 class="h2">امتیاز و دیدگاه کاربران
                         <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
                     </h2>

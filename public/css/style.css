@@ -1767,6 +1767,24 @@ display: block;
         margin-left: -880px;
     }
     /*product-tabs*/
+    /*-----Start Tab2-----*/
+    #product .tab #tabChildes .tab2 .tba2Container .expertSummary2 img{
+        display: block;
+        width: 40%;
+    }
+    #product .tab #tabChildes .tab2 .tba2Container .expertSummary2 .tab2text{
+        font-size: 12px;
+        width: 40%;
+    }
+    /*-----Start Tab3-----*/
+    #product .tab #tabChildes .tab3  .tba3Container > section{
+        width: 50%;
+    }
+    #product .tab #tabChildes .tab3 .tba3Container > section >ul >li >div{
+        display:block !important;
+        width: 100%;
+        padding: 14px 18px 12px;
+    }
     /*-----Start Tab5-----*/
     #product .tab #tabChildes .tab5 section .qterm {
        display: block;
@@ -1845,6 +1863,17 @@ display: block;
     #product .deliver .supplier .suppliergaranti1{
         visibility: hidden;
         display: none;
+    }
+    /*product-tabs*/
+
+    /*-----Start Tab2-----*/
+    #product .tab #tabChildes .tab2 .tba2Container .expertSummary2 img{
+        display: block;
+        width: 50%;
+    }
+    #product .tab #tabChildes .tab2 .tba2Container .expertSummary2 .tab2text{
+        font-size: 12px;
+        width: 50%;
     }
  }
  @media (max-width: 992px){
