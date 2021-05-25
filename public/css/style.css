@@ -1764,8 +1764,14 @@ display: block;
     #product article .supplier .supplierproprice{
         margin-right: -580px;
     }
-    #product article  .supplierbasket{
-        margin-left: -880px !important;
+    #product article .supplier .supplierbasket{
+        margin-left: -880px;
+    }
+    /*product-tabs*/
+    /*-----Start Tab5-----*/
+    #product .tab #tabChildes .tab5 section .qterm button{
+        border-radius: 4px;
+        font-size: 8px;
     }
  }
  @media (max-width: 768px){
@@ -1826,7 +1832,7 @@ display: block;
     }
     #product article .details{
         width: 49.71% !important;
-        margin-left: 8px;
+        margin-left: 110px;
     }
     #product .deliver .supplier .suppliertruck{
         visibility: hidden;

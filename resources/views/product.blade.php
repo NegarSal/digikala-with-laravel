@@ -35,7 +35,7 @@
 
 <!--middlepart-->
 <main>
-    <div class="" id="product">
+    <div class="container11" id="product">
         <div class="navBar fle11">
             <nav>
                 <ul class="fle11 mt-4">
@@ -185,6 +185,7 @@
                 <a href="" class="supplierbasket">افزودن به سبد </a>
             </div>
         </article>
+    </div>
 <!--first-slider-->
 <article>
 <div class="swiper-container s1 swiper1">
@@ -319,195 +320,197 @@
 </article>
 
 <!--tabs-->
-<section class="tab mt-5">
-    <ul class="fle11" id="tabs">
-        <li class="active"><a>نقد و بررسی</a></li>
-        <li><a>بررسی تخصصی</a></li>
-        <li><a>مشخصات</a></li>
-        <li><a>دیدگاه کاربران</a></li>
-        <li><a>پرسش و پاسخ</a></li>
-    </ul>
-    <div id="tabChildes">
-        <div class="tab1 hidden">
-            <div class="tba1Container">
-                <h2 class="h2">نقد و بررسی اجمالی
-                    <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
-                </h2>
-                <section class="expertSummary flex">
-                    <div class="right">
-                        گوشی موبایل شیائومی مدل POCO M3 M2010J19CG دو سیم‌ کارت ظرفیت 128 گیگابایت از جمله اولین سری محصولات برند شیائومی است. این محصول دارای ساختاری متوازن و خوش‌ساخت بدون پشتیبانی از تکنولوژی 5G در تاریخ نوامبر 2020 روانه بازار شده است. این محصول از فریم پلاستیکی ساخته شده است که قاب جلو شیشه‌ای جلوه ویژه‌ای به این مدل بخشیده است.
-                        صفحه‌نمایش گوشی موبایل شیائومی مدل POCO M3 M2010J19CG دو سیم‌ کارت ظرفیت 128 گیگابایت در اندازه 6.53 منتشر شده است. این صفحه‌نمایش کاملاً تمام‌صفحه است و در بالا وسط اثری از بریدگی یا حفره دوربین سلفی وجود دیده می‌شود. دوربین سلفی این محصول دارای حسگر 8 مگاپیکسلی است .
-                        صحفه‌نمایش گوشی موبایل شیائومی مدل POCO M3 M2010J19CG با استفاده از فناوری Corning Gorilla Glass 3 در برابر خط‌وخش و صدمات احتمالی محافظت می‌شود. ویژگی دیگر Poco M3 مجهز شدن به حسگر اثرانگشت در زیر کنار گوشی که نشان از بالارده بودن محصول دارد.
-                        گفتنی است ۳ دوربین که سنسور اصلی آن 48 مگاپیکسلی است در قسمت پشتی این گوشی جا خوش کرده‌اند. این دوربین‌ها قادر
-                           هستند ویدئوی Full HD را ثبت و ضبط کنند. دوربین‌ سلفی این محصول هم به سنسوری 8 مگاپیکسلی مجهز شده است. بلوتوث نسخه 5.0، نسخه 10 سیستم عامل اندروید و باتری شگفت‌انگیز 6000 میلی‌آمپرساعتی از دیگر ویژگی‌‌های این گوشی جدید هستند.
-                           گوشی موبایل شیائومی مدل POCO M3 M2010J19CG دو سیم‌ کارت ظرفیت 128 گیگابایت دارای قابلیت reverse charging است.
-                            شارژ معکوس یا همون (reverse charging) ویژگی است که به شما این امکان را می‌دهد که از تلفن خود برای شارژ دستگاه‌های دیگر مانند تلفن‌های هوشمند، ساعت‌های هوشمند و باندهای هوشمندی که از شارژ بی‌سیم پشتیبانی می‌کنند، استفاده کنید.
-                             برای اینکه بتوانید آنها را به‌صورت بی‌سیم شارژ کنید، دستگاه شما باید از پروتکل شارژ بی‌سیم Qi پشتیبانی کند.
-                    </div>
-                    <div class="miniBox">
-                        <div class="card">
-                            <div class="proCard1"><img src="{{ asset('img/m0.jpg') }}" alt=""></div>
-                            <div class="title2">
-                               <div class="proCard2">گوشی موبایل شیائومی مدل POCO M3 M2010J19CG دو سیم‌ کارت ظرفیت 128 گیگابایت</div>
-                               <div class="color"><i class="fas fa-circle"></i>مشکی</div>
+<div class="container11" id="product">
+    <section class="tab mt-5">
+        <ul class="fle11" id="tabs">
+            <li class="active"><a>نقد و بررسی</a></li>
+            <li><a>بررسی تخصصی</a></li>
+            <li><a>مشخصات</a></li>
+            <li><a>دیدگاه کاربران</a></li>
+            <li><a>پرسش و پاسخ</a></li>
+        </ul>
+        <div id="tabChildes">
+            <div class="tab1 hidden">
+                <div class="tba1Container">
+                    <h2 class="h2">نقد و بررسی اجمالی
+                        <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
+                    </h2>
+                    <section class="expertSummary flex">
+                        <div class="right">
+                            گوشی موبایل شیائومی مدل POCO M3 M2010J19CG دو سیم‌ کارت ظرفیت 128 گیگابایت از جمله اولین سری محصولات برند شیائومی است. این محصول دارای ساختاری متوازن و خوش‌ساخت بدون پشتیبانی از تکنولوژی 5G در تاریخ نوامبر 2020 روانه بازار شده است. این محصول از فریم پلاستیکی ساخته شده است که قاب جلو شیشه‌ای جلوه ویژه‌ای به این مدل بخشیده است.
+                            صفحه‌نمایش گوشی موبایل شیائومی مدل POCO M3 M2010J19CG دو سیم‌ کارت ظرفیت 128 گیگابایت در اندازه 6.53 منتشر شده است. این صفحه‌نمایش کاملاً تمام‌صفحه است و در بالا وسط اثری از بریدگی یا حفره دوربین سلفی وجود دیده می‌شود. دوربین سلفی این محصول دارای حسگر 8 مگاپیکسلی است .
+                            صحفه‌نمایش گوشی موبایل شیائومی مدل POCO M3 M2010J19CG با استفاده از فناوری Corning Gorilla Glass 3 در برابر خط‌وخش و صدمات احتمالی محافظت می‌شود. ویژگی دیگر Poco M3 مجهز شدن به حسگر اثرانگشت در زیر کنار گوشی که نشان از بالارده بودن محصول دارد.
+                            گفتنی است ۳ دوربین که سنسور اصلی آن 48 مگاپیکسلی است در قسمت پشتی این گوشی جا خوش کرده‌اند. این دوربین‌ها قادر
+                               هستند ویدئوی Full HD را ثبت و ضبط کنند. دوربین‌ سلفی این محصول هم به سنسوری 8 مگاپیکسلی مجهز شده است. بلوتوث نسخه 5.0، نسخه 10 سیستم عامل اندروید و باتری شگفت‌انگیز 6000 میلی‌آمپرساعتی از دیگر ویژگی‌‌های این گوشی جدید هستند.
+                               گوشی موبایل شیائومی مدل POCO M3 M2010J19CG دو سیم‌ کارت ظرفیت 128 گیگابایت دارای قابلیت reverse charging است.
+                                شارژ معکوس یا همون (reverse charging) ویژگی است که به شما این امکان را می‌دهد که از تلفن خود برای شارژ دستگاه‌های دیگر مانند تلفن‌های هوشمند، ساعت‌های هوشمند و باندهای هوشمندی که از شارژ بی‌سیم پشتیبانی می‌کنند، استفاده کنید.
+                                 برای اینکه بتوانید آنها را به‌صورت بی‌سیم شارژ کنید، دستگاه شما باید از پروتکل شارژ بی‌سیم Qi پشتیبانی کند.
+                        </div>
+                        <div class="miniBox">
+                            <div class="card">
+                                <div class="proCard1"><img src="{{ asset('img/m0.jpg') }}" alt=""></div>
+                                <div class="title2">
+                                   <div class="proCard2">گوشی موبایل شیائومی مدل POCO M3 M2010J19CG دو سیم‌ کارت ظرفیت 128 گیگابایت</div>
+                                   <div class="color"><i class="fas fa-circle"></i>مشکی</div>
+                                </div>
+                            </div>
+                            <div class="garanti2"><i class="fas fa-archive"></i> کالا پلاس</div>
+                            <div class="garanti2"><i class="fas fa-shield-alt"></i> گارانتی۱۸ماهه وی دو سل</div>
+                            <div class="garanti2"><i class="far fa-save" style="color: #0fabc6;"></i> موجود در انبار دیجی کالا</div>
+                            <div class="price2">
+                                <div class="proprice2">۴,۸۴۰,۰۰۰ <span>تومان</span></div>
+                                <a href="" class="basket2">افزودن به سبد خرید</a>
                             </div>
                         </div>
-                        <div class="garanti2"><i class="fas fa-archive"></i> کالا پلاس</div>
-                        <div class="garanti2"><i class="fas fa-shield-alt"></i> گارانتی۱۸ماهه وی دو سل</div>
-                        <div class="garanti2"><i class="far fa-save" style="color: #0fabc6;"></i> موجود در انبار دیجی کالا</div>
-                        <div class="price2">
-                            <div class="proprice2">۴,۸۴۰,۰۰۰ <span>تومان</span></div>
-                            <a href="" class="basket2">افزودن به سبد خرید</a>
-                        </div>
-                    </div>
-                </section>
+                    </section>
+                </div>
             </div>
-        </div>
-        <div class="tab2 hidden">
-            <div class="tba2Container">
-                <h2 class="h2">نقد و بررسی تخصصی
-                    <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
-                </h2>
-                <section class="expertSummary2">
-                   <div>جنجالی دیگر</div>
-                   <img src="{{ asset('img/b1.jpg') }}">
-                   <div class="tab2text">
-                    شرکت «شیائومی» (xiaomi)، جزو شرکت‌هایی است
-                    که سال‌هاست برای ارائه گوشی‌هایی با کیفیت بالا تلاش می‌کند. با ارائه گوشی  POCO M3 M2010J19CG،
-                     شاید ایندفعه در این هدف موفق شده باشد. این گوشی دارای ظاهری خاص و بدنه‌ای مقاوم بوده
-                      که در کنار باتری بزرگ خود توانسته است وزن مناسب گوشی را حفظ کند.
-                   </div>
-                </section>
+            <div class="tab2 hidden">
+                <div class="tba2Container">
+                    <h2 class="h2">نقد و بررسی تخصصی
+                        <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
+                    </h2>
+                    <section class="expertSummary2">
+                       <div>جنجالی دیگر</div>
+                       <img src="{{ asset('img/b1.jpg') }}">
+                       <div class="tab2text">
+                        شرکت «شیائومی» (xiaomi)، جزو شرکت‌هایی است
+                        که سال‌هاست برای ارائه گوشی‌هایی با کیفیت بالا تلاش می‌کند. با ارائه گوشی  POCO M3 M2010J19CG،
+                         شاید ایندفعه در این هدف موفق شده باشد. این گوشی دارای ظاهری خاص و بدنه‌ای مقاوم بوده
+                          که در کنار باتری بزرگ خود توانسته است وزن مناسب گوشی را حفظ کند.
+                       </div>
+                    </section>
+                </div>
             </div>
-        </div>
-        <div class="tab3 hidden">
-            <div class="tba3Container">
-                <h2 class="h2">مشخصات کالا
-                    <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
-                </h2>
-                <section class="fle11">
-                    <h3 class="title">مشخصات کلی</h3>
-                    <ul>
-                        <li class="fle11">
-                            <div class="property">ابعاد</div>
-                            <div class="value">162.3x77.3x9.6 میلی‌متر</div>
-                        </li>
-                        <li class="fle11">
-                            <div class="property">توضیحات سیم کارت</div>
-                            <div class="value">سایز نانو (8.8 × 12.3 میلی‌متر)</div>
-                        </li>
-                        <li class="fle11">
-                            <div class="property">وزن</div>
-                            <div class="value">198 گرم</div>
-                        </li>
-                        <li class="fle11">
-                            <div class="property">ساختار بدنه</div>
-                            <div class="value">
-                                قاب جلو از شیشه با محافظ گوریلا گلس ۳
-                                قاب پشت از جنس پلاستیک
-                                فریم از جنس پلاستیک
-                            </div>
-                        </li>
-                        <li class="fle11">
-                            <div class="property">ویژگی‌های خاص</div>
-                            <div class="value">مجهز به حس‌گر اثرانگشت , مناسب عکاسی , مناسب عکاسی سلفی , مناسب بازی , دارای بدنه مقاوم</div>
-                        </li>
-                        <li class="fle11">
-                            <div class="property">تعداد سیم کارت</div>
-                            <div class="value">دو سیم کارت</div>
-                        </li>
-                        <li class="fle11">
-                            <div class="property">زمان معرفی</div>
-                            <div class="value">24 نوامبر 2020</div>
-                        </li>
-                        <li class="fle11">
-                            <div class="property">شیار مجزا برای کارت حافظه</div>
-                            <div class="value">دارد</div>
-                        </li>
-                        <li class="fle11">
-                            <div class="property">مدل</div>
-                            <div class="value">
-                                (جهانی) Xiaomi POCO M3 M2010J19CG - Global</div>
-                        </li>
-                        <li class="fle11">
-                            <div class="property">شناسه کالا</div>
-                            <div class="value">2800000492908</div>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-        </div>
-        <div class="tab4 hidden">
-            <div class="tba4Container">
-                <h2 class="h2">امتیاز و دیدگاه کاربران
-                    <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
-                </h2>
-            </div>
-            <section>
-                <div class="fle11">
-                    <div class="rating">
+            <div class="tab3 hidden">
+                <div class="tba3Container">
+                    <h2 class="h2">مشخصات کالا
+                        <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
+                    </h2>
+                    <section class="fle11">
+                        <h3 class="title">مشخصات کلی</h3>
                         <ul>
-                            <li>
-                                <div class="items">کیفیت ساخت</div>
-                                <div class="value">
-                                    <div class="rate"></div>
-                                </div>4.2
+                            <li class="fle11">
+                                <div class="property">ابعاد</div>
+                                <div class="value">162.3x77.3x9.6 میلی‌متر</div>
                             </li>
-                            <li>
-                                <div class="items">ارزش خرید به نسبت قیمت</div>
-                                <div class="value">
-                                    <div class="rate"></div>
-                                </div>4.1
+                            <li class="fle11">
+                                <div class="property">توضیحات سیم کارت</div>
+                                <div class="value">سایز نانو (8.8 × 12.3 میلی‌متر)</div>
                             </li>
-                            <li>
-                                <div class="items">نوآوری</div>
-                                <div class="value">
-                                    <div class="rate"></div>
-                                </div>4.1
+                            <li class="fle11">
+                                <div class="property">وزن</div>
+                                <div class="value">198 گرم</div>
                             </li>
-                            <li>
-                                <div class="items">امکانات و قابلیت ها</div>
+                            <li class="fle11">
+                                <div class="property">ساختار بدنه</div>
                                 <div class="value">
-                                    <div class="rate"></div>
-                                </div>4.1
+                                    قاب جلو از شیشه با محافظ گوریلا گلس ۳
+                                    قاب پشت از جنس پلاستیک
+                                    فریم از جنس پلاستیک
+                                </div>
                             </li>
-                            <li>
-                                <div class="items">سهولت استفاده</div>
-                                <div class="value">
-                                    <div class="rate"></div>
-                                </div>4.1
+                            <li class="fle11">
+                                <div class="property">ویژگی‌های خاص</div>
+                                <div class="value">مجهز به حس‌گر اثرانگشت , مناسب عکاسی , مناسب عکاسی سلفی , مناسب بازی , دارای بدنه مقاوم</div>
                             </li>
-                            <li>
-                                <div class="items">طراحی و ظاهر</div>
+                            <li class="fle11">
+                                <div class="property">تعداد سیم کارت</div>
+                                <div class="value">دو سیم کارت</div>
+                            </li>
+                            <li class="fle11">
+                                <div class="property">زمان معرفی</div>
+                                <div class="value">24 نوامبر 2020</div>
+                            </li>
+                            <li class="fle11">
+                                <div class="property">شیار مجزا برای کارت حافظه</div>
+                                <div class="value">دارد</div>
+                            </li>
+                            <li class="fle11">
+                                <div class="property">مدل</div>
                                 <div class="value">
-                                    <div class="rate"></div>
-                                </div>4.1
+                                    (جهانی) Xiaomi POCO M3 M2010J19CG - Global</div>
+                            </li>
+                            <li class="fle11">
+                                <div class="property">شناسه کالا</div>
+                                <div class="value">2800000492908</div>
                             </li>
                         </ul>
-                    </div>
-                    <div class="comment">
-                        <span><i class="far fa-lightbulb"></i>بیش از ۲۹۰ نفر از خریداران این محصول را پیشنهاد داده‌اند</span>
-                    </div>
+                    </section>
                 </div>
-            </section>
-        </div>
-        <div class="tab5 hidden">
-            <div class="tba5Container">
-                <h2 class="h2">پرسش و پاسخ
-                    <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
-                </h2>
+            </div>
+            <div class="tab4 hidden">
+                <div class="tba4Container">
+                    <h2 class="h2">امتیاز و دیدگاه کاربران
+                        <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
+                    </h2>
+                </div>
                 <section>
-                   <div class="qempty">پرسش خود را در مورد کالا مطرح کنید</div>
-                   <textarea name="" id="" cols="30" rows="10"></textarea>
-                   <div class="qterm flex">
-                       <div class="qterm1">ثبت پرسش به معنی موافقت با <a href=""> قوانین انتشار دیجی‌کالا</a> است.</div>
-                       <button href="">ثبت پرسش</button>
-                   </div>
+                    <div class="fle11">
+                        <div class="rating">
+                            <ul>
+                                <li>
+                                    <div class="items">کیفیت ساخت</div>
+                                    <div class="value">
+                                        <div class="rate"></div>
+                                    </div>4.2
+                                </li>
+                                <li>
+                                    <div class="items">ارزش خرید به نسبت قیمت</div>
+                                    <div class="value">
+                                        <div class="rate"></div>
+                                    </div>4.1
+                                </li>
+                                <li>
+                                    <div class="items">نوآوری</div>
+                                    <div class="value">
+                                        <div class="rate"></div>
+                                    </div>4.1
+                                </li>
+                                <li>
+                                    <div class="items">امکانات و قابلیت ها</div>
+                                    <div class="value">
+                                        <div class="rate"></div>
+                                    </div>4.1
+                                </li>
+                                <li>
+                                    <div class="items">سهولت استفاده</div>
+                                    <div class="value">
+                                        <div class="rate"></div>
+                                    </div>4.1
+                                </li>
+                                <li>
+                                    <div class="items">طراحی و ظاهر</div>
+                                    <div class="value">
+                                        <div class="rate"></div>
+                                    </div>4.1
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="comment">
+                            <span><i class="far fa-lightbulb"></i>بیش از ۲۹۰ نفر از خریداران این محصول را پیشنهاد داده‌اند</span>
+                        </div>
+                    </div>
                 </section>
             </div>
+            <div class="tab5 hidden">
+                <div class="tba5Container row">
+                    <h2 class="h2 col-xs-12 col-sm-12 col-md-8 col-lg-8 mt-3">پرسش و پاسخ
+                        <span>Xiaomi POCO M3 M2010J19CG Dual SIM 128GB Mobile Phone</span>
+                    </h2>
+                    <section class="col-xs-6 col-sm-6 col-md-8 col-lg-8 mt-3">
+                       <div class="qempty">پرسش خود را در مورد کالا مطرح کنید</div>
+                       <textarea name="" id="" cols="30" rows="10"></textarea>
+                       <div class="qterm flex">
+                           <div class="qterm1">ثبت پرسش به معنی موافقت با <a href=""> قوانین انتشار دیجی‌کالا</a> است.</div>
+                           <button href="">ثبت پرسش</button>
+                       </div>
+                    </section>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>
 <!--second slider-->
 <div class="swiper-container s1 swiper1">
     <div class="headline">
@@ -639,9 +642,12 @@
     <div class="swiper-button-prev prev"></div>
     </div>
 <!--text-->
-<div class="lastText mt-3">شناسه کالا :DKP - ۴۱۴۹۰۳۷</div>
-
+<div class="container11" id="product">
+    <div class="lastText mt-3">شناسه کالا :DKP - ۴۱۴۹۰۳۷</div>
 </div>
+
+
+
 </main>
 
 <!--footer-->
