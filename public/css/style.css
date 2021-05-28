@@ -144,10 +144,8 @@ header nav.hidden{
 .container11 ul li ul li a{
     padding: 10px;
     display: block;
-    padding: 10px;
-    display: block;
     color:#616161;
-    font-size:12px ;
+    font-size:12px;
     margin-right: 12px;
 }
 .container11 ul li ul li:nth-child(1){
@@ -1767,6 +1765,9 @@ display: block;
         margin-left: -880px;
     }
     /*product-tabs*/
+    #product .tab > ul > li a{
+        font-size: 10px;
+    }
     /*-----Start Tab1-----*/
     #product .tab #tabChildes .tab1 .tba1Container .expertSummary{
         display: block;
