@@ -17,7 +17,7 @@
             </a>
         </div>
     </div>
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-sm navbar-light">
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
             <span class="navbar-toggler-icon"></span>
         </button>
