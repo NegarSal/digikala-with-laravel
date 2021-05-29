@@ -158,6 +158,7 @@ header nav.hidden{
 .container11 ul .location{
     color:#616161;
     font-size:12px ;
+    margin-right: 150px;
 }
 /*subnavs in navBar*/
 .subnav .subnavbtn {
@@ -1689,6 +1690,10 @@ display: block;
         visibility: hidden;
         display: none;
     }
+    .container11 ul .nav-item1{
+        visibility: hidden;
+        display: none;
+    }
     .specialoffer .right{
         width: 150px;
     }
@@ -1819,6 +1824,10 @@ display: block;
     header .headerRight .searchBox{
         width: 65%;
     }
+    .container11 ul .nav-item1{
+        visibility: hidden;
+        display: none;
+    }
     .specialoffer .right{
         width: 150px;
     }
@@ -1904,6 +1913,13 @@ display: block;
     header .headerRight .searchBox{
         width: 65%;
     }
+    .container11 ul .nav-item1{
+        visibility: hidden;
+        display: none;
+    }
+    .container11 ul .location{
+        margin-right: 100px;
+    }
     .specialoffer .right{
         width: 150px;
     }
@@ -1966,6 +1982,10 @@ display: block;
  @media (max-width: 1024px){
     header .header .headerLeft {
         justify-content: flex-start;
+    }
+    .container11 ul .nav-item1{
+        visibility: hidden;
+        display: none;
     }
     .specialoffer .right{
         width: 150px;

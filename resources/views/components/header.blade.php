@@ -17,7 +17,7 @@
             </a>
         </div>
     </div>
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md navbar-light">
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,7 +40,7 @@
                                 <li><a href="#"><i class='fas fa-campground'></i> ورزش و سفر</a></li>
                             </div>
                           </div>
-                        <li class="nav-item"><a href=""><i class="fa fa-shopping-basket"></i> سوپرمارکت</a></li>
+                        <li class="nav-item1"><a href=""><i class="fa fa-shopping-basket"></i> سوپرمارکت</a></li>
                         <div class="subnav">
                             <button class="subnavbtn"><i class="fas fa-tag"></i> تخفیف ها و پیشنهادها</button>
                             <div class="subnav-content3">
@@ -82,7 +82,7 @@
                             </div>
                         </div>
 
-                        <li class="nav-item"><a href=""><i class="fas fa-medal"></i> دیجی کالای من</a></li>
+                        <li class="nav-item1"><a href=""><i class="fas fa-medal"></i> دیجی کالای من</a></li>
                         <div class="subnav">
                           <button class="subnavbtn"><i class="far fa-gem"></i>دیجی پلاس</button>
                         <div class="subnav-content1">
@@ -138,8 +138,8 @@
                             </div>
                         </div>
 
-                        <li class="nav-item"><a href="">سوالی دارید؟</a></li>
-                        <li class="nav-item"><a href="">فروشنده شوید</a></li>
+                        <li class="nav-item1"><a href="">سوالی دارید؟</a></li>
+                        <li class="nav-item1"><a href="">فروشنده شوید</a></li>
                     </ul>
                 </li>
                <li class="location">
